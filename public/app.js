@@ -77,6 +77,16 @@ function formatQuoteValue(value, currency = "") {
   return `${Number(value).toLocaleString("zh-CN", { maximumFractionDigits: 3 })}${currency ? ` ${currency}` : ""}`;
 }
 
+function formatPercent(value) {
+  if (value === undefined || value === null || value === "") return "待接入";
+  return `${Number(value).toLocaleString("zh-CN", { maximumFractionDigits: 2 })}%`;
+}
+
+function formatQuoteDate(quote) {
+  if (!quote?.marketTime) return "待接入";
+  return String(quote.marketTime).slice(0, 10);
+}
+
 async function loadJson(path) {
   const url = `${path}?v=${Date.now()}`;
   const response = await fetch(url);
@@ -328,10 +338,10 @@ function openCompany(ticker) {
       <div class="kv"><span>观点数量</span><strong>${mentionWindow.count} 条</strong></div>
     </article>
     <article class="detail-card">
-      <h3>股价快照</h3>
-      <div class="kv"><span>最新价</span><strong>${formatQuoteValue(quote.c, quote.currency)}</strong></div>
-      <div class="kv"><span>日内涨跌</span><strong>${formatQuoteValue(quote.d)} / ${valueOrNote(quote.dp, "行情源待接入")}%</strong></div>
-      <div class="kv"><span>前收盘</span><strong>${formatQuoteValue(quote.pc, quote.currency)}</strong></div>
+      <h3>最近交易日表现</h3>
+      <div class="kv"><span>收盘价</span><strong>${formatQuoteValue(quote.c, quote.currency)}</strong></div>
+      <div class="kv"><span>涨跌幅</span><strong>${formatQuoteValue(quote.d)} / ${formatPercent(quote.dp)}</strong></div>
+      <div class="kv"><span>价格日期</span><strong>${formatQuoteDate(quote)}</strong></div>
       <div class="kv"><span>价格来源</span><strong>${quote.source || "待接入"}</strong></div>
     </article>
     <article class="detail-card">
