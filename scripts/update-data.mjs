@@ -170,6 +170,97 @@ function tweetsToSignals(tweets, investors) {
   return signals;
 }
 
+function classifyTheme(text) {
+  const lower = text.toLowerCase();
+  if (lower.includes("tron") || lower.includes("trx") || text.includes("波场")) {
+    return {
+      theme: "TRON 生态 / 稳定币结算",
+      direction: "趋势看多",
+      summary: "检测到 TRON/TRX/波场相关趋势讨论，适合映射到加密生态和稳定币结算主题。"
+    };
+  }
+  if (lower.includes("htx") || lower.includes("huobi") || text.includes("火币")) {
+    return {
+      theme: "交易所 / HTX / 流动性周期",
+      direction: "观察",
+      summary: "检测到交易所或 HTX 相关讨论，可作为加密交易活跃度和风险偏好的辅助信号。"
+    };
+  }
+  if (lower.includes("bitcoin") || lower.includes("btc") || text.includes("比特币")) {
+    return {
+      theme: "比特币 / 加密风险偏好",
+      direction: "趋势看多",
+      summary: "检测到 BTC/比特币相关讨论，可映射到 BTC ETF、矿股和加密交易平台。"
+    };
+  }
+  if (lower.includes("ethereum") || lower.includes("eth") || text.includes("以太坊")) {
+    return {
+      theme: "以太坊 / 链上应用",
+      direction: "趋势看多",
+      summary: "检测到 ETH/以太坊相关讨论，可映射到 ETH ETF、链上应用和交易活跃度。"
+    };
+  }
+  return null;
+}
+
+function proxyForTheme(theme) {
+  if (theme.includes("TRON")) {
+    return [
+      { ticker: "COIN", name: "Coinbase", market: "美股", reason: "加密交易活跃度代理" },
+      { ticker: "IBIT", name: "iShares Bitcoin Trust", market: "美股 ETF", reason: "加密风险偏好代理" }
+    ];
+  }
+  if (theme.includes("交易所")) {
+    return [
+      { ticker: "COIN", name: "Coinbase", market: "美股", reason: "交易所收入和加密活跃度代理" },
+      { ticker: "HOOD", name: "Robinhood", market: "美股", reason: "零售交易和加密交易活跃度代理" }
+    ];
+  }
+  if (theme.includes("比特币")) {
+    return [
+      { ticker: "IBIT", name: "iShares Bitcoin Trust", market: "美股 ETF", reason: "BTC 价格敞口" },
+      { ticker: "MSTR", name: "MicroStrategy", market: "美股", reason: "BTC beta 代理" }
+    ];
+  }
+  if (theme.includes("以太坊")) {
+    return [
+      { ticker: "ETHA", name: "iShares Ethereum Trust", market: "美股 ETF", reason: "ETH 价格敞口" },
+      { ticker: "COIN", name: "Coinbase", market: "美股", reason: "链上交易和加密交易活跃度代理" }
+    ];
+  }
+  return [];
+}
+
+function tweetsToThemes(tweets, investors, existingThemes) {
+  const investorByHandle = new Map(investors.map(item => [String(item.handle).replace("@", ""), item]));
+  const byKey = new Map((existingThemes || []).map(item => [`${item.handle}-${item.theme}`, item]));
+  for (const raw of tweets) {
+    const tweet = normalizeTweet(raw);
+    if (!tweet.text) continue;
+    const theme = classifyTheme(tweet.text);
+    if (!theme) continue;
+    const investor = investorByHandle.get(tweet.handle);
+    const key = `${tweet.handle}-${theme.theme}`;
+    const existing = byKey.get(key);
+    byKey.set(key, {
+      id: existing?.id || `THEME-${tweet.handle}-${theme.theme}`.replace(/[^A-Za-z0-9_-]/g, "-"),
+      theme: theme.theme,
+      investor: investor?.name || tweet.handle,
+      handle: tweet.handle,
+      direction: theme.direction,
+      firstMention: existing?.firstMention && existing.firstMention !== "待自动抓取确认"
+        ? [existing.firstMention, tweet.datetime].filter(Boolean).sort()[0]
+        : tweet.datetime || "待自动抓取确认",
+      latestMention: [existing?.latestMention, tweet.datetime].filter(Boolean).sort().at(-1) || "待自动抓取确认",
+      summary: theme.summary,
+      tradableProxies: existing?.tradableProxies?.length ? existing.tradableProxies : proxyForTheme(theme.theme),
+      risk: existing?.risk || "主题信号不是个股推荐，需要结合价格、链上数据和市场风险偏好验证。",
+      sourceUrl: tweet.url || `https://x.com/${tweet.handle}`
+    });
+  }
+  return [...byKey.values()];
+}
+
 function mergeSignals(existing, incoming) {
   const map = new Map(existing.map(item => [item.id, item]));
   incoming.forEach(item => map.set(item.id, { ...map.get(item.id), ...item }));
@@ -285,12 +376,14 @@ async function main() {
   const investorsPath = path.join(dataDir, "investors.json");
   const signalsPath = path.join(dataDir, "signals.json");
   const companiesPath = path.join(dataDir, "companies.json");
+  const themesPath = path.join(dataDir, "themes.json");
   const metaPath = path.join(dataDir, "meta.json");
   const tweetsPath = path.join(rawDir, "tweets.json");
 
   const investors = await readJson(investorsPath, []);
   const existingSignals = await readJson(signalsPath, []);
   const companies = await readJson(companiesPath, {});
+  const existingThemes = await readJson(themesPath, []);
   const rawTweets = await readJson(tweetsPath, []);
   const fetchedTweets = await fetchTrackedTweets();
 
@@ -299,6 +392,7 @@ async function main() {
     ...fetchedTweets
   ];
   const generatedSignals = tweetsToSignals(allTweets, investors);
+  const themes = tweetsToThemes(allTweets, investors, existingThemes);
   const signals = mergeSignals(existingSignals, generatedSignals);
   const tickers = [...new Set(signals.map(item => item.ticker).filter(Boolean))];
 
@@ -312,6 +406,7 @@ async function main() {
 
   await writeJson(signalsPath, signals);
   await writeJson(companiesPath, companies);
+  await writeJson(themesPath, themes);
   await writeJson(metaPath, {
     lastUpdatedAt: new Date().toISOString(),
     mode: "GitHub Actions 静态 JSON",

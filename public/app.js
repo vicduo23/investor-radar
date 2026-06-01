@@ -2,6 +2,7 @@ const state = {
   investors: [],
   signals: [],
   companies: {},
+  themes: [],
   meta: {},
   view: "timeline",
   search: "",
@@ -14,6 +15,7 @@ const state = {
 const titles = {
   timeline: ["实时观点流", "按时间倒序查看投资者公开观点、操作线索和主题信号。"],
   assets: ["标的聚合", "按 ticker 聚合所有观点，并进入公司研究卡片。"],
+  themes: ["主题趋势", "记录没有明确股票代码的行业/生态趋势判断，并映射到可交易代理标的。"],
   investors: ["投资者画像", "记录每个信号源的能力圈、披露约束和主要风险。"],
   sources: ["数据源", "查看静态 JSON 和自动任务如何更新数据。"]
 };
@@ -83,15 +85,17 @@ async function loadJson(path) {
 }
 
 async function loadState() {
-  const [investors, signals, companies, meta] = await Promise.all([
+  const [investors, signals, companies, themes, meta] = await Promise.all([
     loadJson("data/investors.json"),
     loadJson("data/signals.json"),
     loadJson("data/companies.json"),
+    loadJson("data/themes.json"),
     loadJson("data/meta.json")
   ]);
   state.investors = investors;
   state.signals = signals;
   state.companies = companies;
+  state.themes = themes;
   state.meta = meta;
   renderAll();
 }
@@ -243,6 +247,26 @@ function renderInvestors() {
   });
 }
 
+function renderThemes() {
+  const grid = document.getElementById("themesGrid");
+  grid.innerHTML = "";
+  state.themes.forEach(item => {
+    const card = document.createElement("article");
+    card.className = "card";
+    card.innerHTML = `
+      <h3>${item.theme} <span class="pill">${item.direction}</span></h3>
+      <p>${item.summary}</p>
+      <p style="margin-top:10px;"><strong>信号源：</strong>${item.investor} <span class="muted">@${item.handle}</span></p>
+      <p style="margin-top:10px;"><span class="pill">首次 ${item.firstMention}</span> <span class="pill">最近 ${item.latestMention}</span></p>
+      <p style="margin-top:10px;"><strong>可交易代理：</strong></p>
+      <p>${(item.tradableProxies || []).map(proxy => `<span class="pill">${proxy.ticker} · ${proxy.market}</span>`).join(" ")}</p>
+      <p style="margin-top:10px;"><strong>验证方式：</strong>${(item.tradableProxies || []).map(proxy => `${proxy.ticker}: ${proxy.reason}`).join("；")}</p>
+      <p style="margin-top:10px;"><strong>风险：</strong>${item.risk || ""}</p>
+    `;
+    grid.appendChild(card);
+  });
+}
+
 function renderList(items = []) {
   return `<ul>${items.map(item => `<li>${item}</li>`).join("")}</ul>`;
 }
@@ -332,6 +356,7 @@ function renderAll() {
   renderMetrics();
   renderTimeline();
   renderAssets();
+  renderThemes();
   renderInvestors();
 }
 

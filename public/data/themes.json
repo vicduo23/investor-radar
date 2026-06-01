@@ -1,0 +1,64 @@
+[
+  {
+    "id": "THEME-CRYPTO-001",
+    "theme": "TRON 生态 / 稳定币结算",
+    "investor": "孙宇晨",
+    "handle": "sunyuchentron",
+    "direction": "趋势看多",
+    "firstMention": "待自动抓取确认",
+    "latestMention": "待自动抓取确认",
+    "summary": "孙宇晨账号更适合作为 TRON 生态、稳定币结算、交易所和链上资金流的趋势信号源，而不是传统个股推荐源。",
+    "tradableProxies": [
+      {
+        "ticker": "COIN",
+        "name": "Coinbase",
+        "market": "美股",
+        "reason": "加密交易活跃度和监管周期代理"
+      },
+      {
+        "ticker": "MSTR",
+        "name": "MicroStrategy",
+        "market": "美股",
+        "reason": "BTC beta 代理"
+      },
+      {
+        "ticker": "IBIT",
+        "name": "iShares Bitcoin Trust",
+        "market": "美股 ETF",
+        "reason": "BTC 价格敞口"
+      },
+      {
+        "ticker": "ETHA",
+        "name": "iShares Ethereum Trust",
+        "market": "美股 ETF",
+        "reason": "ETH 价格敞口"
+      }
+    ],
+    "risk": "项目方账号存在明显利益相关，不能把生态宣传直接等同于可交易买点。"
+  },
+  {
+    "id": "THEME-CRYPTO-002",
+    "theme": "交易所 / HTX / 流动性周期",
+    "investor": "孙宇晨",
+    "handle": "sunyuchentron",
+    "direction": "观察",
+    "firstMention": "待自动抓取确认",
+    "latestMention": "待自动抓取确认",
+    "summary": "如果账号频繁提到交易所活动、上币、流动性激励或链上交易活跃度，可作为加密市场风险偏好回升的辅助信号。",
+    "tradableProxies": [
+      {
+        "ticker": "COIN",
+        "name": "Coinbase",
+        "market": "美股",
+        "reason": "交易所收入和加密活跃度代理"
+      },
+      {
+        "ticker": "HOOD",
+        "name": "Robinhood",
+        "market": "美股",
+        "reason": "零售交易和加密交易活跃度代理"
+      }
+    ],
+    "risk": "交易所活动常带营销属性，需要结合成交量、链上数据和监管事件验证。"
+  }
+]
