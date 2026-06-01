@@ -191,6 +191,10 @@ function renderList(items = []) {
   return `<ul>${items.map(item => `<li>${item}</li>`).join("")}</ul>`;
 }
 
+function valueOrNote(value, fallback = "待接入") {
+  return value === undefined || value === null || value === "" ? fallback : value;
+}
+
 function openCompany(ticker) {
   const data = state.companies[ticker] || { ticker, name: ticker };
   const related = state.signals.filter(item => item.ticker === ticker);
@@ -202,17 +206,18 @@ function openCompany(ticker) {
     <article class="detail-card wide">
       <h3>业务简介</h3>
       <p>${data.business || "暂无公司简介。"}</p>
+      ${data.dataNotes ? `<p style="margin-top:10px;"><strong>数据说明：</strong>${data.dataNotes}</p>` : ""}
     </article>
     <article class="detail-card">
       <h3>股价快照</h3>
-      <div class="kv"><span>最新价</span><strong>${quote.c ?? "待接入"}</strong></div>
-      <div class="kv"><span>日内涨跌</span><strong>${quote.d ?? "待接入"} / ${quote.dp ?? "待接入"}%</strong></div>
-      <div class="kv"><span>前收盘</span><strong>${quote.pc ?? "待接入"}</strong></div>
+      <div class="kv"><span>最新价</span><strong>${valueOrNote(quote.c, "行情源待接入")}</strong></div>
+      <div class="kv"><span>日内涨跌</span><strong>${valueOrNote(quote.d, "行情源待接入")} / ${valueOrNote(quote.dp, "行情源待接入")}%</strong></div>
+      <div class="kv"><span>前收盘</span><strong>${valueOrNote(quote.pc, "行情源待接入")}</strong></div>
     </article>
     <article class="detail-card">
       <h3>分析师观点</h3>
       ${renderList(data.analystView || ["待接入分析师观点。"])}
-      <div class="kv"><span>目标价均值</span><strong>${target.targetMean ?? "待接入"}</strong></div>
+      <div class="kv"><span>目标价均值</span><strong>${valueOrNote(target.targetMean, "评级源待接入")}</strong></div>
     </article>
     <article class="detail-card">
       <h3>基本面看点</h3>
