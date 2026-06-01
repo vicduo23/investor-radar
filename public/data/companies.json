@@ -23,7 +23,7 @@
     "quote": null,
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:01.672Z"
+    "updatedAt": "2026-06-01T08:15:42.915Z"
   },
   "6451": {
     "ticker": "6451",
@@ -47,18 +47,18 @@
       "客户验证和小盘波动。"
     ],
     "quote": {
-      "c": 618,
-      "d": -14,
-      "dp": -2.2151898734177213,
+      "c": 627,
+      "d": -5,
+      "dp": -0.7911392405063291,
       "pc": 632,
       "currency": "TWD",
       "symbol": "6451.TW",
       "source": "Yahoo Finance",
-      "marketTime": "2026-06-01T04:14:38.000Z"
+      "marketTime": "2026-06-01T05:30:30.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:01.713Z"
+    "updatedAt": "2026-06-01T08:15:42.957Z"
   },
   "XFAB": {
     "ticker": "XFAB",
@@ -86,18 +86,18 @@
       "硅光子或 InP 逻辑兑现周期可能长于市场预期。"
     ],
     "quote": {
-      "c": 10.76,
-      "d": 2.6950000000000003,
-      "dp": 33.41599504029759,
-      "pc": 8.065,
+      "c": 10.79,
+      "d": 1.8049999999999997,
+      "dp": 20.089037284362828,
+      "pc": 8.985,
       "currency": "EUR",
       "symbol": "XFAB.PA",
       "source": "Yahoo Finance",
-      "marketTime": "2026-05-29T15:37:20.000Z"
+      "marketTime": "2026-06-01T08:00:28.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:01.348Z",
+    "updatedAt": "2026-06-01T08:15:42.576Z",
     "stooqSymbol": "XFAB.FR"
   },
   "SIVE": {
@@ -126,18 +126,18 @@
       "融资或股权稀释风险。"
     ],
     "quote": {
-      "c": 68.95,
-      "d": -16.599999999999994,
-      "dp": -19.403857393337223,
-      "pc": 85.55,
+      "c": 67.2,
+      "d": -19.64999999999999,
+      "dp": -22.625215889464588,
+      "pc": 86.85,
       "currency": "SEK",
       "symbol": "SIVE.ST",
       "source": "Yahoo Finance",
-      "marketTime": "2026-05-29T15:29:55.000Z"
+      "marketTime": "2026-06-01T08:15:36.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:01.377Z"
+    "updatedAt": "2026-06-01T08:15:42.604Z"
   },
   "IREN": {
     "ticker": "IREN",
@@ -175,7 +175,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:01.408Z",
+    "updatedAt": "2026-06-01T08:15:42.641Z",
     "stooqSymbol": "IREN.US"
   },
   "AXTI": {
@@ -214,7 +214,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:01.438Z",
+    "updatedAt": "2026-06-01T08:15:42.671Z",
     "stooqSymbol": "AXTI.US"
   },
   "AAOI": {
@@ -253,7 +253,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:01.467Z",
+    "updatedAt": "2026-06-01T08:15:42.731Z",
     "stooqSymbol": "AAOI.US"
   },
   "SIMO": {
@@ -292,7 +292,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:00.878Z",
+    "updatedAt": "2026-06-01T08:15:42.202Z",
     "stooqSymbol": "SIMO.US"
   },
   "INTC": {
@@ -328,7 +328,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:00.961Z",
+    "updatedAt": "2026-06-01T08:15:42.277Z",
     "stooqSymbol": "INTC.US"
   },
   "MRVL": {
@@ -364,7 +364,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:01.005Z",
+    "updatedAt": "2026-06-01T08:15:42.321Z",
     "stooqSymbol": "MRVL.US"
   },
   "TSM": {
@@ -400,7 +400,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:01.062Z",
+    "updatedAt": "2026-06-01T08:15:42.382Z",
     "stooqSymbol": "TSM.US"
   },
   "COHR": {
@@ -436,7 +436,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:01.093Z",
+    "updatedAt": "2026-06-01T08:15:42.414Z",
     "stooqSymbol": "COHR.US"
   },
   "RKLB": {
@@ -472,7 +472,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:01.122Z",
+    "updatedAt": "2026-06-01T08:15:42.443Z",
     "stooqSymbol": "RKLB.US"
   },
   "AVGO": {
@@ -508,7 +508,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:01.201Z",
+    "updatedAt": "2026-06-01T08:15:42.485Z",
     "stooqSymbol": "AVGO.US"
   },
   "AMZN": {
@@ -544,7 +544,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:01.230Z",
+    "updatedAt": "2026-06-01T08:15:42.489Z",
     "stooqSymbol": "AMZN.US"
   },
   "ARM": {
@@ -580,7 +580,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:01.258Z",
+    "updatedAt": "2026-06-01T08:15:42.517Z",
     "stooqSymbol": "ARM.US"
   },
   "LASR": {
@@ -616,7 +616,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:01.318Z",
+    "updatedAt": "2026-06-01T08:15:42.547Z",
     "stooqSymbol": "LASR.US"
   },
   "AEHR": {
@@ -652,7 +652,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:01.497Z",
+    "updatedAt": "2026-06-01T08:15:42.760Z",
     "stooqSymbol": "AEHR.US"
   },
   "POET": {
@@ -688,7 +688,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:01.524Z",
+    "updatedAt": "2026-06-01T08:15:42.788Z",
     "stooqSymbol": "POET.US"
   },
   "LITE": {
@@ -724,7 +724,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:01.552Z",
+    "updatedAt": "2026-06-01T08:15:42.817Z",
     "stooqSymbol": "LITE.US"
   },
   "GLW": {
@@ -760,7 +760,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:37:01.645Z",
+    "updatedAt": "2026-06-01T08:15:42.888Z",
     "stooqSymbol": "GLW.US"
   }
 }
