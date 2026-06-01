@@ -35,6 +35,24 @@ function confidenceClass(value = "") {
   return "low";
 }
 
+function companyFor(ticker) {
+  return state.companies[ticker] || {};
+}
+
+function marketPriorityFor(ticker) {
+  return companyFor(ticker).marketPriority ?? 9;
+}
+
+function marketLabelFor(ticker) {
+  const company = companyFor(ticker);
+  return company.marketLabel || company.market || "市场待确认";
+}
+
+function formatQuoteValue(value, currency = "") {
+  if (value === undefined || value === null || value === "") return "行情源待接入";
+  return `${Number(value).toLocaleString("zh-CN", { maximumFractionDigits: 3 })}${currency ? ` ${currency}` : ""}`;
+}
+
 async function loadJson(path) {
   const url = `${path}?v=${Date.now()}`;
   const response = await fetch(url);
@@ -68,7 +86,11 @@ function filteredSignals() {
       && (!state.direction || item.direction === state.direction)
       && (!state.type || item.signalType === state.type)
       && (!state.confidence || item.confidence === state.confidence);
-  }).sort((a, b) => String(b.datetime).localeCompare(String(a.datetime)));
+  }).sort((a, b) => {
+    const priority = marketPriorityFor(a.ticker) - marketPriorityFor(b.ticker);
+    if (priority !== 0) return priority;
+    return String(b.datetime).localeCompare(String(a.datetime));
+  });
 }
 
 function fillSelect(id, values) {
@@ -114,7 +136,7 @@ function renderTimeline() {
     tr.innerHTML = `
       <td>${item.datetime || ""}<div class="muted">${item.id || ""}</div></td>
       <td><strong>${item.investor || ""}</strong><div class="muted">@${String(item.handle || "").replace("@", "")}</div></td>
-      <td><button class="ticker ticker-button" data-company="${item.ticker}">${item.ticker}</button><div class="muted">${item.assetName || item.ticker}</div></td>
+      <td><button class="ticker ticker-button" data-company="${item.ticker}">${item.ticker}</button><div class="muted">${item.assetName || item.ticker}</div><span class="pill">${marketLabelFor(item.ticker)}</span></td>
       <td><span class="pill ${directionClass(item.direction)}">${item.direction || "观察"}</span></td>
       <td><span class="pill">${item.signalType || ""}</span></td>
       <td>${item.theme || ""}</td>
@@ -149,7 +171,10 @@ function renderAssets() {
   });
   const grid = document.getElementById("assetsGrid");
   grid.innerHTML = "";
-  [...grouped.values()].forEach(item => {
+  [...grouped.values()]
+    .sort((a, b) => marketPriorityFor(a.ticker) - marketPriorityFor(b.ticker) || a.ticker.localeCompare(b.ticker))
+    .forEach(item => {
+    const company = companyFor(item.ticker);
     const card = document.createElement("article");
     card.className = "card";
     card.innerHTML = `
@@ -157,9 +182,9 @@ function renderAssets() {
         <div><button class="ticker ticker-button" data-company="${item.ticker}">${item.ticker}</button></div>
         <div>
           <div class="asset-name">${item.assetName}</div>
-          <div class="muted">${[...item.themes].join(" / ")}</div>
+          <div class="muted">${company.tradableNote || ""} · ${[...item.themes].join(" / ")}</div>
         </div>
-        <span class="pill ${directionClass(item.direction)}">${item.direction}</span>
+        <span class="pill ${directionClass(item.direction)}">${company.marketLabel || item.direction}</span>
       </div>
       <p>${item.summary}</p>
       <p style="margin-top:10px;"><span class="pill ${confidenceClass(item.confidence)}">${item.confidence}</span> <span class="pill">${item.count} 条信号</span></p>
@@ -201,7 +226,7 @@ function openCompany(ticker) {
   const quote = data.quote || {};
   const target = data.priceTarget || {};
   document.getElementById("companyTitle").textContent = `${ticker} · ${data.name || ticker}`;
-  document.getElementById("companySubtitle").textContent = `${data.exchange || "交易所待确认"} · ${data.sector || "行业待确认"}`;
+  document.getElementById("companySubtitle").textContent = `${data.marketLabel || data.market || "市场待确认"} · ${data.exchange || "交易所待确认"} · ${data.sector || "行业待确认"} · ${data.tradableNote || ""}`;
   document.getElementById("companyDetail").innerHTML = `
     <article class="detail-card wide">
       <h3>业务简介</h3>
@@ -210,9 +235,10 @@ function openCompany(ticker) {
     </article>
     <article class="detail-card">
       <h3>股价快照</h3>
-      <div class="kv"><span>最新价</span><strong>${valueOrNote(quote.c, "行情源待接入")}</strong></div>
-      <div class="kv"><span>日内涨跌</span><strong>${valueOrNote(quote.d, "行情源待接入")} / ${valueOrNote(quote.dp, "行情源待接入")}%</strong></div>
-      <div class="kv"><span>前收盘</span><strong>${valueOrNote(quote.pc, "行情源待接入")}</strong></div>
+      <div class="kv"><span>最新价</span><strong>${formatQuoteValue(quote.c, quote.currency)}</strong></div>
+      <div class="kv"><span>日内涨跌</span><strong>${formatQuoteValue(quote.d)} / ${valueOrNote(quote.dp, "行情源待接入")}%</strong></div>
+      <div class="kv"><span>前收盘</span><strong>${formatQuoteValue(quote.pc, quote.currency)}</strong></div>
+      <div class="kv"><span>价格来源</span><strong>${quote.source || "待接入"}</strong></div>
     </article>
     <article class="detail-card">
       <h3>分析师观点</h3>
@@ -230,7 +256,7 @@ function openCompany(ticker) {
     <article class="detail-card wide">
       <h3>外部资料</h3>
       <p>
-        <a class="pill" href="https://finance.yahoo.com/quote/${ticker}" target="_blank" rel="noreferrer">Yahoo Finance</a>
+        <a class="pill" href="https://finance.yahoo.com/quote/${data.yahooSymbol || ticker}" target="_blank" rel="noreferrer">Yahoo Finance</a>
         <a class="pill" href="https://www.google.com/search?q=${encodeURIComponent(ticker + " analyst rating fundamentals")}" target="_blank" rel="noreferrer">评级/基本面搜索</a>
         <a class="pill" href="https://www.google.com/search?q=${encodeURIComponent(ticker + " earnings transcript")}" target="_blank" rel="noreferrer">财报电话会</a>
       </p>

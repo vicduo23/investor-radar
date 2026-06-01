@@ -176,8 +176,67 @@ function mergeSignals(existing, incoming) {
   return [...map.values()].sort((a, b) => String(b.datetime).localeCompare(String(a.datetime)));
 }
 
+async function fetchYahooQuote(symbol) {
+  if (!symbol) return null;
+  const data = await fetchJson(`https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?range=5d&interval=1d`);
+  const result = data?.chart?.result?.[0];
+  const meta = result?.meta;
+  if (!meta) return null;
+  const closes = (result.indicators?.quote?.[0]?.close || []).filter(value => value !== null && value !== undefined);
+  const previousClose = meta.chartPreviousClose ?? closes.at(-2) ?? null;
+  const price = meta.regularMarketPrice ?? closes.at(-1) ?? null;
+  const change = price !== null && previousClose !== null ? price - previousClose : null;
+  const changePercent = change !== null && previousClose ? (change / previousClose) * 100 : null;
+  return {
+    c: price,
+    d: change,
+    dp: changePercent,
+    pc: previousClose,
+    currency: meta.currency || "",
+    symbol: meta.symbol || symbol,
+    source: "Yahoo Finance",
+    marketTime: meta.regularMarketTime ? new Date(meta.regularMarketTime * 1000).toISOString() : null
+  };
+}
+
+function stooqSymbolFor(ticker, existing) {
+  if (existing?.stooqSymbol) return existing.stooqSymbol;
+  if (existing?.market === "美股" || existing?.marketLabel?.includes("美股")) return `${ticker}.US`;
+  if (ticker === "XFAB") return "XFAB.FR";
+  return null;
+}
+
+async function fetchStooqQuote(symbol) {
+  if (!symbol) return null;
+  const data = await fetchJson(`https://stooq.com/q/l/?s=${encodeURIComponent(symbol.toLowerCase())}&f=sd2t2ohlcv&h&e=json`);
+  const quote = data?.symbols?.[0];
+  if (!quote || quote.close === undefined || quote.close === null) return null;
+  const previousClose = quote.open ?? null;
+  const change = previousClose ? quote.close - previousClose : null;
+  const changePercent = change !== null && previousClose ? (change / previousClose) * 100 : null;
+  return {
+    c: quote.close,
+    d: change,
+    dp: changePercent,
+    pc: previousClose,
+    currency: "",
+    symbol: quote.symbol || symbol,
+    source: "Stooq",
+    marketTime: quote.date && quote.time ? `${quote.date}T${quote.time}` : null
+  };
+}
+
 async function updateCompany(ticker, existing) {
-  if (!FINNHUB_API_KEY) return existing;
+  const yahooQuote = await fetchYahooQuote(existing?.yahooSymbol || ticker).catch(() => null);
+  const stooqQuote = yahooQuote ? null : await fetchStooqQuote(stooqSymbolFor(ticker, existing)).catch(() => null);
+  const fallbackQuote = yahooQuote || stooqQuote || null;
+  if (!FINNHUB_API_KEY) {
+    return {
+      ...existing,
+      quote: fallbackQuote || existing?.quote || null,
+      updatedAt: new Date().toISOString()
+    };
+  }
   const [profile, quote, recommendation, target] = await Promise.allSettled([
     fetchJson(`https://finnhub.io/api/v1/stock/profile2?symbol=${ticker}&token=${FINNHUB_API_KEY}`),
     fetchJson(`https://finnhub.io/api/v1/quote?symbol=${ticker}&token=${FINNHUB_API_KEY}`),
@@ -190,7 +249,7 @@ async function updateCompany(ticker, existing) {
   if (!hasProfile && existing?.business) {
     return {
       ...existing,
-      quote: ok(quote) || existing.quote || null,
+      quote: fallbackQuote || ok(quote) || existing.quote || null,
       priceTarget: ok(target) || existing.priceTarget || null,
       recommendation: ok(recommendation) || existing.recommendation || null,
       updatedAt: new Date().toISOString()
@@ -215,7 +274,7 @@ async function updateCompany(ticker, existing) {
       targetData ? `目标价：高 ${targetData.targetHigh || "暂无"}，均值 ${targetData.targetMean || "暂无"}，低 ${targetData.targetLow || "暂无"}。` : "暂无目标价。"
     ],
     risks: existing?.risks || ["自动读取信息需要人工复核。", "分析师一致预期可能滞后于市场价格。"],
-    quote: ok(quote),
+    quote: fallbackQuote || ok(quote),
     priceTarget: targetData,
     recommendation: ok(recommendation),
     updatedAt: new Date().toISOString()

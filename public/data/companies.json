@@ -1,8 +1,65 @@
 {
+  "3363": {
+    "ticker": "3363",
+    "name": "FOCI Fiber Optic Communications",
+    "market": "台股",
+    "marketLabel": "台湾",
+    "marketPriority": 2,
+    "tradableNote": "非当前优先市场",
+    "yahooSymbol": "3363.TW",
+    "exchange": "Taiwan OTC / TWSE 需确认",
+    "sector": "光通信",
+    "business": "FOCI 是台湾光通信相关公司，市场关注 CPO、SiPh 和 AI 数据中心互连供应链机会。",
+    "fundamentals": [
+      "关注光通信订单、客户结构和毛利率。"
+    ],
+    "analystView": [
+      "待接入台湾本地研究覆盖。"
+    ],
+    "risks": [
+      "台股交易权限。",
+      "小盘流动性和主题波动。"
+    ],
+    "quote": null,
+    "priceTarget": null,
+    "recommendation": null,
+    "updatedAt": "2026-06-01T04:34:52.684Z"
+  },
+  "6451": {
+    "ticker": "6451",
+    "name": "ShunSin Technology",
+    "market": "台股",
+    "marketLabel": "台湾",
+    "marketPriority": 2,
+    "tradableNote": "非当前优先市场",
+    "yahooSymbol": "6451.TW",
+    "exchange": "Taiwan / 需确认",
+    "sector": "先进封装 / 模组",
+    "business": "ShunSin Technology 是台湾半导体封装和模组相关公司，市场关注先进封装与光通信供应链机会。",
+    "fundamentals": [
+      "关注先进封装订单、客户导入和盈利能力。"
+    ],
+    "analystView": [
+      "待接入台湾本地研究覆盖。"
+    ],
+    "risks": [
+      "交易权限。",
+      "客户验证和小盘波动。"
+    ],
+    "quote": null,
+    "priceTarget": null,
+    "recommendation": null,
+    "updatedAt": "2026-06-01T04:34:53.239Z"
+  },
   "XFAB": {
     "ticker": "XFAB",
     "name": "X-FAB",
-    "exchange": "Euronext Paris / 需按实际交易代码确认",
+    "market": "欧洲",
+    "marketLabel": "巴黎泛欧",
+    "marketPriority": 3,
+    "tradableNote": "非当前优先市场",
+    "yahooSymbol": "XFAB.PA",
+    "exchange": "Euronext Paris",
     "sector": "特种晶圆代工",
     "business": "X-FAB 是欧洲特种晶圆代工公司，业务覆盖汽车、工业、医疗、通信和传感器等应用。Serenity 相关论点主要集中在硅光子、磷化铟集成、碳化硅和 AI 数据中心电源相关特种工艺能力。",
     "fundamentals": [
@@ -12,23 +69,37 @@
     ],
     "analystView": [
       "待接入欧洲券商覆盖和一致预期。",
-      "分析师观点应重点拆分传统汽车/工业业务与 AI 光通信、硅光子主题贡献。",
-      "需要确认市场是否已经把 AI/硅光子逻辑计入估值。"
+      "分析师观点应重点拆分传统汽车/工业业务与 AI 光通信、硅光子主题贡献。"
     ],
     "risks": [
       "欧洲小盘流动性和信息披露频率低于美股大盘。",
       "社媒点名后短期涨幅可能放大估值风险。",
       "硅光子或 InP 逻辑兑现周期可能长于市场预期。"
     ],
-    "quote": null,
+    "quote": {
+      "c": 10.76,
+      "d": -0.41000000000000014,
+      "dp": -3.6705461056401085,
+      "pc": 11.17,
+      "currency": "",
+      "symbol": "XFAB.FR",
+      "source": "Stooq",
+      "marketTime": "2026-05-29T17:30:00"
+    },
     "priceTarget": null,
     "recommendation": null,
-    "dataNotes": "当前行情适配器主要覆盖 Finnhub 美股数据；XFAB 属于欧洲市场，需要后续接入 Euronext、Yahoo Finance 欧洲代码、FactSet、Bloomberg 或其他欧洲行情源。"
+    "updatedAt": "2026-06-01T04:34:46.159Z",
+    "stooqSymbol": "XFAB.FR"
   },
   "SIVE": {
     "ticker": "SIVE",
     "name": "Sivers Semiconductors",
-    "exchange": "Nasdaq Stockholm / 需按实际交易代码确认",
+    "market": "欧洲",
+    "marketLabel": "斯德哥尔摩",
+    "marketPriority": 3,
+    "tradableNote": "非当前优先市场",
+    "yahooSymbol": "SIVE.ST",
+    "exchange": "Nasdaq Stockholm",
     "sector": "光通信与射频半导体",
     "business": "Sivers Semiconductors 提供光子学和无线半导体方案。Serenity 相关论点主要集中在连续波激光器、外置激光源和共封装光学潜在瓶颈。",
     "fundamentals": [
@@ -38,8 +109,7 @@
     ],
     "analystView": [
       "待接入北欧本地券商或专业科技研究覆盖。",
-      "需要区分真实产业链验证与纯主题交易。",
-      "分析师更新应重点关注客户认证、设计导入和量产时间表。"
+      "需要区分真实产业链验证与纯主题交易。"
     ],
     "risks": [
       "小盘高波动和流动性风险。",
@@ -49,57 +119,16 @@
     "quote": null,
     "priceTarget": null,
     "recommendation": null,
-    "dataNotes": "当前行情适配器主要覆盖 Finnhub 美股数据；SIVE 属于瑞典市场，需要后续接入 Nasdaq Nordic、Yahoo Finance 欧洲代码、FactSet、Bloomberg 或其他北欧行情源。"
-  },
-  "AXTI": {
-    "ticker": "AXTI",
-    "name": "AXT Inc.",
-    "exchange": "NASDAQ",
-    "sector": "化合物半导体衬底",
-    "business": "生产化合物半导体衬底，包括磷化铟、砷化镓等。Serenity 相关论点集中在 AI 光通信上游 InP 衬底瓶颈。",
-    "fundamentals": [
-      "重点看 InP 业务收入、产能和价格。",
-      "关注中国供应链、原材料和客户集中度。"
-    ],
-    "analystView": [
-      "待接入一致预期和目标价。",
-      "需要识别分析师是否把 AI 光通信 InP 瓶颈纳入模型。"
-    ],
-    "risks": [
-      "周期性半导体需求。",
-      "中美供应链和监管风险。",
-      "小盘流动性和估值波动。"
-    ],
-    "quote": null,
-    "priceTarget": null,
-    "recommendation": null
-  },
-  "AAOI": {
-    "ticker": "AAOI",
-    "name": "Applied Optoelectronics",
-    "exchange": "NASDAQ",
-    "sector": "光模块 / 光通信",
-    "business": "面向数据中心、有线电视和通信市场的光通信产品供应商。",
-    "fundamentals": [
-      "重点看数据中心收入增长、毛利率改善和大客户订单。",
-      "关注产能扩张、库存和客户集中度。"
-    ],
-    "analystView": [
-      "待接入一致预期。",
-      "分析师观点应重点汇总收入上修、毛利率假设和订单能见度。"
-    ],
-    "risks": [
-      "客户集中。",
-      "光模块价格竞争。",
-      "股价已大幅上涨后的风险收益比变化。"
-    ],
-    "quote": null,
-    "priceTarget": null,
-    "recommendation": null
+    "updatedAt": "2026-06-01T04:34:46.717Z"
   },
   "IREN": {
     "ticker": "IREN",
     "name": "IREN",
+    "market": "美股",
+    "marketLabel": "美股",
+    "marketPriority": 1,
+    "tradableNote": "优先可交易",
+    "yahooSymbol": "IREN",
     "exchange": "NASDAQ",
     "sector": "比特币挖矿 / AI 数据中心",
     "business": "原以比特币挖矿和低成本电力基础设施为核心，市场也关注其向 AI 数据中心/算力基础设施转型的可能性。",
@@ -116,8 +145,604 @@
       "比特币价格波动。",
       "AI 转型叙事兑现不确定。"
     ],
-    "quote": null,
+    "quote": {
+      "c": 63.54,
+      "d": -1.1600000000000037,
+      "dp": -1.7928902627511647,
+      "pc": 64.7,
+      "currency": "",
+      "symbol": "IREN.US",
+      "source": "Stooq",
+      "marketTime": "2026-05-29T22:00:19"
+    },
     "priceTarget": null,
-    "recommendation": null
+    "recommendation": null,
+    "updatedAt": "2026-06-01T04:34:47.497Z",
+    "stooqSymbol": "IREN.US"
+  },
+  "AXTI": {
+    "ticker": "AXTI",
+    "name": "AXT Inc.",
+    "market": "美股",
+    "marketLabel": "美股",
+    "marketPriority": 1,
+    "tradableNote": "优先可交易",
+    "yahooSymbol": "AXTI",
+    "exchange": "NASDAQ",
+    "sector": "化合物半导体衬底",
+    "business": "生产化合物半导体衬底，包括磷化铟、砷化镓等。Serenity 相关论点集中在 AI 光通信上游 InP 衬底瓶颈。",
+    "fundamentals": [
+      "重点看 InP 业务收入、产能和价格。",
+      "关注中国供应链、原材料和客户集中度。"
+    ],
+    "analystView": [
+      "待接入一致预期和目标价。",
+      "需要识别分析师是否把 AI 光通信 InP 瓶颈纳入模型。"
+    ],
+    "risks": [
+      "周期性半导体需求。",
+      "中美供应链和监管风险。",
+      "小盘流动性和估值波动。"
+    ],
+    "quote": {
+      "c": 103.16,
+      "d": -12.284999999999997,
+      "dp": -10.641430984451468,
+      "pc": 115.445,
+      "currency": "",
+      "symbol": "AXTI.US",
+      "source": "Stooq",
+      "marketTime": "2026-05-29T22:00:18"
+    },
+    "priceTarget": null,
+    "recommendation": null,
+    "updatedAt": "2026-06-01T04:34:48.261Z",
+    "stooqSymbol": "AXTI.US"
+  },
+  "AAOI": {
+    "ticker": "AAOI",
+    "name": "Applied Optoelectronics",
+    "market": "美股",
+    "marketLabel": "美股",
+    "marketPriority": 1,
+    "tradableNote": "优先可交易",
+    "yahooSymbol": "AAOI",
+    "exchange": "NASDAQ",
+    "sector": "光模块 / 光通信",
+    "business": "面向数据中心、有线电视和通信市场的光通信产品供应商。",
+    "fundamentals": [
+      "重点看数据中心收入增长、毛利率改善和大客户订单。",
+      "关注产能扩张、库存和客户集中度。"
+    ],
+    "analystView": [
+      "待接入一致预期。",
+      "分析师观点应重点汇总收入上修、毛利率假设和订单能见度。"
+    ],
+    "risks": [
+      "客户集中。",
+      "光模块价格竞争。",
+      "股价已大幅上涨后的风险收益比变化。"
+    ],
+    "quote": {
+      "c": 158.41,
+      "d": -10.140000000000015,
+      "dp": -6.016018985464262,
+      "pc": 168.55,
+      "currency": "",
+      "symbol": "AAOI.US",
+      "source": "Stooq",
+      "marketTime": "2026-05-29T22:00:19"
+    },
+    "priceTarget": null,
+    "recommendation": null,
+    "updatedAt": "2026-06-01T04:34:49.038Z",
+    "stooqSymbol": "AAOI.US"
+  },
+  "SIMO": {
+    "ticker": "SIMO",
+    "name": "Silicon Motion",
+    "market": "美股",
+    "marketLabel": "美股",
+    "marketPriority": 1,
+    "tradableNote": "优先可交易",
+    "yahooSymbol": "SIMO",
+    "exchange": "NASDAQ",
+    "sector": "存储控制器",
+    "business": "Silicon Motion 是 NAND flash 控制器厂商，业务覆盖 SSD 控制器、嵌入式存储和移动存储控制器。",
+    "fundamentals": [
+      "重点看企业级 SSD 控制器、NAND 周期复苏和客户结构。",
+      "关注毛利率、库存周期、设计导入和 AI 服务器启动盘需求。"
+    ],
+    "analystView": [
+      "待接入一致预期。",
+      "重点汇总分析师对 NAND 周期、企业级 SSD 控制器和资本回报的看法。"
+    ],
+    "risks": [
+      "NAND 周期波动。",
+      "客户集中与价格竞争。",
+      "AI 服务器启动盘逻辑需要订单验证。"
+    ],
+    "quote": {
+      "c": 276.87,
+      "d": -8.939999999999998,
+      "dp": -3.127952136034428,
+      "pc": 285.81,
+      "currency": "",
+      "symbol": "SIMO.US",
+      "source": "Stooq",
+      "marketTime": "2026-05-29T22:00:20"
+    },
+    "priceTarget": null,
+    "recommendation": null,
+    "updatedAt": "2026-06-01T04:34:38.384Z",
+    "stooqSymbol": "SIMO.US"
+  },
+  "INTC": {
+    "ticker": "INTC",
+    "name": "Intel",
+    "market": "美股",
+    "marketLabel": "美股",
+    "marketPriority": 1,
+    "tradableNote": "优先可交易",
+    "yahooSymbol": "INTC",
+    "exchange": "NASDAQ",
+    "sector": "半导体 / 晶圆制造",
+    "business": "Intel 覆盖 CPU、数据中心、PC、晶圆代工和先进封装。",
+    "fundamentals": [
+      "关注代工业务进展、制程路线图、AI 加速器和自由现金流。"
+    ],
+    "analystView": [
+      "待接入一致预期和目标价。"
+    ],
+    "risks": [
+      "代工投入周期长。",
+      "竞争和资本开支压力。"
+    ],
+    "quote": {
+      "c": 114.68,
+      "d": -9.169999999999987,
+      "dp": -7.404117884537738,
+      "pc": 123.85,
+      "currency": "",
+      "symbol": "INTC.US",
+      "source": "Stooq",
+      "marketTime": "2026-05-29T22:00:20"
+    },
+    "priceTarget": null,
+    "recommendation": null,
+    "updatedAt": "2026-06-01T04:34:39.154Z",
+    "stooqSymbol": "INTC.US"
+  },
+  "MRVL": {
+    "ticker": "MRVL",
+    "name": "Marvell Technology",
+    "market": "美股",
+    "marketLabel": "美股",
+    "marketPriority": 1,
+    "tradableNote": "优先可交易",
+    "yahooSymbol": "MRVL",
+    "exchange": "NASDAQ",
+    "sector": "AI ASIC / 网络芯片",
+    "business": "Marvell 提供数据中心网络、存储、定制 ASIC 和互连芯片。",
+    "fundamentals": [
+      "关注 AI 定制芯片收入、数据中心网络需求和毛利率。"
+    ],
+    "analystView": [
+      "待接入一致预期。"
+    ],
+    "risks": [
+      "AI ASIC 放量节奏。",
+      "估值已反映较高增长预期。"
+    ],
+    "quote": {
+      "c": 205,
+      "d": 0.5600000000000023,
+      "dp": 0.27391899823909327,
+      "pc": 204.44,
+      "currency": "",
+      "symbol": "MRVL.US",
+      "source": "Stooq",
+      "marketTime": "2026-05-29T22:00:20"
+    },
+    "priceTarget": null,
+    "recommendation": null,
+    "updatedAt": "2026-06-01T04:34:39.931Z",
+    "stooqSymbol": "MRVL.US"
+  },
+  "TSM": {
+    "ticker": "TSM",
+    "name": "Taiwan Semiconductor Manufacturing",
+    "market": "美股",
+    "marketLabel": "美股 ADR",
+    "marketPriority": 1,
+    "tradableNote": "优先可交易",
+    "yahooSymbol": "TSM",
+    "exchange": "NYSE",
+    "sector": "先进晶圆代工",
+    "business": "台积电是全球先进制程晶圆代工龙头，AI GPU/ASIC 供应链核心资产。",
+    "fundamentals": [
+      "关注先进制程需求、CoWoS 产能、毛利率和资本开支。"
+    ],
+    "analystView": [
+      "待接入一致预期。"
+    ],
+    "risks": [
+      "地缘政治。",
+      "客户集中和资本开支周期。"
+    ],
+    "quote": {
+      "c": 418.45,
+      "d": -8.620000000000005,
+      "dp": -2.01840447701782,
+      "pc": 427.07,
+      "currency": "",
+      "symbol": "TSM.US",
+      "source": "Stooq",
+      "marketTime": "2026-05-29T22:00:24"
+    },
+    "priceTarget": null,
+    "recommendation": null,
+    "updatedAt": "2026-06-01T04:34:40.732Z",
+    "stooqSymbol": "TSM.US"
+  },
+  "COHR": {
+    "ticker": "COHR",
+    "name": "Coherent",
+    "market": "美股",
+    "marketLabel": "美股",
+    "marketPriority": 1,
+    "tradableNote": "优先可交易",
+    "yahooSymbol": "COHR",
+    "exchange": "NYSE",
+    "sector": "光子学 / 激光 / 材料",
+    "business": "Coherent 是大型光子学和材料公司，覆盖激光器、光通信、工业和电子材料。",
+    "fundamentals": [
+      "关注 AI 数据中心光通信收入、利润率修复和债务。"
+    ],
+    "analystView": [
+      "待接入一致预期。"
+    ],
+    "risks": [
+      "业务复杂。",
+      "债务和周期性业务拖累。"
+    ],
+    "quote": {
+      "c": 361.47,
+      "d": -14.17999999999995,
+      "dp": -3.774790363370145,
+      "pc": 375.65,
+      "currency": "",
+      "symbol": "COHR.US",
+      "source": "Stooq",
+      "marketTime": "2026-05-29T22:00:24"
+    },
+    "priceTarget": null,
+    "recommendation": null,
+    "updatedAt": "2026-06-01T04:34:41.502Z",
+    "stooqSymbol": "COHR.US"
+  },
+  "RKLB": {
+    "ticker": "RKLB",
+    "name": "Rocket Lab",
+    "market": "美股",
+    "marketLabel": "美股",
+    "marketPriority": 1,
+    "tradableNote": "优先可交易",
+    "yahooSymbol": "RKLB",
+    "exchange": "NASDAQ",
+    "sector": "航天 / 国防科技",
+    "business": "Rocket Lab 提供发射服务、卫星组件和空间系统。",
+    "fundamentals": [
+      "关注发射频次、空间系统订单、毛利率和 Neutron 进展。"
+    ],
+    "analystView": [
+      "待接入一致预期。"
+    ],
+    "risks": [
+      "项目延期。",
+      "航天业务资本强度高。"
+    ],
+    "quote": {
+      "c": 143.48,
+      "d": 3.539999999999992,
+      "dp": 2.529655566671425,
+      "pc": 139.94,
+      "currency": "",
+      "symbol": "RKLB.US",
+      "source": "Stooq",
+      "marketTime": "2026-05-29T22:00:19"
+    },
+    "priceTarget": null,
+    "recommendation": null,
+    "updatedAt": "2026-06-01T04:34:42.281Z",
+    "stooqSymbol": "RKLB.US"
+  },
+  "AVGO": {
+    "ticker": "AVGO",
+    "name": "Broadcom",
+    "market": "美股",
+    "marketLabel": "美股",
+    "marketPriority": 1,
+    "tradableNote": "优先可交易",
+    "yahooSymbol": "AVGO",
+    "exchange": "NASDAQ",
+    "sector": "AI ASIC / 网络 / 软件",
+    "business": "Broadcom 覆盖定制 ASIC、交换芯片、无线半导体和基础设施软件。",
+    "fundamentals": [
+      "关注 AI ASIC、网络芯片、VMware 整合和自由现金流。"
+    ],
+    "analystView": [
+      "待接入一致预期。"
+    ],
+    "risks": [
+      "估值和大型客户集中。",
+      "软件整合执行风险。"
+    ],
+    "quote": {
+      "c": 446.77,
+      "d": 13.819999999999993,
+      "dp": 3.192054509758631,
+      "pc": 432.95,
+      "currency": "",
+      "symbol": "AVGO.US",
+      "source": "Stooq",
+      "marketTime": "2026-05-29T22:00:20"
+    },
+    "priceTarget": null,
+    "recommendation": null,
+    "updatedAt": "2026-06-01T04:34:43.062Z",
+    "stooqSymbol": "AVGO.US"
+  },
+  "AMZN": {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "market": "美股",
+    "marketLabel": "美股",
+    "marketPriority": 1,
+    "tradableNote": "优先可交易",
+    "yahooSymbol": "AMZN",
+    "exchange": "NASDAQ",
+    "sector": "云计算 / 电商 / AI 基建",
+    "business": "Amazon 覆盖电商、AWS 云服务、广告和 AI 基础设施。",
+    "fundamentals": [
+      "关注 AWS 增速、AI capex 回报、广告利润和零售效率。"
+    ],
+    "analystView": [
+      "待接入一致预期。"
+    ],
+    "risks": [
+      "AI 资本开支压力。",
+      "云竞争和监管。"
+    ],
+    "quote": {
+      "c": 270.64,
+      "d": -0.6500000000000341,
+      "dp": -0.23959600427587968,
+      "pc": 271.29,
+      "currency": "",
+      "symbol": "AMZN.US",
+      "source": "Stooq",
+      "marketTime": "2026-05-29T22:00:19"
+    },
+    "priceTarget": null,
+    "recommendation": null,
+    "updatedAt": "2026-06-01T04:34:43.849Z",
+    "stooqSymbol": "AMZN.US"
+  },
+  "ARM": {
+    "ticker": "ARM",
+    "name": "Arm Holdings",
+    "market": "美股",
+    "marketLabel": "美股 ADR",
+    "marketPriority": 1,
+    "tradableNote": "优先可交易",
+    "yahooSymbol": "ARM",
+    "exchange": "NASDAQ",
+    "sector": "CPU IP / 半导体授权",
+    "business": "Arm 提供 CPU 架构和 IP 授权，覆盖移动、数据中心、汽车和边缘 AI。",
+    "fundamentals": [
+      "关注 royalty rate、数据中心渗透、AI 终端和授权收入。"
+    ],
+    "analystView": [
+      "待接入一致预期。"
+    ],
+    "risks": [
+      "估值较高。",
+      "授权模式对终端周期敏感。"
+    ],
+    "quote": {
+      "c": 353.29,
+      "d": 14.04000000000002,
+      "dp": 4.1385408990420105,
+      "pc": 339.25,
+      "currency": "",
+      "symbol": "ARM.US",
+      "source": "Stooq",
+      "marketTime": "2026-05-29T22:00:19"
+    },
+    "priceTarget": null,
+    "recommendation": null,
+    "updatedAt": "2026-06-01T04:34:44.620Z",
+    "stooqSymbol": "ARM.US"
+  },
+  "LASR": {
+    "ticker": "LASR",
+    "name": "nLIGHT",
+    "market": "美股",
+    "marketLabel": "美股",
+    "marketPriority": 1,
+    "tradableNote": "优先可交易",
+    "yahooSymbol": "LASR",
+    "exchange": "NASDAQ",
+    "sector": "激光 / 国防",
+    "business": "nLIGHT 提供高功率半导体和光纤激光器，应用于工业、微加工和国防定向能。",
+    "fundamentals": [
+      "关注国防订单、激光器毛利率和工业周期。"
+    ],
+    "analystView": [
+      "待接入一致预期。"
+    ],
+    "risks": [
+      "国防项目节奏。",
+      "工业需求周期。"
+    ],
+    "quote": {
+      "c": 74.12,
+      "d": -5.339999999999989,
+      "dp": -6.720362446513957,
+      "pc": 79.46,
+      "currency": "",
+      "symbol": "LASR.US",
+      "source": "Stooq",
+      "marketTime": "2026-05-29T22:00:19"
+    },
+    "priceTarget": null,
+    "recommendation": null,
+    "updatedAt": "2026-06-01T04:34:45.387Z",
+    "stooqSymbol": "LASR.US"
+  },
+  "AEHR": {
+    "ticker": "AEHR",
+    "name": "Aehr Test Systems",
+    "market": "美股",
+    "marketLabel": "美股",
+    "marketPriority": 1,
+    "tradableNote": "优先可交易",
+    "yahooSymbol": "AEHR",
+    "exchange": "NASDAQ",
+    "sector": "半导体测试设备",
+    "business": "Aehr 提供半导体可靠性和烧机测试设备，市场关注其从 SiC 向光通信测试扩展的可能性。",
+    "fundamentals": [
+      "关注订单、客户认证、backlog 和收入确认。"
+    ],
+    "analystView": [
+      "待接入一致预期。"
+    ],
+    "risks": [
+      "客户集中。",
+      "订单延迟和新应用验证风险。"
+    ],
+    "quote": {
+      "c": 92.33,
+      "d": -9.040000000000006,
+      "dp": -8.917825786721915,
+      "pc": 101.37,
+      "currency": "",
+      "symbol": "AEHR.US",
+      "source": "Stooq",
+      "marketTime": "2026-05-29T22:00:19"
+    },
+    "priceTarget": null,
+    "recommendation": null,
+    "updatedAt": "2026-06-01T04:34:49.815Z",
+    "stooqSymbol": "AEHR.US"
+  },
+  "POET": {
+    "ticker": "POET",
+    "name": "POET Technologies",
+    "market": "美股",
+    "marketLabel": "美股",
+    "marketPriority": 1,
+    "tradableNote": "优先可交易",
+    "yahooSymbol": "POET",
+    "exchange": "NASDAQ",
+    "sector": "硅光子 / 光引擎",
+    "business": "POET Technologies 发展光引擎和光子集成平台，市场关注其在 AI 光通信中的潜在应用。",
+    "fundamentals": [
+      "关注客户验证、量产订单、现金消耗和融资。"
+    ],
+    "analystView": [
+      "待接入专业科技研究覆盖。"
+    ],
+    "risks": [
+      "小盘高波动。",
+      "商业化兑现不确定。"
+    ],
+    "quote": {
+      "c": 12.29,
+      "d": -0.7650000000000006,
+      "dp": -5.8598238222903145,
+      "pc": 13.055,
+      "currency": "",
+      "symbol": "POET.US",
+      "source": "Stooq",
+      "marketTime": "2026-05-29T22:00:18"
+    },
+    "priceTarget": null,
+    "recommendation": null,
+    "updatedAt": "2026-06-01T04:34:50.589Z",
+    "stooqSymbol": "POET.US"
+  },
+  "LITE": {
+    "ticker": "LITE",
+    "name": "Lumentum",
+    "market": "美股",
+    "marketLabel": "美股",
+    "marketPriority": 1,
+    "tradableNote": "优先可交易",
+    "yahooSymbol": "LITE",
+    "exchange": "NASDAQ",
+    "sector": "光通信 / 激光器",
+    "business": "Lumentum 提供光通信组件、激光器和光子产品。",
+    "fundamentals": [
+      "关注 AI 数据中心需求、毛利率和库存周期。"
+    ],
+    "analystView": [
+      "待接入一致预期。"
+    ],
+    "risks": [
+      "客户集中。",
+      "光通信周期波动。"
+    ],
+    "quote": {
+      "c": 854.96,
+      "d": -5.719999999999914,
+      "dp": -0.6645907886787091,
+      "pc": 860.68,
+      "currency": "",
+      "symbol": "LITE.US",
+      "source": "Stooq",
+      "marketTime": "2026-05-29T22:00:19"
+    },
+    "priceTarget": null,
+    "recommendation": null,
+    "updatedAt": "2026-06-01T04:34:51.350Z",
+    "stooqSymbol": "LITE.US"
+  },
+  "GLW": {
+    "ticker": "GLW",
+    "name": "Corning",
+    "market": "美股",
+    "marketLabel": "美股",
+    "marketPriority": 1,
+    "tradableNote": "优先可交易",
+    "yahooSymbol": "GLW",
+    "exchange": "NYSE",
+    "sector": "光纤 / 材料",
+    "business": "Corning 覆盖光纤、显示玻璃、生命科学和特种材料。",
+    "fundamentals": [
+      "关注数据中心互连、光纤需求和利润率恢复。"
+    ],
+    "analystView": [
+      "待接入一致预期。"
+    ],
+    "risks": [
+      "传统业务周期。",
+      "AI 光纤贡献占比需要验证。"
+    ],
+    "quote": {
+      "c": 181.16,
+      "d": -2.920000000000016,
+      "dp": -1.5862668405041371,
+      "pc": 184.08,
+      "currency": "",
+      "symbol": "GLW.US",
+      "source": "Stooq",
+      "marketTime": "2026-05-29T22:00:31"
+    },
+    "priceTarget": null,
+    "recommendation": null,
+    "updatedAt": "2026-06-01T04:34:52.128Z",
+    "stooqSymbol": "GLW.US"
   }
 }
