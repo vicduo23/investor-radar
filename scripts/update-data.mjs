@@ -186,6 +186,16 @@ async function updateCompany(ticker, existing) {
   ]);
   const ok = result => result.status === "fulfilled" ? result.value : null;
   const profileData = ok(profile) || {};
+  const hasProfile = Boolean(profileData.name || profileData.exchange || profileData.finnhubIndustry);
+  if (!hasProfile && existing?.business) {
+    return {
+      ...existing,
+      quote: ok(quote) || existing.quote || null,
+      priceTarget: ok(target) || existing.priceTarget || null,
+      recommendation: ok(recommendation) || existing.recommendation || null,
+      updatedAt: new Date().toISOString()
+    };
+  }
   const latestRecommendation = Array.isArray(ok(recommendation)) ? ok(recommendation)[0] : null;
   const targetData = ok(target);
   return {
@@ -195,15 +205,16 @@ async function updateCompany(ticker, existing) {
     exchange: profileData.exchange || existing?.exchange || "",
     sector: profileData.finnhubIndustry || existing?.sector || "",
     business: existing?.business || (profileData.name ? `${profileData.name}，行业分类：${profileData.finnhubIndustry || "未知"}。` : "暂未读取到公司简介。"),
-    fundamentals: [
+    fundamentals: existing?.fundamentals?.length ? existing.fundamentals : [
       `市值：${profileData.marketCapitalization ? `${profileData.marketCapitalization} 百万美元` : "暂无"}`,
       `IPO 日期：${profileData.ipo || "暂无"}`,
       `国家/地区：${profileData.country || "暂无"}`
     ],
-    analystView: [
+    analystView: existing?.analystView?.length ? existing.analystView : [
       latestRecommendation ? `评级分布：强买 ${latestRecommendation.strongBuy || 0}，买入 ${latestRecommendation.buy || 0}，持有 ${latestRecommendation.hold || 0}，卖出 ${latestRecommendation.sell || 0}，强卖 ${latestRecommendation.strongSell || 0}。` : "暂无评级分布。",
       targetData ? `目标价：高 ${targetData.targetHigh || "暂无"}，均值 ${targetData.targetMean || "暂无"}，低 ${targetData.targetLow || "暂无"}。` : "暂无目标价。"
     ],
+    risks: existing?.risks || ["自动读取信息需要人工复核。", "分析师一致预期可能滞后于市场价格。"],
     quote: ok(quote),
     priceTarget: targetData,
     recommendation: ok(recommendation),
