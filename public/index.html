@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>推特投研雷达</title>
+  <title>投资者观点追踪</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -12,13 +12,13 @@
       <div class="brand">
         <div class="mark">投</div>
         <div>
-          <h1>推特投研雷达</h1>
-          <span>静态网站 + 自动 JSON 更新</span>
+          <h1>投资者观点追踪</h1>
+          <span>观点、标的、行业趋势</span>
         </div>
       </div>
       <nav>
-        <button class="nav-button active" data-view="timeline">时间线</button>
-        <button class="nav-button" data-view="assets">标的聚合</button>
+        <button class="nav-button active" data-view="timeline">最新观点</button>
+        <button class="nav-button" data-view="assets">投资标的</button>
         <button class="nav-button" data-view="themes">主题趋势</button>
         <button class="nav-button" data-view="investors">投资者画像</button>
         <button class="nav-button" data-view="sources">数据源</button>
@@ -33,15 +33,15 @@
     <main>
       <div class="topbar">
         <div>
-          <h2 id="viewTitle">实时观点流</h2>
-          <p id="viewSubtitle">读取静态 JSON 数据，展示投资者观点、标的聚合和公司研究卡片。</p>
+          <h2 id="viewTitle">最新观点</h2>
+          <p id="viewSubtitle">按时间和可交易市场排序，查看投资者提到的标的、是否买入和行业判断。</p>
         </div>
         <button class="action-button" id="reloadButton">重新读取</button>
       </div>
 
       <section class="metrics">
         <div class="metric"><span>追踪投资者</span><strong id="metricInvestors">0</strong></div>
-        <div class="metric"><span>观点信号</span><strong id="metricSignals">0</strong></div>
+        <div class="metric"><span>观点记录</span><strong id="metricSignals">0</strong></div>
         <div class="metric"><span>涉及标的</span><strong id="metricAssets">0</strong></div>
         <div class="metric"><span>反转记录</span><strong id="metricReversals">0</strong></div>
       </section>
@@ -50,12 +50,12 @@
         <input id="searchInput" placeholder="搜索投资者、ticker、主题或摘要" />
         <select id="investorFilter"><option value="">全部投资者</option></select>
         <select id="directionFilter"><option value="">全部方向</option></select>
-        <select id="typeFilter"><option value="">全部信号类型</option></select>
+        <select id="typeFilter"><option value="">全部观点类型</option></select>
         <select id="confidenceFilter"><option value="">全部置信度</option></select>
       </section>
 
       <section class="notice">
-        <strong>方案 3：</strong>网站本身是纯静态页面，部署到 GitHub Pages。GitHub Actions、Apify 或其他定时任务负责更新 `data/*.json`，页面刷新后读取最新数据。
+        <strong>说明：</strong>桌面端显示完整表格；手机端显示观点卡片，便于在 iPhone 上快速收集和判断。
       </section>
 
       <section class="view active" id="timeline">
@@ -77,6 +77,7 @@
             <tbody id="signalsBody"></tbody>
           </table>
         </div>
+        <div class="mobile-list" id="signalsMobile"></div>
       </section>
 
       <section class="view" id="assets">
@@ -94,7 +95,7 @@
       <section class="view" id="sources">
         <div class="grid">
           <article class="card">
-            <h3>观点数据</h3>
+            <h3>观点记录</h3>
             <p>文件：`data/signals.json`。由定时任务读取 X/Apify 后生成。</p>
           </article>
           <article class="card">

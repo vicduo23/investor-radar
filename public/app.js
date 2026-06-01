@@ -13,8 +13,8 @@ const state = {
 };
 
 const titles = {
-  timeline: ["实时观点流", "按时间倒序查看投资者公开观点、操作线索和主题信号。"],
-  assets: ["标的聚合", "按 ticker 聚合所有观点，并进入公司研究卡片。"],
+  timeline: ["最新观点", "按时间和可交易市场排序，查看投资者提到的标的、是否买入和行业判断。"],
+  assets: ["投资标的", "按 ticker 聚合所有观点，并进入公司研究卡片。"],
   themes: ["主题趋势", "记录没有明确股票代码的行业/生态趋势判断，并映射到可交易代理标的。"],
   investors: ["投资者画像", "记录每个信号源的能力圈、披露约束和主要风险。"],
   sources: ["数据源", "查看静态 JSON 和自动任务如何更新数据。"]
@@ -152,12 +152,16 @@ function renderMetrics() {
 function renderTimeline() {
   const rows = filteredSignals();
   const body = document.getElementById("signalsBody");
+  const mobile = document.getElementById("signalsMobile");
   body.innerHTML = "";
+  mobile.innerHTML = "";
   if (!rows.length) {
     body.innerHTML = `<tr><td colspan="9"><div class="empty">没有匹配的信号</div></td></tr>`;
+    mobile.innerHTML = `<div class="empty">没有匹配的观点</div>`;
     return;
   }
   rows.forEach(item => {
+    const window = mentionWindowFor(item.ticker);
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td>${item.datetime || ""}<div class="muted">本条观点时间</div><div class="muted">${item.id || ""}</div></td>
@@ -171,6 +175,30 @@ function renderTimeline() {
       <td><a href="${item.sourceUrl || "#"}" target="_blank" rel="noreferrer">来源</a></td>
     `;
     body.appendChild(tr);
+
+    const card = document.createElement("article");
+    card.className = "mobile-signal-card";
+    card.innerHTML = `
+      <div class="mobile-card-head">
+        <div>
+          <button class="ticker ticker-button" data-company="${item.ticker}">${item.ticker}</button>
+          <div class="muted">${item.assetName || item.ticker} · ${marketLabelFor(item.ticker)}</div>
+        </div>
+        <span class="pill ${actionClass(item.actionStatus)}">${item.actionStatus || "未确认买入"}</span>
+      </div>
+      <div class="mobile-card-meta">
+        <span>${item.datetime || ""}</span>
+        <span>${item.investor || ""}</span>
+        <span>${item.direction || "观察"}</span>
+      </div>
+      <p>${item.summary || ""}</p>
+      <div class="mobile-card-meta">
+        <span>首次 ${window.first}</span>
+        <span>最近 ${window.latest}</span>
+      </div>
+      <div class="muted">${item.actionEvidence || item.notes || ""}</div>
+    `;
+    mobile.appendChild(card);
   });
   bindCompanyButtons();
 }
@@ -219,7 +247,7 @@ function renderAssets() {
       <p>${item.summary}</p>
       <p style="margin-top:10px;">
         <span class="pill ${confidenceClass(item.confidence)}">${item.confidence}</span>
-        <span class="pill">${item.count} 条信号</span>
+        <span class="pill">${item.count} 条观点</span>
         <span class="pill">首次 ${firstMention}</span>
         <span class="pill">最近 ${latestMention}</span>
       </p>
@@ -243,8 +271,8 @@ function renderInvestors() {
       <p style="margin-top:10px;"><strong>风格：</strong>${item.style || ""}</p>
       <p style="margin-top:10px;"><strong>风险：</strong>${item.risk || ""}</p>
       <p style="margin-top:12px;">
-        <span class="pill">${targetCount} 条标的信号</span>
-        <span class="pill">${themeCount} 条主题信号</span>
+        <span class="pill">${targetCount} 条标的观点</span>
+        <span class="pill">${themeCount} 条主题观点</span>
       </p>
     `;
     grid.appendChild(card);
@@ -297,7 +325,7 @@ function openCompany(ticker) {
       <h3>观点时间</h3>
       <div class="kv"><span>首次提及</span><strong>${mentionWindow.first}</strong></div>
       <div class="kv"><span>最近提及</span><strong>${mentionWindow.latest}</strong></div>
-      <div class="kv"><span>信号数量</span><strong>${mentionWindow.count} 条</strong></div>
+      <div class="kv"><span>观点数量</span><strong>${mentionWindow.count} 条</strong></div>
     </article>
     <article class="detail-card">
       <h3>股价快照</h3>
@@ -328,7 +356,7 @@ function openCompany(ticker) {
       </p>
     </article>
     <article class="detail-card wide">
-      <h3>相关推特信号</h3>
+      <h3>相关观点</h3>
       ${related.map(item => `
         <div class="kv">
           <span>${item.datetime || ""}</span>
