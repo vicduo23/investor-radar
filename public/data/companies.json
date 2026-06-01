@@ -1,55 +1,11 @@
 {
   "XFAB": {
     "ticker": "XFAB",
-    "name": "X-FAB",
-    "exchange": "Euronext Paris / 需按实际交易代码确认",
-    "sector": "特种晶圆代工",
-    "business": "X-FAB 是欧洲特种晶圆代工公司，业务覆盖汽车、工业、医疗、通信和传感器等应用。Serenity 相关论点主要集中在硅光子、磷化铟集成、碳化硅和 AI 数据中心电源相关特种工艺能力。",
-    "fundamentals": [
-      "重点看高价值特种工艺收入占比，而不只是传统代工周期。",
-      "关注毛利率、产能利用率、资本开支、订单能见度和汽车/工业周期。",
-      "需要核验硅光子、InP、SiC 和 800V 电源半导体相关收入或客户验证进展。"
-    ],
-    "analystView": [
-      "待接入欧洲券商覆盖和一致预期。",
-      "分析师观点应重点拆分传统汽车/工业业务与 AI 光通信、硅光子主题贡献。",
-      "需要确认市场是否已经把 AI/硅光子逻辑计入估值。"
-    ],
-    "risks": [
-      "欧洲小盘流动性和信息披露频率低于美股大盘。",
-      "社媒点名后短期涨幅可能放大估值风险。",
-      "硅光子或 InP 逻辑兑现周期可能长于市场预期。"
-    ],
-    "quote": null,
-    "priceTarget": null,
-    "recommendation": null,
-    "dataNotes": "当前行情适配器主要覆盖 Finnhub 美股数据；XFAB 属于欧洲市场，需要后续接入 Euronext、Yahoo Finance 欧洲代码、FactSet、Bloomberg 或其他欧洲行情源。"
+    "name": "XFAB"
   },
   "SIVE": {
     "ticker": "SIVE",
-    "name": "Sivers Semiconductors",
-    "exchange": "Nasdaq Stockholm / 需按实际交易代码确认",
-    "sector": "光通信与射频半导体",
-    "business": "Sivers Semiconductors 提供光子学和无线半导体方案。Serenity 相关论点主要集中在连续波激光器、外置激光源和共封装光学潜在瓶颈。",
-    "fundamentals": [
-      "重点看光子学业务订单、客户验证和收入兑现节奏。",
-      "关注现金消耗、融资需求、毛利率和客户集中度。",
-      "如果 CPO/ELS 放量晚于预期，收入和估值兑现可能延后。"
-    ],
-    "analystView": [
-      "待接入北欧本地券商或专业科技研究覆盖。",
-      "需要区分真实产业链验证与纯主题交易。",
-      "分析师更新应重点关注客户认证、设计导入和量产时间表。"
-    ],
-    "risks": [
-      "小盘高波动和流动性风险。",
-      "客户认证周期长，订单转收入存在不确定性。",
-      "融资或股权稀释风险。"
-    ],
-    "quote": null,
-    "priceTarget": null,
-    "recommendation": null,
-    "dataNotes": "当前行情适配器主要覆盖 Finnhub 美股数据；SIVE 属于瑞典市场，需要后续接入 Nasdaq Nordic、Yahoo Finance 欧洲代码、FactSet、Bloomberg 或其他北欧行情源。"
+    "name": "SIVE"
   },
   "AXTI": {
     "ticker": "AXTI",
@@ -119,13 +75,5 @@
     "quote": null,
     "priceTarget": null,
     "recommendation": null
-  },
-  "XFAB": {
-    "ticker": "XFAB",
-    "name": "XFAB"
-  },
-  "SIVE": {
-    "ticker": "SIVE",
-    "name": "SIVE"
   }
 }
