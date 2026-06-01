@@ -23,7 +23,7 @@
     "quote": null,
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:52.684Z"
+    "updatedAt": "2026-06-01T04:37:01.672Z"
   },
   "6451": {
     "ticker": "6451",
@@ -46,10 +46,19 @@
       "交易权限。",
       "客户验证和小盘波动。"
     ],
-    "quote": null,
+    "quote": {
+      "c": 618,
+      "d": -14,
+      "dp": -2.2151898734177213,
+      "pc": 632,
+      "currency": "TWD",
+      "symbol": "6451.TW",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-06-01T04:14:38.000Z"
+    },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:53.239Z"
+    "updatedAt": "2026-06-01T04:37:01.713Z"
   },
   "XFAB": {
     "ticker": "XFAB",
@@ -78,17 +87,17 @@
     ],
     "quote": {
       "c": 10.76,
-      "d": -0.41000000000000014,
-      "dp": -3.6705461056401085,
-      "pc": 11.17,
-      "currency": "",
-      "symbol": "XFAB.FR",
-      "source": "Stooq",
-      "marketTime": "2026-05-29T17:30:00"
+      "d": 2.6950000000000003,
+      "dp": 33.41599504029759,
+      "pc": 8.065,
+      "currency": "EUR",
+      "symbol": "XFAB.PA",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-05-29T15:37:20.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:46.159Z",
+    "updatedAt": "2026-06-01T04:37:01.348Z",
     "stooqSymbol": "XFAB.FR"
   },
   "SIVE": {
@@ -116,10 +125,19 @@
       "客户认证周期长，订单转收入存在不确定性。",
       "融资或股权稀释风险。"
     ],
-    "quote": null,
+    "quote": {
+      "c": 68.95,
+      "d": -16.599999999999994,
+      "dp": -19.403857393337223,
+      "pc": 85.55,
+      "currency": "SEK",
+      "symbol": "SIVE.ST",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-05-29T15:29:55.000Z"
+    },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:46.717Z"
+    "updatedAt": "2026-06-01T04:37:01.377Z"
   },
   "IREN": {
     "ticker": "IREN",
@@ -147,17 +165,17 @@
     ],
     "quote": {
       "c": 63.54,
-      "d": -1.1600000000000037,
-      "dp": -1.7928902627511647,
-      "pc": 64.7,
-      "currency": "",
-      "symbol": "IREN.US",
-      "source": "Stooq",
-      "marketTime": "2026-05-29T22:00:19"
+      "d": 5.479999999999997,
+      "dp": 9.438511884257657,
+      "pc": 58.06,
+      "currency": "USD",
+      "symbol": "IREN",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-05-29T20:00:01.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:47.497Z",
+    "updatedAt": "2026-06-01T04:37:01.408Z",
     "stooqSymbol": "IREN.US"
   },
   "AXTI": {
@@ -186,17 +204,17 @@
     ],
     "quote": {
       "c": 103.16,
-      "d": -12.284999999999997,
-      "dp": -10.641430984451468,
-      "pc": 115.445,
-      "currency": "",
-      "symbol": "AXTI.US",
-      "source": "Stooq",
-      "marketTime": "2026-05-29T22:00:18"
+      "d": -17.86,
+      "dp": -14.757891257643365,
+      "pc": 121.02,
+      "currency": "USD",
+      "symbol": "AXTI",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-05-29T20:00:01.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:48.261Z",
+    "updatedAt": "2026-06-01T04:37:01.438Z",
     "stooqSymbol": "AXTI.US"
   },
   "AAOI": {
@@ -225,17 +243,17 @@
     ],
     "quote": {
       "c": 158.41,
-      "d": -10.140000000000015,
-      "dp": -6.016018985464262,
-      "pc": 168.55,
-      "currency": "",
-      "symbol": "AAOI.US",
-      "source": "Stooq",
-      "marketTime": "2026-05-29T22:00:19"
+      "d": -18.400000000000006,
+      "dp": -10.40665120751089,
+      "pc": 176.81,
+      "currency": "USD",
+      "symbol": "AAOI",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-05-29T20:00:01.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:49.038Z",
+    "updatedAt": "2026-06-01T04:37:01.467Z",
     "stooqSymbol": "AAOI.US"
   },
   "SIMO": {
@@ -264,17 +282,17 @@
     ],
     "quote": {
       "c": 276.87,
-      "d": -8.939999999999998,
-      "dp": -3.127952136034428,
-      "pc": 285.81,
-      "currency": "",
-      "symbol": "SIMO.US",
-      "source": "Stooq",
-      "marketTime": "2026-05-29T22:00:20"
+      "d": 13.360000000000014,
+      "dp": 5.070016318166299,
+      "pc": 263.51,
+      "currency": "USD",
+      "symbol": "SIMO",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-05-29T20:00:01.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:38.384Z",
+    "updatedAt": "2026-06-01T04:37:00.878Z",
     "stooqSymbol": "SIMO.US"
   },
   "INTC": {
@@ -300,17 +318,17 @@
     ],
     "quote": {
       "c": 114.68,
-      "d": -9.169999999999987,
-      "dp": -7.404117884537738,
-      "pc": 123.85,
-      "currency": "",
-      "symbol": "INTC.US",
-      "source": "Stooq",
-      "marketTime": "2026-05-29T22:00:20"
+      "d": -3.819999999999993,
+      "dp": -3.2236286919831167,
+      "pc": 118.5,
+      "currency": "USD",
+      "symbol": "INTC",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-05-29T20:00:01.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:39.154Z",
+    "updatedAt": "2026-06-01T04:37:00.961Z",
     "stooqSymbol": "INTC.US"
   },
   "MRVL": {
@@ -336,17 +354,17 @@
     ],
     "quote": {
       "c": 205,
-      "d": 0.5600000000000023,
-      "dp": 0.27391899823909327,
-      "pc": 204.44,
-      "currency": "",
-      "symbol": "MRVL.US",
-      "source": "Stooq",
-      "marketTime": "2026-05-29T22:00:20"
+      "d": 14.310000000000002,
+      "dp": 7.504326393623159,
+      "pc": 190.69,
+      "currency": "USD",
+      "symbol": "MRVL",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-05-29T20:00:01.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:39.931Z",
+    "updatedAt": "2026-06-01T04:37:01.005Z",
     "stooqSymbol": "MRVL.US"
   },
   "TSM": {
@@ -372,17 +390,17 @@
     ],
     "quote": {
       "c": 418.45,
-      "d": -8.620000000000005,
-      "dp": -2.01840447701782,
-      "pc": 427.07,
-      "currency": "",
-      "symbol": "TSM.US",
-      "source": "Stooq",
-      "marketTime": "2026-05-29T22:00:24"
+      "d": 11.300000000000011,
+      "dp": 2.7753899054402584,
+      "pc": 407.15,
+      "currency": "USD",
+      "symbol": "TSM",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-05-29T20:00:02.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:40.732Z",
+    "updatedAt": "2026-06-01T04:37:01.062Z",
     "stooqSymbol": "TSM.US"
   },
   "COHR": {
@@ -408,17 +426,17 @@
     ],
     "quote": {
       "c": 361.47,
-      "d": -14.17999999999995,
-      "dp": -3.774790363370145,
-      "pc": 375.65,
-      "currency": "",
-      "symbol": "COHR.US",
-      "source": "Stooq",
-      "marketTime": "2026-05-29T22:00:24"
+      "d": -16.529999999999973,
+      "dp": -4.373015873015866,
+      "pc": 378,
+      "currency": "USD",
+      "symbol": "COHR",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-05-29T20:00:02.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:41.502Z",
+    "updatedAt": "2026-06-01T04:37:01.093Z",
     "stooqSymbol": "COHR.US"
   },
   "RKLB": {
@@ -444,17 +462,17 @@
     ],
     "quote": {
       "c": 143.48,
-      "d": 3.539999999999992,
-      "dp": 2.529655566671425,
-      "pc": 139.94,
-      "currency": "",
-      "symbol": "RKLB.US",
-      "source": "Stooq",
-      "marketTime": "2026-05-29T22:00:19"
+      "d": 18.029999999999987,
+      "dp": 14.372259864487832,
+      "pc": 125.45,
+      "currency": "USD",
+      "symbol": "RKLB",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-05-29T20:00:00.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:42.281Z",
+    "updatedAt": "2026-06-01T04:37:01.122Z",
     "stooqSymbol": "RKLB.US"
   },
   "AVGO": {
@@ -480,17 +498,17 @@
     ],
     "quote": {
       "c": 446.77,
-      "d": 13.819999999999993,
-      "dp": 3.192054509758631,
-      "pc": 432.95,
-      "currency": "",
-      "symbol": "AVGO.US",
-      "source": "Stooq",
-      "marketTime": "2026-05-29T22:00:20"
+      "d": 32.19999999999999,
+      "dp": 7.7670839665195235,
+      "pc": 414.57,
+      "currency": "USD",
+      "symbol": "AVGO",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-05-29T20:00:01.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:43.062Z",
+    "updatedAt": "2026-06-01T04:37:01.201Z",
     "stooqSymbol": "AVGO.US"
   },
   "AMZN": {
@@ -516,17 +534,17 @@
     ],
     "quote": {
       "c": 270.64,
-      "d": -0.6500000000000341,
-      "dp": -0.23959600427587968,
-      "pc": 271.29,
-      "currency": "",
-      "symbol": "AMZN.US",
-      "source": "Stooq",
-      "marketTime": "2026-05-29T22:00:19"
+      "d": 2.180000000000007,
+      "dp": 0.8120390374729968,
+      "pc": 268.46,
+      "currency": "USD",
+      "symbol": "AMZN",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-05-29T20:00:01.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:43.849Z",
+    "updatedAt": "2026-06-01T04:37:01.230Z",
     "stooqSymbol": "AMZN.US"
   },
   "ARM": {
@@ -552,17 +570,17 @@
     ],
     "quote": {
       "c": 353.29,
-      "d": 14.04000000000002,
-      "dp": 4.1385408990420105,
-      "pc": 339.25,
-      "currency": "",
-      "symbol": "ARM.US",
-      "source": "Stooq",
-      "marketTime": "2026-05-29T22:00:19"
+      "d": 55.06,
+      "dp": 18.46226067129397,
+      "pc": 298.23,
+      "currency": "USD",
+      "symbol": "ARM",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-05-29T20:00:00.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:44.620Z",
+    "updatedAt": "2026-06-01T04:37:01.258Z",
     "stooqSymbol": "ARM.US"
   },
   "LASR": {
@@ -588,17 +606,17 @@
     ],
     "quote": {
       "c": 74.12,
-      "d": -5.339999999999989,
-      "dp": -6.720362446513957,
-      "pc": 79.46,
-      "currency": "",
-      "symbol": "LASR.US",
-      "source": "Stooq",
-      "marketTime": "2026-05-29T22:00:19"
+      "d": -2.3100000000000023,
+      "dp": -3.0223734135810574,
+      "pc": 76.43,
+      "currency": "USD",
+      "symbol": "LASR",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-05-29T20:00:01.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:45.387Z",
+    "updatedAt": "2026-06-01T04:37:01.318Z",
     "stooqSymbol": "LASR.US"
   },
   "AEHR": {
@@ -624,17 +642,17 @@
     ],
     "quote": {
       "c": 92.33,
-      "d": -9.040000000000006,
-      "dp": -8.917825786721915,
-      "pc": 101.37,
-      "currency": "",
-      "symbol": "AEHR.US",
-      "source": "Stooq",
-      "marketTime": "2026-05-29T22:00:19"
+      "d": 1.0300000000000011,
+      "dp": 1.128148959474262,
+      "pc": 91.3,
+      "currency": "USD",
+      "symbol": "AEHR",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-05-29T20:00:01.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:49.815Z",
+    "updatedAt": "2026-06-01T04:37:01.497Z",
     "stooqSymbol": "AEHR.US"
   },
   "POET": {
@@ -660,17 +678,17 @@
     ],
     "quote": {
       "c": 12.29,
-      "d": -0.7650000000000006,
-      "dp": -5.8598238222903145,
-      "pc": 13.055,
-      "currency": "",
-      "symbol": "POET.US",
-      "source": "Stooq",
-      "marketTime": "2026-05-29T22:00:18"
+      "d": -2.530000000000001,
+      "dp": -17.071524966261816,
+      "pc": 14.82,
+      "currency": "USD",
+      "symbol": "POET",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-05-29T20:00:00.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:50.589Z",
+    "updatedAt": "2026-06-01T04:37:01.524Z",
     "stooqSymbol": "POET.US"
   },
   "LITE": {
@@ -696,17 +714,17 @@
     ],
     "quote": {
       "c": 854.96,
-      "d": -5.719999999999914,
-      "dp": -0.6645907886787091,
-      "pc": 860.68,
-      "currency": "",
-      "symbol": "LITE.US",
-      "source": "Stooq",
-      "marketTime": "2026-05-29T22:00:19"
+      "d": -109.53999999999996,
+      "dp": -11.357179885951266,
+      "pc": 964.5,
+      "currency": "USD",
+      "symbol": "LITE",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-05-29T20:00:00.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:51.350Z",
+    "updatedAt": "2026-06-01T04:37:01.552Z",
     "stooqSymbol": "LITE.US"
   },
   "GLW": {
@@ -732,17 +750,17 @@
     ],
     "quote": {
       "c": 181.16,
-      "d": -2.920000000000016,
-      "dp": -1.5862668405041371,
-      "pc": 184.08,
-      "currency": "",
-      "symbol": "GLW.US",
-      "source": "Stooq",
-      "marketTime": "2026-05-29T22:00:31"
+      "d": -10.72999999999999,
+      "dp": -5.591745270728016,
+      "pc": 191.89,
+      "currency": "USD",
+      "symbol": "GLW",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-05-29T20:00:31.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T04:34:52.128Z",
+    "updatedAt": "2026-06-01T04:37:01.645Z",
     "stooqSymbol": "GLW.US"
   }
 }
