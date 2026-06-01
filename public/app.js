@@ -55,6 +55,21 @@ function marketLabelFor(ticker) {
   return company.marketLabel || company.market || "市场待确认";
 }
 
+function relatedSignalsFor(ticker) {
+  return state.signals
+    .filter(item => item.ticker === ticker)
+    .sort((a, b) => String(a.datetime).localeCompare(String(b.datetime)));
+}
+
+function mentionWindowFor(ticker) {
+  const related = relatedSignalsFor(ticker);
+  return {
+    first: related[0]?.datetime || "待确认",
+    latest: related.at(-1)?.datetime || "待确认",
+    count: related.length
+  };
+}
+
 function formatQuoteValue(value, currency = "") {
   if (value === undefined || value === null || value === "") return "行情源待接入";
   return `${Number(value).toLocaleString("zh-CN", { maximumFractionDigits: 3 })}${currency ? ` ${currency}` : ""}`;
@@ -141,7 +156,7 @@ function renderTimeline() {
   rows.forEach(item => {
     const tr = document.createElement("tr");
     tr.innerHTML = `
-      <td>${item.datetime || ""}<div class="muted">${item.id || ""}</div></td>
+      <td>${item.datetime || ""}<div class="muted">本条观点时间</div><div class="muted">${item.id || ""}</div></td>
       <td><strong>${item.investor || ""}</strong><div class="muted">@${String(item.handle || "").replace("@", "")}</div></td>
       <td><button class="ticker ticker-button" data-company="${item.ticker}">${item.ticker}</button><div class="muted">${item.assetName || item.ticker}</div><span class="pill">${marketLabelFor(item.ticker)}</span></td>
       <td><span class="pill ${directionClass(item.direction)}">${item.direction || "观察"}</span></td>
@@ -164,16 +179,17 @@ function renderAssets() {
       grouped.set(item.ticker, {
         ticker: item.ticker,
         assetName: item.assetName || item.ticker,
-        latest: item.datetime || "",
         direction: item.direction || "观察",
         confidence: item.confidence || "低",
         themes: new Set(),
         summary: item.summary || "",
-        count: 0
+        count: 0,
+        dates: []
       });
     }
     const group = grouped.get(item.ticker);
     group.count += 1;
+    group.dates.push(item.datetime || "");
     group.themes.add(item.theme || "未分类");
   });
   const grid = document.getElementById("assetsGrid");
@@ -184,6 +200,9 @@ function renderAssets() {
     const company = companyFor(item.ticker);
     const card = document.createElement("article");
     card.className = "card";
+    const dates = item.dates.filter(Boolean).sort((a, b) => String(a).localeCompare(String(b)));
+    const firstMention = dates[0] || "待确认";
+    const latestMention = dates.at(-1) || "待确认";
     card.innerHTML = `
       <div class="asset-row">
         <div><button class="ticker ticker-button" data-company="${item.ticker}">${item.ticker}</button></div>
@@ -194,7 +213,12 @@ function renderAssets() {
         <span class="pill ${directionClass(item.direction)}">${company.marketLabel || item.direction}</span>
       </div>
       <p>${item.summary}</p>
-      <p style="margin-top:10px;"><span class="pill ${confidenceClass(item.confidence)}">${item.confidence}</span> <span class="pill">${item.count} 条信号</span></p>
+      <p style="margin-top:10px;">
+        <span class="pill ${confidenceClass(item.confidence)}">${item.confidence}</span>
+        <span class="pill">${item.count} 条信号</span>
+        <span class="pill">首次 ${firstMention}</span>
+        <span class="pill">最近 ${latestMention}</span>
+      </p>
     `;
     grid.appendChild(card);
   });
@@ -229,7 +253,8 @@ function valueOrNote(value, fallback = "待接入") {
 
 function openCompany(ticker) {
   const data = state.companies[ticker] || { ticker, name: ticker };
-  const related = state.signals.filter(item => item.ticker === ticker);
+  const related = relatedSignalsFor(ticker);
+  const mentionWindow = mentionWindowFor(ticker);
   const quote = data.quote || {};
   const target = data.priceTarget || {};
   document.getElementById("companyTitle").textContent = `${ticker} · ${data.name || ticker}`;
@@ -239,6 +264,12 @@ function openCompany(ticker) {
       <h3>业务简介</h3>
       <p>${data.business || "暂无公司简介。"}</p>
       ${data.dataNotes ? `<p style="margin-top:10px;"><strong>数据说明：</strong>${data.dataNotes}</p>` : ""}
+    </article>
+    <article class="detail-card wide">
+      <h3>观点时间</h3>
+      <div class="kv"><span>首次提及</span><strong>${mentionWindow.first}</strong></div>
+      <div class="kv"><span>最近提及</span><strong>${mentionWindow.latest}</strong></div>
+      <div class="kv"><span>信号数量</span><strong>${mentionWindow.count} 条</strong></div>
     </article>
     <article class="detail-card">
       <h3>股价快照</h3>
