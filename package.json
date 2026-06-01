@@ -1,0 +1,12 @@
+{
+  "name": "investor-radar-static",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update-data": "node scripts/update-data.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

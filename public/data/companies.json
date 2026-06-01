@@ -1,0 +1,79 @@
+{
+  "AXTI": {
+    "ticker": "AXTI",
+    "name": "AXT Inc.",
+    "exchange": "NASDAQ",
+    "sector": "化合物半导体衬底",
+    "business": "生产化合物半导体衬底，包括磷化铟、砷化镓等。Serenity 相关论点集中在 AI 光通信上游 InP 衬底瓶颈。",
+    "fundamentals": [
+      "重点看 InP 业务收入、产能和价格。",
+      "关注中国供应链、原材料和客户集中度。"
+    ],
+    "analystView": [
+      "待接入一致预期和目标价。",
+      "需要识别分析师是否把 AI 光通信 InP 瓶颈纳入模型。"
+    ],
+    "risks": [
+      "周期性半导体需求。",
+      "中美供应链和监管风险。",
+      "小盘流动性和估值波动。"
+    ],
+    "quote": null,
+    "priceTarget": null,
+    "recommendation": null
+  },
+  "AAOI": {
+    "ticker": "AAOI",
+    "name": "Applied Optoelectronics",
+    "exchange": "NASDAQ",
+    "sector": "光模块 / 光通信",
+    "business": "面向数据中心、有线电视和通信市场的光通信产品供应商。",
+    "fundamentals": [
+      "重点看数据中心收入增长、毛利率改善和大客户订单。",
+      "关注产能扩张、库存和客户集中度。"
+    ],
+    "analystView": [
+      "待接入一致预期。",
+      "分析师观点应重点汇总收入上修、毛利率假设和订单能见度。"
+    ],
+    "risks": [
+      "客户集中。",
+      "光模块价格竞争。",
+      "股价已大幅上涨后的风险收益比变化。"
+    ],
+    "quote": null,
+    "priceTarget": null,
+    "recommendation": null
+  },
+  "IREN": {
+    "ticker": "IREN",
+    "name": "IREN",
+    "exchange": "NASDAQ",
+    "sector": "比特币挖矿 / AI 数据中心",
+    "business": "原以比特币挖矿和低成本电力基础设施为核心，市场也关注其向 AI 数据中心/算力基础设施转型的可能性。",
+    "fundamentals": [
+      "核心变量包括电力成本、算力规模、比特币价格和 AI 云业务转型进度。",
+      "资本开支和融资方式会显著影响每股价值。"
+    ],
+    "analystView": [
+      "待接入华尔街一致预期。",
+      "分析师观点应拆成比特币挖矿价值、AI 数据中心价值和资本结构三部分。"
+    ],
+    "risks": [
+      "大额 ATM 或股权融资稀释。",
+      "比特币价格波动。",
+      "AI 转型叙事兑现不确定。"
+    ],
+    "quote": null,
+    "priceTarget": null,
+    "recommendation": null
+  },
+  "XFAB": {
+    "ticker": "XFAB",
+    "name": "XFAB"
+  },
+  "SIVE": {
+    "ticker": "SIVE",
+    "name": "SIVE"
+  }
+}

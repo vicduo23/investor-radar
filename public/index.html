@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>推特投研雷达</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <aside>
+      <div class="brand">
+        <div class="mark">投</div>
+        <div>
+          <h1>推特投研雷达</h1>
+          <span>静态网站 + 自动 JSON 更新</span>
+        </div>
+      </div>
+      <nav>
+        <button class="nav-button active" data-view="timeline">时间线</button>
+        <button class="nav-button" data-view="assets">标的聚合</button>
+        <button class="nav-button" data-view="investors">投资者画像</button>
+        <button class="nav-button" data-view="sources">数据源</button>
+      </nav>
+      <div class="side-block">
+        <div class="side-title">数据状态</div>
+        <div class="watch-item"><span>最后更新</span><span id="lastUpdated">读取中</span></div>
+        <div class="watch-item"><span>模式</span><span id="dataMode">静态 JSON</span></div>
+      </div>
+    </aside>
+
+    <main>
+      <div class="topbar">
+        <div>
+          <h2 id="viewTitle">实时观点流</h2>
+          <p id="viewSubtitle">读取静态 JSON 数据，展示投资者观点、标的聚合和公司研究卡片。</p>
+        </div>
+        <button class="action-button" id="reloadButton">重新读取</button>
+      </div>
+
+      <section class="metrics">
+        <div class="metric"><span>追踪投资者</span><strong id="metricInvestors">0</strong></div>
+        <div class="metric"><span>观点信号</span><strong id="metricSignals">0</strong></div>
+        <div class="metric"><span>涉及标的</span><strong id="metricAssets">0</strong></div>
+        <div class="metric"><span>反转记录</span><strong id="metricReversals">0</strong></div>
+      </section>
+
+      <section class="toolbar" id="toolbar">
+        <input id="searchInput" placeholder="搜索投资者、ticker、主题或摘要" />
+        <select id="investorFilter"><option value="">全部投资者</option></select>
+        <select id="directionFilter"><option value="">全部方向</option></select>
+        <select id="typeFilter"><option value="">全部信号类型</option></select>
+        <select id="confidenceFilter"><option value="">全部置信度</option></select>
+      </section>
+
+      <section class="notice">
+        <strong>方案 3：</strong>网站本身是纯静态页面，部署到 GitHub Pages。GitHub Actions、Apify 或其他定时任务负责更新 `data/*.json`，页面刷新后读取最新数据。
+      </section>
+
+      <section class="view active" id="timeline">
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>时间</th>
+                <th>投资者</th>
+                <th>标的</th>
+                <th>方向</th>
+                <th>信号</th>
+                <th>主题</th>
+                <th>摘要</th>
+                <th>置信度</th>
+                <th>来源</th>
+              </tr>
+            </thead>
+            <tbody id="signalsBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="view" id="assets">
+        <div class="grid" id="assetsGrid"></div>
+      </section>
+
+      <section class="view" id="investors">
+        <div class="grid" id="investorsGrid"></div>
+      </section>
+
+      <section class="view" id="sources">
+        <div class="grid">
+          <article class="card">
+            <h3>观点数据</h3>
+            <p>文件：`data/signals.json`。由定时任务读取 X/Apify 后生成。</p>
+          </article>
+          <article class="card">
+            <h3>公司数据</h3>
+            <p>文件：`data/companies.json`。由行情和基本面数据源更新。</p>
+          </article>
+          <article class="card">
+            <h3>部署方式</h3>
+            <p>GitHub Pages 托管网页，GitHub Actions 定时更新 JSON 并提交回仓库。</p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="modal-backdrop" id="companyModal">
+    <aside class="drawer" aria-label="公司研究卡片">
+      <div class="drawer-head">
+        <div>
+          <h2 id="companyTitle">公司研究卡片</h2>
+          <div class="muted" id="companySubtitle"></div>
+        </div>
+        <button class="close-button" id="closeCompany" title="关闭">×</button>
+      </div>
+      <div class="detail-grid" id="companyDetail"></div>
+    </aside>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
