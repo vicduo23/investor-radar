@@ -65,16 +65,17 @@ th { color: var(--muted); background: #f9fafb; font-weight: 650; position: stick
 .action-button { border: 0; border-radius: 7px; padding: 10px 13px; background: #111820; color: #fff; cursor: pointer; font-size: 14px; }
 .modal-backdrop { position: fixed; inset: 0; background: rgba(10, 16, 24, 0.48); display: none; align-items: stretch; justify-content: flex-end; z-index: 20; }
 .modal-backdrop.open { display: flex; }
-.drawer { width: min(760px, 100%); background: var(--bg); height: 100%; overflow: auto; box-shadow: -18px 0 42px rgba(0,0,0,0.22); padding: 22px; }
+.drawer { width: min(760px, 100%); background: var(--bg); color: var(--ink); height: 100%; overflow: auto; box-shadow: -18px 0 42px rgba(0,0,0,0.22); padding: 22px; }
 .drawer-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; margin-bottom: 14px; }
 .drawer-head h2 { margin: 0 0 4px; font-size: 23px; }
 .close-button { width: 36px; height: 36px; border-radius: 8px; border: 1px solid var(--line); background: #fff; cursor: pointer; font-size: 22px; line-height: 1; }
 .detail-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
 .detail-card.wide { grid-column: 1 / -1; }
 .detail-card ul { margin: 0; padding-left: 18px; }
-.kv { display: grid; grid-template-columns: 110px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--line); font-size: 13px; }
+.kv { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--line); font-size: 13px; align-items: start; }
 .kv:last-child { border-bottom: 0; }
 .kv span:first-child { color: var(--muted); }
+.kv strong { color: var(--ink); overflow-wrap: anywhere; }
 .empty { padding: 28px; color: var(--muted); text-align: center; }
 @media (max-width: 980px) {
   .shell { grid-template-columns: 1fr; }
@@ -125,7 +126,8 @@ th { color: var(--muted); background: #f9fafb; font-weight: 650; position: stick
   }
   .drawer { padding: 14px; }
   .drawer-head h2 { font-size: 20px; }
-  .kv { grid-template-columns: 86px 1fr; }
+  .kv { grid-template-columns: 1fr; gap: 3px; }
+  .kv strong { display: block; }
 }
 
 @media (max-width: 440px) {
