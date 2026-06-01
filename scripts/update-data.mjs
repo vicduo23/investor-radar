@@ -9,6 +9,13 @@ const dataDir = path.join(root, "public", "data");
 const rawDir = path.join(root, "raw");
 
 const FINNHUB_API_KEY = process.env.FINNHUB_API_KEY || "";
+const X_BEARER_TOKEN = process.env.X_BEARER_TOKEN || "";
+const APIFY_TOKEN = process.env.APIFY_TOKEN || "";
+const APIFY_ACTOR_ID = process.env.APIFY_ACTOR_ID || "";
+const TRACKED_HANDLES = (process.env.TRACKED_HANDLES || "aleabitoreddit")
+  .split(",")
+  .map(item => item.trim().replace("@", ""))
+  .filter(Boolean);
 
 async function readJson(file, fallback) {
   if (!existsSync(file)) return fallback;
@@ -24,6 +31,84 @@ async function fetchJson(url) {
   const response = await fetch(url);
   if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
   return response.json();
+}
+
+async function fetchJsonWithOptions(url, options) {
+  const response = await fetch(url, options);
+  if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+  return response.json();
+}
+
+async function getXUserId(handle) {
+  if (!X_BEARER_TOKEN) return null;
+  const data = await fetchJsonWithOptions(
+    `https://api.x.com/2/users/by/username/${encodeURIComponent(handle)}?user.fields=description`,
+    { headers: { authorization: `Bearer ${X_BEARER_TOKEN}` } }
+  );
+  return data?.data?.id || null;
+}
+
+async function fetchTweetsFromX(handle) {
+  if (!X_BEARER_TOKEN) return [];
+  const userId = await getXUserId(handle);
+  if (!userId) return [];
+  const url = new URL(`https://api.x.com/2/users/${userId}/tweets`);
+  url.searchParams.set("max_results", "50");
+  url.searchParams.set("tweet.fields", "created_at,entities");
+  url.searchParams.set("exclude", "retweets");
+  const data = await fetchJsonWithOptions(url, {
+    headers: { authorization: `Bearer ${X_BEARER_TOKEN}` }
+  });
+  return (data.data || []).map(tweet => ({
+    id: tweet.id,
+    createdAt: tweet.created_at,
+    handle,
+    text: tweet.text,
+    url: `https://x.com/${handle}/status/${tweet.id}`
+  }));
+}
+
+async function fetchTweetsFromApify(handle) {
+  if (!APIFY_TOKEN || !APIFY_ACTOR_ID) return [];
+  const input = {
+    startUrls: [{ url: `https://x.com/${handle}` }],
+    maxItems: 50,
+    maxTweets: 50,
+    searchTerms: [`from:${handle}`]
+  };
+  const runUrl = `https://api.apify.com/v2/acts/${encodeURIComponent(APIFY_ACTOR_ID)}/run-sync-get-dataset-items?token=${encodeURIComponent(APIFY_TOKEN)}`;
+  const data = await fetchJsonWithOptions(runUrl, {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify(input)
+  });
+  return Array.isArray(data) ? data.map(item => ({
+    id: item.id || item.tweetId || item.url || `${handle}-${item.createdAt || item.date || ""}`,
+    createdAt: item.createdAt || item.timestamp || item.date || item.created_at || "",
+    handle,
+    text: item.fullText || item.text || item.content || "",
+    url: item.url || `https://x.com/${handle}`
+  })) : [];
+}
+
+async function fetchTrackedTweets() {
+  const tweets = [];
+  for (const handle of TRACKED_HANDLES) {
+    try {
+      const xTweets = await fetchTweetsFromX(handle);
+      tweets.push(...xTweets);
+      if (xTweets.length) continue;
+    } catch (error) {
+      console.warn(`${handle} X API 抓取失败：${error.message}`);
+    }
+    try {
+      const apifyTweets = await fetchTweetsFromApify(handle);
+      tweets.push(...apifyTweets);
+    } catch (error) {
+      console.warn(`${handle} Apify 抓取失败：${error.message}`);
+    }
+  }
+  return tweets;
 }
 
 function extractTickers(text) {
@@ -137,8 +222,13 @@ async function main() {
   const existingSignals = await readJson(signalsPath, []);
   const companies = await readJson(companiesPath, {});
   const rawTweets = await readJson(tweetsPath, []);
+  const fetchedTweets = await fetchTrackedTweets();
 
-  const generatedSignals = Array.isArray(rawTweets) ? tweetsToSignals(rawTweets, investors) : [];
+  const allTweets = [
+    ...(Array.isArray(rawTweets) ? rawTweets : []),
+    ...fetchedTweets
+  ];
+  const generatedSignals = tweetsToSignals(allTweets, investors);
   const signals = mergeSignals(existingSignals, generatedSignals);
   const tickers = [...new Set(signals.map(item => item.ticker).filter(Boolean))];
 
@@ -155,7 +245,9 @@ async function main() {
   await writeJson(metaPath, {
     lastUpdatedAt: new Date().toISOString(),
     mode: "GitHub Actions 静态 JSON",
-    notes: generatedSignals.length ? `本次从 raw/tweets.json 生成 ${generatedSignals.length} 条信号。` : "本次未发现 raw/tweets.json 新数据，仅刷新公司信息和更新时间。"
+    notes: generatedSignals.length
+      ? `本次从静态/自动推文源生成 ${generatedSignals.length} 条信号。`
+      : "本次未发现新推文数据，仅刷新公司信息和更新时间。"
   });
 
   console.log(`已更新 ${signals.length} 条信号，${tickers.length} 个标的。`);

@@ -35,15 +35,32 @@ public/index.html
 目前内置的 `scripts/update-data.mjs` 支持：
 
 - 无 API key 时：保留现有 JSON，并更新时间戳
+- 有 X API key 时：直接读取 `TRACKED_HANDLES` 指定账号的最新推文
+- 有 Apify key 时：通过 Apify actor 抓取 X/Twitter 内容
 - 有 Finnhub API key 时：更新美股公司行情、目标价和评级
 - 有 Apify 导出 JSON 时：可转换为信号数据
 
-建议后续把 X/Apify 抓取结果保存成 `raw/tweets.json`，再由脚本抽取 ticker 和分类。
+脚本会优先尝试 X 官方 API；如果没有配置或失败，会尝试 Apify；同时也会读取 `raw/tweets.json` 作为人工/外部任务导入源。
 
 ## 需要配置的 GitHub Secrets
 
 - `FINNHUB_API_KEY`
+- `X_BEARER_TOKEN`
 - `APIFY_TOKEN`
 - `APIFY_ACTOR_ID`
 
 没有 secrets 时网站仍可用，只是显示种子数据。
+
+## GitHub Variables
+
+进入 Settings -> Secrets and variables -> Actions -> Variables，添加：
+
+```text
+TRACKED_HANDLES=aleabitoreddit
+```
+
+多个账号用英文逗号分隔：
+
+```text
+TRACKED_HANDLES=aleabitoreddit,anotherhandle
+```

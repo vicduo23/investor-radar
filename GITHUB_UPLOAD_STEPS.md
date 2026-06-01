@@ -40,13 +40,17 @@ raw/
 
 ```text
 FINNHUB_API_KEY
-```
-
-以后如果接 Apify/X 抓取，再添加：
-
-```text
+X_BEARER_TOKEN
 APIFY_TOKEN
 APIFY_ACTOR_ID
+```
+
+如果暂时没有 X 或 Apify key，可以先只填 `FINNHUB_API_KEY`。网站仍然可用，只是推文观点不会自动抓取。
+
+进入 Settings -> Secrets and variables -> Actions -> Variables，添加：
+
+```text
+TRACKED_HANDLES=aleabitoreddit
 ```
 
 ## 5. 数据更新
@@ -66,4 +70,3 @@ raw/tweets.example.json
 ```
 
 脚本会把其中出现的 `$TICKER` 自动转换成信号，并更新 `public/data/signals.json`。
-
