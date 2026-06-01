@@ -233,7 +233,8 @@ function renderInvestors() {
   const grid = document.getElementById("investorsGrid");
   grid.innerHTML = "";
   state.investors.forEach(item => {
-    const count = state.signals.filter(signal => signal.investor === item.name).length;
+    const targetCount = state.signals.filter(signal => signal.investor === item.name).length;
+    const themeCount = state.themes.filter(theme => theme.investor === item.name || theme.handle === item.handle).length;
     const card = document.createElement("article");
     card.className = "card";
     card.innerHTML = `
@@ -241,7 +242,10 @@ function renderInvestors() {
       <p>${item.focus || ""}</p>
       <p style="margin-top:10px;"><strong>风格：</strong>${item.style || ""}</p>
       <p style="margin-top:10px;"><strong>风险：</strong>${item.risk || ""}</p>
-      <p style="margin-top:12px;"><span class="pill">${count} 条信号</span></p>
+      <p style="margin-top:12px;">
+        <span class="pill">${targetCount} 条标的信号</span>
+        <span class="pill">${themeCount} 条主题信号</span>
+      </p>
     `;
     grid.appendChild(card);
   });

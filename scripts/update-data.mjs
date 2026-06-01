@@ -239,11 +239,11 @@ function tweetsToThemes(tweets, investors, existingThemes) {
     if (!tweet.text) continue;
     const investor = investorByHandle.get(tweet.handle);
     if (investor?.excludeCryptoTrading) {
-      const key = `${tweet.handle}-中文商业/科技舆论事件`;
+      const key = `${tweet.handle}-中文商业/科技舆论与行业趋势`;
       const existing = byKey.get(key);
       byKey.set(key, {
-        id: existing?.id || `THEME-${tweet.handle}-cn-business-events`,
-        theme: "中文商业/科技舆论事件",
+        id: existing?.id || `THEME-${tweet.handle}-cn-business-trends`,
+        theme: "中文商业/科技舆论与行业趋势",
         investor: investor?.name || tweet.handle,
         handle: tweet.handle,
         direction: "观察",
@@ -251,9 +251,9 @@ function tweetsToThemes(tweets, investors, existingThemes) {
           ? [existing.firstMention, tweet.datetime].filter(Boolean).sort()[0]
           : tweet.datetime || "待自动抓取确认",
         latestMention: [existing?.latestMention, tweet.datetime].filter(Boolean).sort().at(-1) || "待自动抓取确认",
-        summary: "该账号先作为中文高传播力商业/科技舆论观察源，不默认提取币圈交易信号，也不追踪英文号。",
+        summary: "该账号主要用于观察中文商业、科技、监管、互联网平台和新兴产业的舆论与趋势判断；不要求出现个股代码，也不默认转成币圈交易信号。",
         tradableProxies: [],
-        risk: existing?.risk || "强项目方属性和营销属性较高，除非明确涉及你可交易市场的上市公司或行业趋势，否则不进入交易标的池。",
+        risk: existing?.risk || "强项目方属性和营销属性较高，除非明确涉及你可交易市场的上市公司或行业趋势，否则不进入标的池。",
         sourceUrl: tweet.url || `https://x.com/${tweet.handle}`
       });
       continue;
