@@ -35,6 +35,13 @@ function confidenceClass(value = "") {
   return "low";
 }
 
+function actionClass(value = "") {
+  if (value.includes("已买") || value.includes("持仓")) return "bullish";
+  if (value.includes("转空") || value.includes("卖出")) return "bearish";
+  if (value.includes("未确认")) return "medium";
+  return "watch";
+}
+
 function companyFor(ticker) {
   return state.companies[ticker] || {};
 }
@@ -138,7 +145,7 @@ function renderTimeline() {
       <td><strong>${item.investor || ""}</strong><div class="muted">@${String(item.handle || "").replace("@", "")}</div></td>
       <td><button class="ticker ticker-button" data-company="${item.ticker}">${item.ticker}</button><div class="muted">${item.assetName || item.ticker}</div><span class="pill">${marketLabelFor(item.ticker)}</span></td>
       <td><span class="pill ${directionClass(item.direction)}">${item.direction || "观察"}</span></td>
-      <td><span class="pill">${item.signalType || ""}</span></td>
+      <td><span class="pill ${actionClass(item.actionStatus)}">${item.actionStatus || "未确认买入"}</span><div class="muted">${item.actionEvidence || item.signalType || ""}</div></td>
       <td>${item.theme || ""}</td>
       <td class="summary">${item.summary || ""}<div class="muted">${item.notes || ""}</div></td>
       <td><span class="pill ${confidenceClass(item.confidence)}">${item.confidence || "低"}</span></td>
@@ -266,7 +273,7 @@ function openCompany(ticker) {
       ${related.map(item => `
         <div class="kv">
           <span>${item.datetime || ""}</span>
-          <div><strong>${item.direction || ""} · ${item.signalType || ""}</strong><br><span class="muted">${item.summary || ""}</span></div>
+          <div><strong>${item.direction || ""} · ${item.actionStatus || item.signalType || ""}</strong><br><span class="muted">${item.summary || ""}</span></div>
         </div>
       `).join("") || "<p>暂无相关信号。</p>"}
     </article>

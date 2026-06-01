@@ -12,7 +12,9 @@
     "summary": "提到 SIMO 相关交易想法，逻辑是 NAND 控制器双寡头和 AI GPU 服务器启动盘 TAM 扩张。",
     "sourceUrl": "https://x.com/aleabitoreddit",
     "confidence": "中",
-    "notes": "美股，可交易优先；第三方索引转述，需回查原推文。"
+    "notes": "美股，可交易优先；第三方索引转述，需回查原推文。",
+    "actionStatus": "已买/持仓",
+    "actionEvidence": "转述显示其提到已建立相关仓位，仍需回查原推文。"
   },
   {
     "id": "SIG-0007",
@@ -27,7 +29,9 @@
     "summary": "出现在 Serenity 的美国可交易偏好清单中，属于 AI/半导体链条观察标的。",
     "sourceUrl": "https://x.com/aleabitoreddit",
     "confidence": "低",
-    "notes": "美股，可交易优先；清单式提及，不能直接视为操作。"
+    "notes": "美股，可交易优先；清单式提及，不能直接视为操作。",
+    "actionStatus": "观察",
+    "actionEvidence": "清单式或主题提及，不能视为已买入。"
   },
   {
     "id": "SIG-0008",
@@ -42,7 +46,9 @@
     "summary": "出现在 Serenity 的美国可交易偏好清单中，关联 AI ASIC、数据中心网络和定制芯片。",
     "sourceUrl": "https://x.com/aleabitoreddit",
     "confidence": "低",
-    "notes": "美股，可交易优先；清单式提及。"
+    "notes": "美股，可交易优先；清单式提及。",
+    "actionStatus": "观察",
+    "actionEvidence": "清单式或主题提及，不能视为已买入。"
   },
   {
     "id": "SIG-0009",
@@ -57,7 +63,9 @@
     "summary": "出现在 Serenity 的美国可交易偏好清单中，代表 AI 半导体先进制程核心资产。",
     "sourceUrl": "https://x.com/aleabitoreddit",
     "confidence": "低",
-    "notes": "美股 ADR，可交易优先；清单式提及。"
+    "notes": "美股 ADR，可交易优先；清单式提及。",
+    "actionStatus": "观察",
+    "actionEvidence": "清单式或主题提及，不能视为已买入。"
   },
   {
     "id": "SIG-0010",
@@ -72,7 +80,9 @@
     "summary": "出现在 Serenity 的美国可交易偏好清单中，关联 AI 光通信、激光器和材料平台。",
     "sourceUrl": "https://x.com/aleabitoreddit",
     "confidence": "低",
-    "notes": "美股，可交易优先；清单式提及。"
+    "notes": "美股，可交易优先；清单式提及。",
+    "actionStatus": "观察",
+    "actionEvidence": "清单式或主题提及，不能视为已买入。"
   },
   {
     "id": "SIG-0011",
@@ -87,7 +97,9 @@
     "summary": "出现在 Serenity 的美国可交易偏好清单中，属于航天和国防科技方向。",
     "sourceUrl": "https://x.com/aleabitoreddit",
     "confidence": "低",
-    "notes": "美股，可交易优先；清单式提及。"
+    "notes": "美股，可交易优先；清单式提及。",
+    "actionStatus": "观察",
+    "actionEvidence": "清单式或主题提及，不能视为已买入。"
   },
   {
     "id": "SIG-0012",
@@ -102,7 +114,9 @@
     "summary": "出现在 Serenity 的美国可交易偏好清单中，关联 AI 定制芯片、交换芯片和半导体平台。",
     "sourceUrl": "https://x.com/aleabitoreddit",
     "confidence": "低",
-    "notes": "美股，可交易优先；清单式提及。"
+    "notes": "美股，可交易优先；清单式提及。",
+    "actionStatus": "观察",
+    "actionEvidence": "清单式或主题提及，不能视为已买入。"
   },
   {
     "id": "SIG-0013",
@@ -117,7 +131,9 @@
     "summary": "出现在 Serenity 的美国可交易偏好清单中，关联 AWS、AI 云基础设施和自研芯片。",
     "sourceUrl": "https://x.com/aleabitoreddit",
     "confidence": "低",
-    "notes": "美股，可交易优先；清单式提及。"
+    "notes": "美股，可交易优先；清单式提及。",
+    "actionStatus": "观察",
+    "actionEvidence": "清单式或主题提及，不能视为已买入。"
   },
   {
     "id": "SIG-0014",
@@ -132,7 +148,9 @@
     "summary": "出现在 Serenity 的美国可交易偏好清单中，关联 CPU IP、边缘 AI 和数据中心架构。",
     "sourceUrl": "https://x.com/aleabitoreddit",
     "confidence": "低",
-    "notes": "美股 ADR，可交易优先；清单式提及。"
+    "notes": "美股 ADR，可交易优先；清单式提及。",
+    "actionStatus": "观察",
+    "actionEvidence": "清单式或主题提及，不能视为已买入。"
   },
   {
     "id": "SIG-0015",
@@ -147,7 +165,9 @@
     "summary": "提到激光防务和定向能武器主题，LASR 作为相关美股标的。",
     "sourceUrl": "https://x.com/aleabitoreddit",
     "confidence": "中",
-    "notes": "美股，可交易优先；主题弹性较高。"
+    "notes": "美股，可交易优先；主题弹性较高。",
+    "actionStatus": "未确认买入",
+    "actionEvidence": "有明确看多或主题论点，但当前未确认真实买入/持仓。"
   },
   {
     "id": "SIG-0001",
@@ -162,7 +182,9 @@
     "summary": "特种晶圆代工，具备硅光子、磷化铟和 800V AI 数据中心电源相关能力。",
     "sourceUrl": "https://semiconstocks.com/zh",
     "confidence": "中",
-    "notes": "欧洲市场，不在当前优先可交易范围；需核验原始推文。"
+    "notes": "欧洲市场，不在当前优先可交易范围；需核验原始推文。",
+    "actionStatus": "未确认买入",
+    "actionEvidence": "有明确看多或主题论点，但当前未确认真实买入/持仓。"
   },
   {
     "id": "SIG-0002",
@@ -177,7 +199,9 @@
     "summary": "外置激光源和 CPO 相关瓶颈，可能受益于 2027-2028 CPO 拐点。",
     "sourceUrl": "https://semiconstocks.com/zh",
     "confidence": "中",
-    "notes": "瑞典市场，不在当前优先可交易范围；小盘，社媒影响较大。"
+    "notes": "瑞典市场，不在当前优先可交易范围；小盘，社媒影响较大。",
+    "actionStatus": "未确认买入",
+    "actionEvidence": "有明确看多或主题论点，但当前未确认真实买入/持仓。"
   },
   {
     "id": "SIG-0003",
@@ -192,7 +216,9 @@
     "summary": "原本做多，后因大额 ATM 增发计划改变资本结构判断。",
     "sourceUrl": "https://semiconstocks.com/zh",
     "confidence": "高",
-    "notes": "美股，可交易优先；反转信号优先级高，应加入重点监控。"
+    "notes": "美股，可交易优先；反转信号优先级高，应加入重点监控。",
+    "actionStatus": "已转空/卖出",
+    "actionEvidence": "曾经看多，后因 ATM 增发等因素转空。"
   },
   {
     "id": "SIG-0004",
@@ -207,7 +233,9 @@
     "summary": "AI 光通信供应链 InP 衬底瓶颈。",
     "sourceUrl": "https://semiconstocks.com/zh",
     "confidence": "中",
-    "notes": "美股，可交易优先；需跟踪行业验证和公司财报表述。"
+    "notes": "美股，可交易优先；需跟踪行业验证和公司财报表述。",
+    "actionStatus": "未确认买入",
+    "actionEvidence": "有明确看多或主题论点，但当前未确认真实买入/持仓。"
   },
   {
     "id": "SIG-0005",
@@ -222,7 +250,9 @@
     "summary": "光模块和外置激光源相关受益标的。",
     "sourceUrl": "https://semiconstocks.com/zh",
     "confidence": "中",
-    "notes": "美股，可交易优先；需要区分历史入场价和当前风险收益比。"
+    "notes": "美股，可交易优先；需要区分历史入场价和当前风险收益比。",
+    "actionStatus": "已买/持仓",
+    "actionEvidence": "被整理为持仓/论点，仍需回查原推文确认仓位。"
   },
   {
     "id": "SIG-0016",
@@ -237,7 +267,9 @@
     "summary": "光通信器件测试设备，处于供应链验证环节，可能类似早期放量前的上游设备线索。",
     "sourceUrl": "https://semiconstocks.com/zh",
     "confidence": "低",
-    "notes": "美股，可交易优先；需要用订单、客户认证、收入确认进一步验证。"
+    "notes": "美股，可交易优先；需要用订单、客户认证、收入确认进一步验证。",
+    "actionStatus": "观察",
+    "actionEvidence": "清单式或主题提及，不能视为已买入。"
   },
   {
     "id": "SIG-0017",
@@ -252,7 +284,9 @@
     "summary": "出现在 AI 光通信和 CPO 产业链讨论中，属于硅光子/光引擎方向的高波动标的。",
     "sourceUrl": "https://semiconstocks.com/zh",
     "confidence": "低",
-    "notes": "美股/加股双重交易属性，按美股可交易优先观察。"
+    "notes": "美股/加股双重交易属性，按美股可交易优先观察。",
+    "actionStatus": "观察",
+    "actionEvidence": "清单式或主题提及，不能视为已买入。"
   },
   {
     "id": "SIG-0018",
@@ -267,7 +301,9 @@
     "summary": "作为 AI 光通信链条中的大型可交易参照标的出现。",
     "sourceUrl": "https://semiconstocks.com/zh",
     "confidence": "低",
-    "notes": "美股，可交易优先；主题参照性强于明确操作。"
+    "notes": "美股，可交易优先；主题参照性强于明确操作。",
+    "actionStatus": "观察",
+    "actionEvidence": "清单式或主题提及，不能视为已买入。"
   },
   {
     "id": "SIG-0019",
@@ -282,7 +318,9 @@
     "summary": "作为 AI 数据中心互连和光纤基础设施链条的受益参照标的。",
     "sourceUrl": "https://semiconstocks.com/zh",
     "confidence": "低",
-    "notes": "美股，可交易优先；更偏大盘基础设施参照。"
+    "notes": "美股，可交易优先；更偏大盘基础设施参照。",
+    "actionStatus": "观察",
+    "actionEvidence": "清单式或主题提及，不能视为已买入。"
   },
   {
     "id": "SIG-0020",
@@ -297,7 +335,9 @@
     "summary": "提到 FOCI 作为台湾光通信、CPO/SiPh 供应链相关受益标的。",
     "sourceUrl": "https://x.com/aleabitoreddit",
     "confidence": "中",
-    "notes": "台股，不在当前优先可交易范围；需确认交易权限。"
+    "notes": "台股，不在当前优先可交易范围；需确认交易权限。",
+    "actionStatus": "观察",
+    "actionEvidence": "清单式或主题提及，不能视为已买入。"
   },
   {
     "id": "SIG-0021",
@@ -312,6 +352,8 @@
     "summary": "提到 ShunSin 作为台湾先进封装和光通信供应链相关受益标的。",
     "sourceUrl": "https://x.com/aleabitoreddit",
     "confidence": "中",
-    "notes": "台股，不在当前优先可交易范围；需确认交易权限。"
+    "notes": "台股，不在当前优先可交易范围；需确认交易权限。",
+    "actionStatus": "观察",
+    "actionEvidence": "清单式或主题提及，不能视为已买入。"
   }
 ]
