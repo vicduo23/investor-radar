@@ -23,7 +23,7 @@
     "quote": null,
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:18.277Z"
+    "updatedAt": "2026-06-01T17:30:41.272Z"
   },
   "6451": {
     "ticker": "6451",
@@ -58,7 +58,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:18.378Z"
+    "updatedAt": "2026-06-01T17:30:41.322Z"
   },
   "XFAB": {
     "ticker": "XFAB",
@@ -86,18 +86,18 @@
       "硅光子或 InP 逻辑兑现周期可能长于市场预期。"
     ],
     "quote": {
-      "c": 10.39,
-      "d": 1.4050000000000011,
-      "dp": 15.637173066221493,
+      "c": 9.645,
+      "d": 0.6600000000000001,
+      "dp": 7.345575959933225,
       "pc": 8.985,
       "currency": "EUR",
       "symbol": "XFAB.PA",
       "source": "Yahoo Finance",
-      "marketTime": "2026-06-01T11:09:53.000Z"
+      "marketTime": "2026-06-01T15:39:04.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:17.544Z",
+    "updatedAt": "2026-06-01T17:30:40.804Z",
     "stooqSymbol": "XFAB.FR"
   },
   "SIVE": {
@@ -126,18 +126,18 @@
       "融资或股权稀释风险。"
     ],
     "quote": {
-      "c": 66.55,
-      "d": -20.299999999999997,
-      "dp": -23.37363270005757,
+      "c": 60.85,
+      "d": -25.999999999999993,
+      "dp": -29.936672423719052,
       "pc": 86.85,
       "currency": "SEK",
       "symbol": "SIVE.ST",
       "source": "Yahoo Finance",
-      "marketTime": "2026-06-01T11:25:13.000Z"
+      "marketTime": "2026-06-01T15:29:49.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:17.593Z"
+    "updatedAt": "2026-06-01T17:30:40.869Z"
   },
   "IREN": {
     "ticker": "IREN",
@@ -164,18 +164,18 @@
       "AI 转型叙事兑现不确定。"
     ],
     "quote": {
-      "c": 63.54,
-      "d": 5.479999999999997,
-      "dp": 9.438511884257657,
-      "pc": 58.06,
+      "c": 65.87,
+      "d": 9.040000000000006,
+      "dp": 15.90709132500441,
+      "pc": 56.83,
       "currency": "USD",
       "symbol": "IREN",
       "source": "Yahoo Finance",
-      "marketTime": "2026-05-29T20:00:01.000Z"
+      "marketTime": "2026-06-01T17:30:39.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:17.628Z",
+    "updatedAt": "2026-06-01T17:30:40.904Z",
     "stooqSymbol": "IREN.US"
   },
   "AXTI": {
@@ -203,18 +203,18 @@
       "小盘流动性和估值波动。"
     ],
     "quote": {
-      "c": 103.16,
-      "d": -17.86,
-      "dp": -14.757891257643365,
-      "pc": 121.02,
+      "c": 112.7,
+      "d": -28.13000000000001,
+      "dp": -19.974437264787337,
+      "pc": 140.83,
       "currency": "USD",
       "symbol": "AXTI",
       "source": "Yahoo Finance",
-      "marketTime": "2026-05-29T20:00:01.000Z"
+      "marketTime": "2026-06-01T17:30:37.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:17.755Z",
+    "updatedAt": "2026-06-01T17:30:40.954Z",
     "stooqSymbol": "AXTI.US"
   },
   "AAOI": {
@@ -242,18 +242,18 @@
       "股价已大幅上涨后的风险收益比变化。"
     ],
     "quote": {
-      "c": 158.41,
-      "d": -18.400000000000006,
-      "dp": -10.40665120751089,
-      "pc": 176.81,
+      "c": 189.64,
+      "d": 8.149999999999977,
+      "dp": 4.4906055430051115,
+      "pc": 181.49,
       "currency": "USD",
       "symbol": "AAOI",
       "source": "Yahoo Finance",
-      "marketTime": "2026-05-29T20:00:01.000Z"
+      "marketTime": "2026-06-01T17:30:40.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:17.800Z",
+    "updatedAt": "2026-06-01T17:30:40.989Z",
     "stooqSymbol": "AAOI.US"
   },
   "SIMO": {
@@ -281,18 +281,18 @@
       "AI 服务器启动盘逻辑需要订单验证。"
     ],
     "quote": {
-      "c": 276.87,
-      "d": 13.360000000000014,
-      "dp": 5.070016318166299,
-      "pc": 263.51,
+      "c": 279.17,
+      "d": 3.0300000000000296,
+      "dp": 1.0972695009777755,
+      "pc": 276.14,
       "currency": "USD",
       "symbol": "SIMO",
       "source": "Yahoo Finance",
-      "marketTime": "2026-05-29T20:00:01.000Z"
+      "marketTime": "2026-06-01T17:30:32.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:16.820Z",
+    "updatedAt": "2026-06-01T17:30:40.181Z",
     "stooqSymbol": "SIMO.US"
   },
   "INTC": {
@@ -317,18 +317,18 @@
       "竞争和资本开支压力。"
     ],
     "quote": {
-      "c": 114.68,
-      "d": -3.819999999999993,
-      "dp": -3.2236286919831167,
-      "pc": 118.5,
+      "c": 110.565,
+      "d": -9.275000000000006,
+      "dp": -7.739485981308415,
+      "pc": 119.84,
       "currency": "USD",
       "symbol": "INTC",
       "source": "Yahoo Finance",
-      "marketTime": "2026-05-29T20:00:01.000Z"
+      "marketTime": "2026-06-01T17:30:38.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:16.965Z",
+    "updatedAt": "2026-06-01T17:30:40.309Z",
     "stooqSymbol": "INTC.US"
   },
   "MRVL": {
@@ -353,18 +353,18 @@
       "估值已反映较高增长预期。"
     ],
     "quote": {
-      "c": 205,
-      "d": 14.310000000000002,
-      "dp": 7.504326393623159,
-      "pc": 190.69,
+      "c": 222.605,
+      "d": 26.274999999999977,
+      "dp": 13.383079508989953,
+      "pc": 196.33,
       "currency": "USD",
       "symbol": "MRVL",
       "source": "Yahoo Finance",
-      "marketTime": "2026-05-29T20:00:01.000Z"
+      "marketTime": "2026-06-01T17:30:39.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:17.016Z",
+    "updatedAt": "2026-06-01T17:30:40.369Z",
     "stooqSymbol": "MRVL.US"
   },
   "TSM": {
@@ -389,18 +389,18 @@
       "客户集中和资本开支周期。"
     ],
     "quote": {
-      "c": 418.45,
-      "d": 11.300000000000011,
-      "dp": 2.7753899054402584,
-      "pc": 407.15,
+      "c": 445.545,
+      "d": 41.025000000000034,
+      "dp": 10.141649362207069,
+      "pc": 404.52,
       "currency": "USD",
       "symbol": "TSM",
       "source": "Yahoo Finance",
-      "marketTime": "2026-05-29T20:00:02.000Z"
+      "marketTime": "2026-06-01T17:30:35.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:17.084Z",
+    "updatedAt": "2026-06-01T17:30:40.442Z",
     "stooqSymbol": "TSM.US"
   },
   "COHR": {
@@ -425,18 +425,18 @@
       "债务和周期性业务拖累。"
     ],
     "quote": {
-      "c": 361.47,
-      "d": -16.529999999999973,
-      "dp": -4.373015873015866,
-      "pc": 378,
+      "c": 359.43,
+      "d": -18.139999999999986,
+      "dp": -4.804407129803741,
+      "pc": 377.57,
       "currency": "USD",
       "symbol": "COHR",
       "source": "Yahoo Finance",
-      "marketTime": "2026-05-29T20:00:02.000Z"
+      "marketTime": "2026-06-01T17:30:32.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:17.121Z",
+    "updatedAt": "2026-06-01T17:30:40.480Z",
     "stooqSymbol": "COHR.US"
   },
   "RKLB": {
@@ -461,18 +461,18 @@
       "航天业务资本强度高。"
     ],
     "quote": {
-      "c": 143.48,
-      "d": 18.029999999999987,
-      "dp": 14.372259864487832,
-      "pc": 125.45,
+      "c": 125.735,
+      "d": -10.024999999999991,
+      "dp": -7.384354743665286,
+      "pc": 135.76,
       "currency": "USD",
       "symbol": "RKLB",
       "source": "Yahoo Finance",
-      "marketTime": "2026-05-29T20:00:00.000Z"
+      "marketTime": "2026-06-01T17:30:39.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:17.171Z",
+    "updatedAt": "2026-06-01T17:30:40.550Z",
     "stooqSymbol": "RKLB.US"
   },
   "AVGO": {
@@ -497,18 +497,18 @@
       "软件整合执行风险。"
     ],
     "quote": {
-      "c": 446.77,
-      "d": 32.19999999999999,
-      "dp": 7.7670839665195235,
-      "pc": 414.57,
+      "c": 461.01,
+      "d": 46.870000000000005,
+      "dp": 11.317428888781574,
+      "pc": 414.14,
       "currency": "USD",
       "symbol": "AVGO",
       "source": "Yahoo Finance",
-      "marketTime": "2026-05-29T20:00:01.000Z"
+      "marketTime": "2026-06-01T17:30:39.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:17.233Z",
+    "updatedAt": "2026-06-01T17:30:40.606Z",
     "stooqSymbol": "AVGO.US"
   },
   "AMZN": {
@@ -533,18 +533,18 @@
       "云竞争和监管。"
     ],
     "quote": {
-      "c": 270.64,
-      "d": 2.180000000000007,
-      "dp": 0.8120390374729968,
-      "pc": 268.46,
+      "c": 261.84,
+      "d": -4.480000000000018,
+      "dp": -1.6821868428957714,
+      "pc": 266.32,
       "currency": "USD",
       "symbol": "AMZN",
       "source": "Yahoo Finance",
-      "marketTime": "2026-05-29T20:00:01.000Z"
+      "marketTime": "2026-06-01T17:30:39.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:17.393Z",
+    "updatedAt": "2026-06-01T17:30:40.672Z",
     "stooqSymbol": "AMZN.US"
   },
   "ARM": {
@@ -569,18 +569,18 @@
       "授权模式对终端周期敏感。"
     ],
     "quote": {
-      "c": 353.29,
-      "d": 55.06,
-      "dp": 18.46226067129397,
-      "pc": 298.23,
+      "c": 410.295,
+      "d": 103.78500000000003,
+      "dp": 33.860232945091525,
+      "pc": 306.51,
       "currency": "USD",
       "symbol": "ARM",
       "source": "Yahoo Finance",
-      "marketTime": "2026-05-29T20:00:00.000Z"
+      "marketTime": "2026-06-01T17:30:37.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:17.427Z",
+    "updatedAt": "2026-06-01T17:30:40.710Z",
     "stooqSymbol": "ARM.US"
   },
   "LASR": {
@@ -605,18 +605,18 @@
       "工业需求周期。"
     ],
     "quote": {
-      "c": 74.12,
-      "d": -2.3100000000000023,
-      "dp": -3.0223734135810574,
-      "pc": 76.43,
+      "c": 72.15,
+      "d": -6.394999999999996,
+      "dp": -8.14182952447641,
+      "pc": 78.545,
       "currency": "USD",
       "symbol": "LASR",
       "source": "Yahoo Finance",
-      "marketTime": "2026-05-29T20:00:01.000Z"
+      "marketTime": "2026-06-01T17:29:57.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:17.476Z",
+    "updatedAt": "2026-06-01T17:30:40.764Z",
     "stooqSymbol": "LASR.US"
   },
   "AEHR": {
@@ -641,18 +641,18 @@
       "订单延迟和新应用验证风险。"
     ],
     "quote": {
-      "c": 92.33,
-      "d": 1.0300000000000011,
-      "dp": 1.128148959474262,
-      "pc": 91.3,
+      "c": 91.27,
+      "d": -3.75,
+      "dp": -3.946537571037676,
+      "pc": 95.02,
       "currency": "USD",
       "symbol": "AEHR",
       "source": "Yahoo Finance",
-      "marketTime": "2026-05-29T20:00:01.000Z"
+      "marketTime": "2026-06-01T17:30:15.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:17.892Z",
+    "updatedAt": "2026-06-01T17:30:41.057Z",
     "stooqSymbol": "AEHR.US"
   },
   "POET": {
@@ -677,18 +677,18 @@
       "商业化兑现不确定。"
     ],
     "quote": {
-      "c": 12.29,
-      "d": -2.530000000000001,
-      "dp": -17.071524966261816,
-      "pc": 14.82,
+      "c": 13.765,
+      "d": -0.8249999999999993,
+      "dp": -5.654557916381078,
+      "pc": 14.59,
       "currency": "USD",
       "symbol": "POET",
       "source": "Yahoo Finance",
-      "marketTime": "2026-05-29T20:00:00.000Z"
+      "marketTime": "2026-06-01T17:30:36.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:18.006Z",
+    "updatedAt": "2026-06-01T17:30:41.126Z",
     "stooqSymbol": "POET.US"
   },
   "LITE": {
@@ -713,18 +713,18 @@
       "光通信周期波动。"
     ],
     "quote": {
-      "c": 854.96,
-      "d": -109.53999999999996,
-      "dp": -11.357179885951266,
-      "pc": 964.5,
+      "c": 921,
+      "d": -25.899999999999977,
+      "dp": -2.7352413137606906,
+      "pc": 946.9,
       "currency": "USD",
       "symbol": "LITE",
       "source": "Yahoo Finance",
-      "marketTime": "2026-05-29T20:00:00.000Z"
+      "marketTime": "2026-06-01T17:30:36.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:18.106Z",
+    "updatedAt": "2026-06-01T17:30:41.157Z",
     "stooqSymbol": "LITE.US"
   },
   "GLW": {
@@ -749,18 +749,18 @@
       "AI 光纤贡献占比需要验证。"
     ],
     "quote": {
-      "c": 181.16,
-      "d": -10.72999999999999,
-      "dp": -5.591745270728016,
-      "pc": 191.89,
+      "c": 177.71,
+      "d": -16.340000000000003,
+      "dp": -8.42051017778923,
+      "pc": 194.05,
       "currency": "USD",
       "symbol": "GLW",
       "source": "Yahoo Finance",
-      "marketTime": "2026-05-29T20:00:31.000Z"
+      "marketTime": "2026-06-01T17:30:38.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-06-01T11:25:18.209Z",
+    "updatedAt": "2026-06-01T17:30:41.242Z",
     "stooqSymbol": "GLW.US"
   }
 }
