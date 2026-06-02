@@ -136,7 +136,11 @@ function apifyInputForHandle(handle) {
       includeSearchTerms: true
     };
   }
-  if (APIFY_ACTOR_ID.includes("forge-api/x-scraper") || APIFY_ACTOR_ID.includes("mikolabs/tweets-scraper")) {
+  if (
+    APIFY_ACTOR_ID.includes("forge-api/x-scraper")
+    || APIFY_ACTOR_ID.includes("mikolabs/tweets-scraper")
+    || APIFY_ACTOR_ID.includes("fastdata/twitter-scraper")
+  ) {
     return {
       twitterHandles: [handle],
       maxItems: 50,
