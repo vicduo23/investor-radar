@@ -84,11 +84,7 @@ function compactDebugSample(item) {
 
 async function fetchTweetsFromApify(handle) {
   if (!APIFY_TOKEN || !APIFY_ACTOR_ID) return [];
-  const input = {
-    searchTerms: [`from:${handle}`],
-    maxItems: 50,
-    sort: "Latest"
-  };
+  const input = apifyInputForHandle(handle);
   const actorPath = APIFY_ACTOR_ID.replace("/", "~");
   const runUrl = `https://api.apify.com/v2/acts/${actorPath}/run-sync-get-dataset-items?token=${encodeURIComponent(APIFY_TOKEN)}`;
   const data = await fetchJsonWithOptions(runUrl, {
@@ -96,18 +92,45 @@ async function fetchTweetsFromApify(handle) {
     headers: { "content-type": "application/json" },
     body: JSON.stringify(input)
   });
-  return Array.isArray(data) ? data.filter(item => !item.noResults && !item.demo).map(item => ({
-    id: item.id || item.tweetId || item.url || `${handle}-${item.createdAt || item.date || ""}`,
-    createdAt: item.createdAt || item.created_at || item.timestamp || item.date || "",
+  return Array.isArray(data) ? data.filter(isRealTweetRow).map(item => ({
+    id: item.id || item.tweetId || item.tweet_id || item.url || `${handle}-${item.createdAt || item.date || ""}`,
+    createdAt: item.createdAt || item.created_at || item.timestamp || item.date || item.created_at_iso || "",
     handle,
     source: "apify",
-    text: item.fullText || item.full_text || item.text || item.content || "",
+    text: item.fullText || item.full_text || item.text || item.content || item.tweetText || "",
     url: item.url || item.twitterUrl || `https://x.com/${handle}`,
     debug: {
       keys: Object.keys(item).slice(0, 40),
       sample: compactDebugSample(item)
     }
   })) : [];
+}
+
+function apifyInputForHandle(handle) {
+  if (APIFY_ACTOR_ID.includes("xquik/x-tweet-scraper")) {
+    return {
+      twitterHandles: [handle],
+      maxItems: 50,
+      queryType: "Latest",
+      includeSearchTerms: true
+    };
+  }
+  if (APIFY_ACTOR_ID.includes("forge-api/x-scraper") || APIFY_ACTOR_ID.includes("mikolabs/tweets-scraper")) {
+    return {
+      twitterHandles: [handle],
+      maxItems: 50,
+      searchType: "profile_tweets"
+    };
+  }
+  return {
+    searchTerms: [`from:${handle}`],
+    maxItems: 50,
+    sort: "Latest"
+  };
+}
+
+function isRealTweetRow(item) {
+  return Boolean(item && !item.noResults && !item.demo && !item.status);
 }
 
 async function fetchTrackedTweets() {
