@@ -63,8 +63,22 @@ async function fetchTweetsFromX(handle) {
     id: tweet.id,
     createdAt: tweet.created_at,
     handle,
+    source: "x-api",
     text: tweet.text,
-    url: `https://x.com/${handle}/status/${tweet.id}`
+    url: `https://x.com/${handle}/status/${tweet.id}`,
+    debug: {
+      keys: Object.keys(tweet).slice(0, 40),
+      sample: compactDebugSample(tweet)
+    }
+  }));
+}
+
+function compactDebugSample(item) {
+  return Object.fromEntries(Object.entries(item).slice(0, 30).map(([key, value]) => {
+    if (typeof value === "string") return [key, value.slice(0, 800)];
+    if (value === null || value === undefined) return [key, value];
+    if (typeof value === "number" || typeof value === "boolean") return [key, value];
+    return [key, JSON.stringify(value).slice(0, 800)];
   }));
 }
 
@@ -86,8 +100,13 @@ async function fetchTweetsFromApify(handle) {
     id: item.id || item.tweetId || item.url || `${handle}-${item.createdAt || item.date || ""}`,
     createdAt: item.createdAt || item.created_at || item.timestamp || item.date || "",
     handle,
+    source: "apify",
     text: item.fullText || item.full_text || item.text || item.content || "",
-    url: item.url || item.twitterUrl || `https://x.com/${handle}`
+    url: item.url || item.twitterUrl || `https://x.com/${handle}`,
+    debug: {
+      keys: Object.keys(item).slice(0, 40),
+      sample: compactDebugSample(item)
+    }
   })) : [];
 }
 
@@ -398,6 +417,7 @@ async function main() {
   const companiesPath = path.join(dataDir, "companies.json");
   const themesPath = path.join(dataDir, "themes.json");
   const metaPath = path.join(dataDir, "meta.json");
+  const debugTweetsPath = path.join(dataDir, "debug-tweets.json");
   const tweetsPath = path.join(rawDir, "tweets.json");
 
   const investors = await readJson(investorsPath, []);
@@ -427,6 +447,26 @@ async function main() {
   await writeJson(signalsPath, signals);
   await writeJson(companiesPath, companies);
   await writeJson(themesPath, themes);
+  await writeJson(debugTweetsPath, {
+    updatedAt: new Date().toISOString(),
+    trackedHandles: TRACKED_HANDLES,
+    rawTweetCount: Array.isArray(rawTweets) ? rawTweets.length : 0,
+    fetchedTweetCount: fetchedTweets.length,
+    totalTweetCount: allTweets.length,
+    samples: allTweets.slice(0, 80).map(tweet => {
+      const normalized = normalizeTweet(tweet);
+      return {
+        id: normalized.id,
+        datetime: normalized.datetime,
+        handle: normalized.handle,
+        source: tweet.source || "raw",
+        url: normalized.url,
+        text: normalized.text.slice(0, 1000),
+        tickers: extractTickers(normalized.text),
+        debug: tweet.debug || null
+      };
+    })
+  });
   await writeJson(metaPath, {
     lastUpdatedAt: new Date().toISOString(),
     mode: "GitHub Actions 静态 JSON",
