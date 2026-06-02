@@ -17,7 +17,7 @@
 
 ```text
 TRACKED_HANDLES=aleabitoreddit,sunyuchentron
-APIFY_ACTOR_ID=apidojo/twitter-scraper-lite
+APIFY_ACTOR_ID=xquik/x-tweet-scraper
 ```
 
 ## GitHub Secrets

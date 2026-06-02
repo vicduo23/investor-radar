@@ -11,7 +11,7 @@ const rawDir = path.join(root, "raw");
 const FINNHUB_API_KEY = process.env.FINNHUB_API_KEY || "";
 const X_BEARER_TOKEN = process.env.X_BEARER_TOKEN || "";
 const APIFY_TOKEN = process.env.APIFY_TOKEN || "";
-const APIFY_ACTOR_ID = process.env.APIFY_ACTOR_ID || "apidojo/twitter-scraper-lite";
+const APIFY_ACTOR_ID = process.env.APIFY_ACTOR_ID || "xquik/x-tweet-scraper";
 const TRACKED_HANDLES = (process.env.TRACKED_HANDLES || "aleabitoreddit")
   .split(",")
   .map(item => item.trim().replace("@", ""))
@@ -82,6 +82,27 @@ function compactDebugSample(item) {
   }));
 }
 
+function normalizeDate(value) {
+  if (!value) return "";
+  const timestamp = Date.parse(value);
+  return Number.isNaN(timestamp) ? value : new Date(timestamp).toISOString();
+}
+
+function cleanTweetText(value) {
+  return String(value || "")
+    .replaceAll("鈥檚", "'s")
+    .replaceAll("鈥檓", "'m")
+    .replaceAll("鈥檙", "'r")
+    .replaceAll("鈥檝", "'v")
+    .replaceAll("鈥檇", "'d")
+    .replaceAll("鈥檒", "'l")
+    .replaceAll("鈥?", "\"")
+    .replaceAll("鈥?", "\"")
+    .replaceAll("鈥?", "'")
+    .replaceAll("鈥?", "'")
+    .replaceAll("鈥?", "-");
+}
+
 async function fetchTweetsFromApify(handle) {
   if (!APIFY_TOKEN || !APIFY_ACTOR_ID) return [];
   const input = apifyInputForHandle(handle);
@@ -94,10 +115,10 @@ async function fetchTweetsFromApify(handle) {
   });
   return Array.isArray(data) ? data.filter(isRealTweetRow).map(item => ({
     id: item.id || item.tweetId || item.tweet_id || item.url || `${handle}-${item.createdAt || item.date || ""}`,
-    createdAt: item.createdAt || item.created_at || item.timestamp || item.date || item.created_at_iso || "",
+    createdAt: normalizeDate(item.createdAt || item.created_at || item.timestamp || item.date || item.created_at_iso || ""),
     handle,
     source: "apify",
-    text: item.fullText || item.full_text || item.text || item.content || item.tweetText || "",
+    text: cleanTweetText(item.fullText || item.full_text || item.text || item.content || item.tweetText || ""),
     url: item.url || item.twitterUrl || `https://x.com/${handle}`,
     debug: {
       keys: Object.keys(item).slice(0, 40),
