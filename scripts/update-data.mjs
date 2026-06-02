@@ -85,7 +85,7 @@ function compactDebugSample(item) {
 async function fetchTweetsFromApify(handle) {
   if (!APIFY_TOKEN || !APIFY_ACTOR_ID) return [];
   const input = {
-    twitterHandles: [handle],
+    searchTerms: [`from:${handle}`],
     maxItems: 50,
     sort: "Latest"
   };
@@ -96,7 +96,7 @@ async function fetchTweetsFromApify(handle) {
     headers: { "content-type": "application/json" },
     body: JSON.stringify(input)
   });
-  return Array.isArray(data) ? data.map(item => ({
+  return Array.isArray(data) ? data.filter(item => !item.noResults).map(item => ({
     id: item.id || item.tweetId || item.url || `${handle}-${item.createdAt || item.date || ""}`,
     createdAt: item.createdAt || item.created_at || item.timestamp || item.date || "",
     handle,
