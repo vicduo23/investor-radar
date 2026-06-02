@@ -11,7 +11,7 @@ const rawDir = path.join(root, "raw");
 const FINNHUB_API_KEY = process.env.FINNHUB_API_KEY || "";
 const X_BEARER_TOKEN = process.env.X_BEARER_TOKEN || "";
 const APIFY_TOKEN = process.env.APIFY_TOKEN || "";
-const APIFY_ACTOR_ID = process.env.APIFY_ACTOR_ID || "apidojo/tweet-scraper";
+const APIFY_ACTOR_ID = process.env.APIFY_ACTOR_ID || "apidojo/twitter-scraper-lite";
 const TRACKED_HANDLES = (process.env.TRACKED_HANDLES || "aleabitoreddit")
   .split(",")
   .map(item => item.trim().replace("@", ""))
@@ -96,7 +96,7 @@ async function fetchTweetsFromApify(handle) {
     headers: { "content-type": "application/json" },
     body: JSON.stringify(input)
   });
-  return Array.isArray(data) ? data.filter(item => !item.noResults).map(item => ({
+  return Array.isArray(data) ? data.filter(item => !item.noResults && !item.demo).map(item => ({
     id: item.id || item.tweetId || item.url || `${handle}-${item.createdAt || item.date || ""}`,
     createdAt: item.createdAt || item.created_at || item.timestamp || item.date || "",
     handle,

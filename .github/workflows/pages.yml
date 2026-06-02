@@ -34,7 +34,7 @@ jobs:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
-          APIFY_ACTOR_ID: ${{ vars.APIFY_ACTOR_ID || 'apidojo/tweet-scraper' }}
+          APIFY_ACTOR_ID: ${{ vars.APIFY_ACTOR_ID || 'apidojo/twitter-scraper-lite' }}
           TRACKED_HANDLES: ${{ vars.TRACKED_HANDLES || 'aleabitoreddit' }}
 
       - name: Commit data changes
