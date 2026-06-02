@@ -5,11 +5,12 @@
     "investor": "孙宇晨",
     "handle": "sunyuchentron",
     "direction": "观察",
-    "firstMention": "待自动抓取确认",
+    "firstMention": "Fri May 22 07:27:19 +0000 2026",
     "latestMention": "待自动抓取确认",
     "summary": "该账号主要用于观察中文商业、科技、监管、互联网平台和新兴产业的舆论与趋势判断；不要求出现个股代码，也不默认转成币圈交易信号。",
     "tradableProxies": [],
-    "risk": "强项目方属性和营销属性较高，除非明确涉及你可交易市场的上市公司或行业趋势，否则不进入标的池。"
+    "risk": "强项目方属性和营销属性较高，除非明确涉及你可交易市场的上市公司或行业趋势，否则不进入标的池。",
+    "sourceUrl": "https://x.com/sunyuchentron/status/2057267174214189318"
   },
   {
     "id": "THEME-SUN-002",
@@ -22,5 +23,57 @@
     "summary": "如果其中文号持续讨论 AI、Web3、出海、监管、交易平台或科技创业事件，可作为新兴产业风险偏好的弱信号；只做趋势观察，不直接映射为买入。",
     "tradableProxies": [],
     "risk": "主题信号只说明市场叙事和情绪变化，不代表可交易买点。"
+  },
+  {
+    "id": "THEME-aleabitoreddit-----------",
+    "theme": "以太坊 / 链上应用",
+    "investor": "Serenity",
+    "handle": "aleabitoreddit",
+    "direction": "趋势看多",
+    "firstMention": "Mon Jun 01 01:05:01 +0000 2026",
+    "latestMention": "Mon Jun 01 10:32:06 +0000 2026",
+    "summary": "检测到 ETH/以太坊相关讨论，可映射到 ETH ETF、链上应用和交易活跃度。",
+    "tradableProxies": [
+      {
+        "ticker": "ETHA",
+        "name": "iShares Ethereum Trust",
+        "market": "美股 ETF",
+        "reason": "ETH 价格敞口"
+      },
+      {
+        "ticker": "COIN",
+        "name": "Coinbase",
+        "market": "美股",
+        "reason": "链上交易和加密交易活跃度代理"
+      }
+    ],
+    "risk": "主题信号不是个股推荐，需要结合价格、链上数据和市场风险偏好验证。",
+    "sourceUrl": "https://x.com/aleabitoreddit/status/2061252644195504239"
+  },
+  {
+    "id": "THEME-aleabitoreddit-TRON-----------",
+    "theme": "TRON 生态 / 稳定币结算",
+    "investor": "Serenity",
+    "handle": "aleabitoreddit",
+    "direction": "趋势看多",
+    "firstMention": "Sat May 30 05:43:27 +0000 2026",
+    "latestMention": "Sat May 30 21:19:37 +0000 2026",
+    "summary": "检测到 TRON/TRX/波场相关趋势讨论，适合映射到加密生态和稳定币结算主题。",
+    "tradableProxies": [
+      {
+        "ticker": "COIN",
+        "name": "Coinbase",
+        "market": "美股",
+        "reason": "加密交易活跃度代理"
+      },
+      {
+        "ticker": "IBIT",
+        "name": "iShares Bitcoin Trust",
+        "market": "美股 ETF",
+        "reason": "加密风险偏好代理"
+      }
+    ],
+    "risk": "主题信号不是个股推荐，需要结合价格、链上数据和市场风险偏好验证。",
+    "sourceUrl": "https://x.com/aleabitoreddit/status/2060597940461486513"
   }
 ]
