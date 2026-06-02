@@ -11,7 +11,7 @@ const rawDir = path.join(root, "raw");
 const FINNHUB_API_KEY = process.env.FINNHUB_API_KEY || "";
 const X_BEARER_TOKEN = process.env.X_BEARER_TOKEN || "";
 const APIFY_TOKEN = process.env.APIFY_TOKEN || "";
-const APIFY_ACTOR_ID = process.env.APIFY_ACTOR_ID || "";
+const APIFY_ACTOR_ID = process.env.APIFY_ACTOR_ID || "apidojo/tweet-scraper";
 const TRACKED_HANDLES = (process.env.TRACKED_HANDLES || "aleabitoreddit")
   .split(",")
   .map(item => item.trim().replace("@", ""))
@@ -71,12 +71,12 @@ async function fetchTweetsFromX(handle) {
 async function fetchTweetsFromApify(handle) {
   if (!APIFY_TOKEN || !APIFY_ACTOR_ID) return [];
   const input = {
-    startUrls: [{ url: `https://x.com/${handle}` }],
+    twitterHandles: [handle],
     maxItems: 50,
-    maxTweets: 50,
-    searchTerms: [`from:${handle}`]
+    sort: "Latest"
   };
-  const runUrl = `https://api.apify.com/v2/acts/${encodeURIComponent(APIFY_ACTOR_ID)}/run-sync-get-dataset-items?token=${encodeURIComponent(APIFY_TOKEN)}`;
+  const actorPath = APIFY_ACTOR_ID.replace("/", "~");
+  const runUrl = `https://api.apify.com/v2/acts/${actorPath}/run-sync-get-dataset-items?token=${encodeURIComponent(APIFY_TOKEN)}`;
   const data = await fetchJsonWithOptions(runUrl, {
     method: "POST",
     headers: { "content-type": "application/json" },
@@ -84,10 +84,10 @@ async function fetchTweetsFromApify(handle) {
   });
   return Array.isArray(data) ? data.map(item => ({
     id: item.id || item.tweetId || item.url || `${handle}-${item.createdAt || item.date || ""}`,
-    createdAt: item.createdAt || item.timestamp || item.date || item.created_at || "",
+    createdAt: item.createdAt || item.created_at || item.timestamp || item.date || "",
     handle,
-    text: item.fullText || item.text || item.content || "",
-    url: item.url || `https://x.com/${handle}`
+    text: item.fullText || item.full_text || item.text || item.content || "",
+    url: item.url || item.twitterUrl || `https://x.com/${handle}`
   })) : [];
 }
 
