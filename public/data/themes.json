@@ -5,12 +5,12 @@
     "investor": "孙宇晨",
     "handle": "sunyuchentron",
     "direction": "观察",
-    "firstMention": "Fri May 22 07:27:19 +0000 2026",
+    "firstMention": "2026-06-23T03:16:00.000Z",
     "latestMention": "待自动抓取确认",
     "summary": "该账号主要用于观察中文商业、科技、监管、互联网平台和新兴产业的舆论与趋势判断；不要求出现个股代码，也不默认转成币圈交易信号。",
     "tradableProxies": [],
     "risk": "强项目方属性和营销属性较高，除非明确涉及你可交易市场的上市公司或行业趋势，否则不进入标的池。",
-    "sourceUrl": "https://x.com/sunyuchentron/status/2057267174214189318"
+    "sourceUrl": "https://x.com/sunyuchentron/status/2069258141553061920"
   },
   {
     "id": "THEME-SUN-002",
@@ -30,7 +30,7 @@
     "investor": "Serenity",
     "handle": "aleabitoreddit",
     "direction": "趋势看多",
-    "firstMention": "Mon Jun 01 01:05:01 +0000 2026",
+    "firstMention": "2026-06-25T03:45:23.000Z",
     "latestMention": "Mon Jun 01 10:32:06 +0000 2026",
     "summary": "检测到 ETH/以太坊相关讨论，可映射到 ETH ETF、链上应用和交易活跃度。",
     "tradableProxies": [
@@ -48,7 +48,7 @@
       }
     ],
     "risk": "主题信号不是个股推荐，需要结合价格、链上数据和市场风险偏好验证。",
-    "sourceUrl": "https://x.com/aleabitoreddit/status/2061252644195504239"
+    "sourceUrl": "https://x.com/aleabitoreddit/status/2069990311296975133"
   },
   {
     "id": "THEME-aleabitoreddit-TRON-----------",
@@ -56,7 +56,7 @@
     "investor": "Serenity",
     "handle": "aleabitoreddit",
     "direction": "趋势看多",
-    "firstMention": "Sat May 30 05:43:27 +0000 2026",
+    "firstMention": "2026-06-26T00:34:45.000Z",
     "latestMention": "Sat May 30 21:19:37 +0000 2026",
     "summary": "检测到 TRON/TRX/波场相关趋势讨论，适合映射到加密生态和稳定币结算主题。",
     "tradableProxies": [
@@ -74,6 +74,32 @@
       }
     ],
     "risk": "主题信号不是个股推荐，需要结合价格、链上数据和市场风险偏好验证。",
-    "sourceUrl": "https://x.com/aleabitoreddit/status/2060597940461486513"
+    "sourceUrl": "https://x.com/aleabitoreddit/status/2070304723262210194"
+  },
+  {
+    "id": "THEME-aleabitoreddit-------------",
+    "theme": "比特币 / 加密风险偏好",
+    "investor": "Serenity",
+    "handle": "aleabitoreddit",
+    "direction": "趋势看多",
+    "firstMention": "2026-06-25T14:51:04.000Z",
+    "latestMention": "2026-06-25T14:51:04.000Z",
+    "summary": "检测到 BTC/比特币相关讨论，可映射到 BTC ETF、矿股和加密交易平台。",
+    "tradableProxies": [
+      {
+        "ticker": "IBIT",
+        "name": "iShares Bitcoin Trust",
+        "market": "美股 ETF",
+        "reason": "BTC 价格敞口"
+      },
+      {
+        "ticker": "MSTR",
+        "name": "MicroStrategy",
+        "market": "美股",
+        "reason": "BTC beta 代理"
+      }
+    ],
+    "risk": "主题信号不是个股推荐，需要结合价格、链上数据和市场风险偏好验证。",
+    "sourceUrl": "https://x.com/aleabitoreddit/status/2070157835137434015"
   }
 ]
