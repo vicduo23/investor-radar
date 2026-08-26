@@ -23,7 +23,7 @@
     "quote": null,
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:57.782Z"
+    "updatedAt": "2026-08-26T19:41:52.979Z"
   },
   "6451": {
     "ticker": "6451",
@@ -58,7 +58,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:57.922Z"
+    "updatedAt": "2026-08-26T19:41:53.038Z"
   },
   "XFAB": {
     "ticker": "XFAB",
@@ -86,18 +86,18 @@
       "硅光子或 InP 逻辑兑现周期可能长于市场预期。"
     ],
     "quote": {
-      "c": 6.055,
-      "d": 0.2549999999999999,
-      "dp": 4.39655172413793,
+      "c": 6.07,
+      "d": 0.27000000000000046,
+      "dp": 4.655172413793111,
       "pc": 5.8,
       "currency": "EUR",
       "symbol": "XFAB.PA",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-26T12:10:04.000Z"
+      "marketTime": "2026-08-26T15:35:17.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:42.645Z",
+    "updatedAt": "2026-08-26T19:41:45.671Z",
     "stooqSymbol": "XFAB.FR"
   },
   "SIVE": {
@@ -126,18 +126,18 @@
       "融资或股权稀释风险。"
     ],
     "quote": {
-      "c": 35.76,
-      "d": 0.6400000000000006,
-      "dp": 1.8223234624145803,
+      "c": 35.4,
+      "d": 0.28000000000000114,
+      "dp": 0.7972665148063816,
       "pc": 35.12,
       "currency": "SEK",
       "symbol": "SIVE.ST",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-26T12:41:16.000Z"
+      "marketTime": "2026-08-26T15:29:59.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:40.736Z"
+    "updatedAt": "2026-08-26T19:41:44.885Z"
   },
   "IREN": {
     "ticker": "IREN",
@@ -164,18 +164,18 @@
       "AI 转型叙事兑现不确定。"
     ],
     "quote": {
-      "c": 42.21,
-      "d": 0.21000000000000085,
-      "dp": 0.500000000000002,
-      "pc": 42,
+      "c": 39.714,
+      "d": -3.1260000000000048,
+      "dp": -7.296918767507013,
+      "pc": 42.84,
       "currency": "USD",
       "symbol": "IREN",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:46.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:46.649Z",
+    "updatedAt": "2026-08-26T19:41:47.689Z",
     "stooqSymbol": "IREN.US"
   },
   "AXTI": {
@@ -203,18 +203,18 @@
       "小盘流动性和估值波动。"
     ],
     "quote": {
-      "c": 67.45,
-      "d": -14.86,
-      "dp": -18.053699428987972,
-      "pc": 82.31,
+      "c": 65.275,
+      "d": -8.155000000000001,
+      "dp": -11.105815061963774,
+      "pc": 73.43,
       "currency": "USD",
       "symbol": "AXTI",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:30.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:42.263Z",
+    "updatedAt": "2026-08-26T19:41:45.477Z",
     "stooqSymbol": "AXTI.US"
   },
   "AAOI": {
@@ -242,18 +242,18 @@
       "股价已大幅上涨后的风险收益比变化。"
     ],
     "quote": {
-      "c": 113.15,
-      "d": -18.25999999999999,
-      "dp": -13.895441747203401,
-      "pc": 131.41,
+      "c": 113.57,
+      "d": -8.620000000000005,
+      "dp": -7.054587118422133,
+      "pc": 122.19,
       "currency": "USD",
       "symbol": "AAOI",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:36.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:41.016Z",
+    "updatedAt": "2026-08-26T19:41:44.985Z",
     "stooqSymbol": "AAOI.US"
   },
   "SIMO": {
@@ -281,18 +281,18 @@
       "AI 服务器启动盘逻辑需要订单验证。"
     ],
     "quote": {
-      "c": 241.83,
-      "d": -9.889999999999986,
-      "dp": -3.928968695375809,
-      "pc": 251.72,
+      "c": 261.228,
+      "d": 18.427999999999997,
+      "dp": 7.589785831960459,
+      "pc": 242.8,
       "currency": "USD",
       "symbol": "SIMO",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:41.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:57.525Z",
+    "updatedAt": "2026-08-26T19:41:52.860Z",
     "stooqSymbol": "SIMO.US"
   },
   "INTC": {
@@ -317,18 +317,18 @@
       "竞争和资本开支压力。"
     ],
     "quote": {
-      "c": 87.48,
-      "d": -9.209999999999994,
-      "dp": -9.525286999689724,
-      "pc": 96.69,
+      "c": 87.595,
+      "d": -5.204999999999998,
+      "dp": -5.60883620689655,
+      "pc": 92.8,
       "currency": "USD",
       "symbol": "INTC",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:47.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:49.809Z",
+    "updatedAt": "2026-08-26T19:41:48.992Z",
     "stooqSymbol": "INTC.US"
   },
   "MRVL": {
@@ -353,18 +353,18 @@
       "估值已反映较高增长预期。"
     ],
     "quote": {
-      "c": 240.38,
-      "d": 24.379999999999995,
-      "dp": 11.287037037037035,
-      "pc": 216,
+      "c": 243.755,
+      "d": 6.484999999999985,
+      "dp": 2.7331731782357584,
+      "pc": 237.27,
       "currency": "USD",
       "symbol": "MRVL",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:41.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:40.606Z",
+    "updatedAt": "2026-08-26T19:41:44.834Z",
     "stooqSymbol": "MRVL.US"
   },
   "TSM": {
@@ -389,18 +389,18 @@
       "客户集中和资本开支周期。"
     ],
     "quote": {
-      "c": 417.41,
-      "d": 4,
-      "dp": 0.9675624682518565,
-      "pc": 413.41,
+      "c": 417.82,
+      "d": 5.730000000000018,
+      "dp": 1.3904729549370327,
+      "pc": 412.09,
       "currency": "USD",
       "symbol": "TSM",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:02.000Z"
+      "marketTime": "2026-08-26T19:41:42.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:44.961Z",
+    "updatedAt": "2026-08-26T19:41:46.836Z",
     "stooqSymbol": "TSM.US"
   },
   "COHR": {
@@ -425,18 +425,18 @@
       "债务和周期性业务拖累。"
     ],
     "quote": {
-      "c": 288.14,
-      "d": -18.29000000000002,
-      "dp": -5.968736742486056,
-      "pc": 306.43,
+      "c": 293.965,
+      "d": 6.494999999999948,
+      "dp": 2.2593661947333454,
+      "pc": 287.47,
       "currency": "USD",
       "symbol": "COHR",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:02.000Z"
+      "marketTime": "2026-08-26T19:41:46.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:46.396Z",
+    "updatedAt": "2026-08-26T19:41:47.573Z",
     "stooqSymbol": "COHR.US"
   },
   "RKLB": {
@@ -461,18 +461,18 @@
       "航天业务资本强度高。"
     ],
     "quote": {
-      "c": 66.91,
-      "d": -12.25,
-      "dp": -15.474987367357251,
-      "pc": 79.16,
+      "c": 66.24,
+      "d": -9.600000000000009,
+      "dp": -12.658227848101278,
+      "pc": 75.84,
       "currency": "USD",
       "symbol": "RKLB",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:45.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:44.445Z",
+    "updatedAt": "2026-08-26T19:41:46.568Z",
     "stooqSymbol": "RKLB.US"
   },
   "AVGO": {
@@ -497,18 +497,18 @@
       "软件整合执行风险。"
     ],
     "quote": {
-      "c": 356.74,
-      "d": -23.25999999999999,
-      "dp": -6.121052631578945,
-      "pc": 380,
+      "c": 353.255,
+      "d": -9.225000000000023,
+      "dp": -2.5449679982343913,
+      "pc": 362.48,
       "currency": "USD",
       "symbol": "AVGO",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:42.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:40.278Z",
+    "updatedAt": "2026-08-26T19:41:44.425Z",
     "stooqSymbol": "AVGO.US"
   },
   "AMZN": {
@@ -533,18 +533,18 @@
       "云竞争和监管。"
     ],
     "quote": {
-      "c": 261.06,
-      "d": 1.6100000000000136,
-      "dp": 0.6205434573135531,
-      "pc": 259.45,
+      "c": 260.19,
+      "d": -5.649999999999977,
+      "dp": -2.1253385495034522,
+      "pc": 265.84,
       "currency": "USD",
       "symbol": "AMZN",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:46.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:48.361Z",
+    "updatedAt": "2026-08-26T19:41:48.301Z",
     "stooqSymbol": "AMZN.US"
   },
   "ARM": {
@@ -569,18 +569,18 @@
       "授权模式对终端周期敏感。"
     ],
     "quote": {
-      "c": 241.56,
-      "d": -11.759999999999991,
-      "dp": -4.642349597347225,
-      "pc": 253.32,
+      "c": 251.94,
+      "d": 2.5999999999999943,
+      "dp": 1.0427528675703834,
+      "pc": 249.34,
       "currency": "USD",
       "symbol": "ARM",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:40.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:41.747Z",
+    "updatedAt": "2026-08-26T19:41:45.270Z",
     "stooqSymbol": "ARM.US"
   },
   "LASR": {
@@ -605,18 +605,18 @@
       "工业需求周期。"
     ],
     "quote": {
-      "c": 43.3,
-      "d": -6.700000000000003,
-      "dp": -13.400000000000006,
-      "pc": 50,
+      "c": 43.77,
+      "d": -4.109999999999999,
+      "dp": -8.583959899749372,
+      "pc": 47.88,
       "currency": "USD",
       "symbol": "LASR",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:35.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:57.659Z",
+    "updatedAt": "2026-08-26T19:41:52.936Z",
     "stooqSymbol": "LASR.US"
   },
   "AEHR": {
@@ -641,18 +641,18 @@
       "订单延迟和新应用验证风险。"
     ],
     "quote": {
-      "c": 95.59,
-      "d": -27.659999999999997,
-      "dp": -22.442190669371197,
-      "pc": 123.25,
+      "c": 91.47,
+      "d": -16.489999999999995,
+      "dp": -15.27417562060022,
+      "pc": 107.96,
       "currency": "USD",
       "symbol": "AEHR",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:47.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:51.953Z",
+    "updatedAt": "2026-08-26T19:41:50.028Z",
     "stooqSymbol": "AEHR.US"
   },
   "POET": {
@@ -677,18 +677,18 @@
       "商业化兑现不确定。"
     ],
     "quote": {
-      "c": 8.08,
-      "d": -0.40000000000000036,
-      "dp": -4.7169811320754755,
-      "pc": 8.48,
+      "c": 8.125,
+      "d": -0.3149999999999995,
+      "dp": -3.732227488151653,
+      "pc": 8.44,
       "currency": "USD",
       "symbol": "POET",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:42.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:45.630Z",
+    "updatedAt": "2026-08-26T19:41:47.229Z",
     "stooqSymbol": "POET.US"
   },
   "LITE": {
@@ -713,18 +713,18 @@
       "光通信周期波动。"
     ],
     "quote": {
-      "c": 885.565,
-      "d": 12.25500000000011,
-      "dp": 1.4032817670701252,
-      "pc": 873.31,
+      "c": 939.6,
+      "d": 112,
+      "dp": 13.533107781536973,
+      "pc": 827.6,
       "currency": "USD",
       "symbol": "LITE",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:34.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:44.177Z",
+    "updatedAt": "2026-08-26T19:41:46.461Z",
     "stooqSymbol": "LITE.US"
   },
   "GLW": {
@@ -749,397 +749,397 @@
       "AI 光纤贡献占比需要验证。"
     ],
     "quote": {
-      "c": 147.16,
-      "d": -12.740000000000009,
-      "dp": -7.967479674796753,
-      "pc": 159.9,
+      "c": 152.55,
+      "d": 0.09000000000000341,
+      "dp": 0.059031877213697626,
+      "pc": 152.46,
       "currency": "USD",
       "symbol": "GLW",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:04:31.000Z"
+      "marketTime": "2026-08-26T19:41:50.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-08-26T12:41:53.470Z",
+    "updatedAt": "2026-08-26T19:41:50.789Z",
     "stooqSymbol": "GLW.US"
   },
   "TRX": {
     "ticker": "TRX",
     "name": "TRX",
     "quote": {
-      "c": 1.23,
-      "d": 0.16999999999999993,
-      "dp": 16.0377358490566,
-      "pc": 1.06,
+      "c": 1.215,
+      "d": 0.06500000000000017,
+      "dp": 5.652173913043494,
+      "pc": 1.15,
       "currency": "USD",
       "symbol": "TRX",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:39:59.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:39.587Z"
+    "updatedAt": "2026-08-26T19:41:44.198Z"
   },
   "NVDA": {
     "ticker": "NVDA",
     "name": "NVDA",
     "quote": {
-      "c": 213.05,
-      "d": -6.689999999999998,
-      "dp": -3.0445071448074987,
-      "pc": 219.74,
+      "c": 209.9,
+      "d": -7.659999999999997,
+      "dp": -3.5208678065820904,
+      "pc": 217.56,
       "currency": "USD",
       "symbol": "NVDA",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:44.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:40.106Z"
+    "updatedAt": "2026-08-26T19:41:44.261Z"
   },
   "AMD": {
     "ticker": "AMD",
     "name": "AMD",
     "quote": {
-      "c": 479.18,
-      "d": -5.2099999999999795,
-      "dp": -1.0755795949544746,
-      "pc": 484.39,
+      "c": 480.938,
+      "d": 14.517999999999972,
+      "dp": 3.11264525534925,
+      "pc": 466.42,
       "currency": "USD",
       "symbol": "AMD",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:43.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:40.459Z"
+    "updatedAt": "2026-08-26T19:41:44.495Z"
   },
   "HPS-A": {
     "ticker": "HPS-A",
     "name": "HPS-A",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:40.870Z"
+    "updatedAt": "2026-08-26T19:41:44.940Z"
   },
   "AMD-": {
     "ticker": "AMD-",
     "name": "AMD-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:41.272Z"
+    "updatedAt": "2026-08-26T19:41:45.072Z"
   },
   "EWY": {
     "ticker": "EWY",
     "name": "EWY",
     "quote": {
-      "c": 180.15,
-      "d": 10.099999999999994,
-      "dp": 5.939429579535426,
-      "pc": 170.05,
+      "c": 179.855,
+      "d": 5.424999999999983,
+      "dp": 3.1101301381642967,
+      "pc": 174.43,
       "currency": "USD",
       "symbol": "EWY",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:43.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:41.416Z"
+    "updatedAt": "2026-08-26T19:41:45.151Z"
   },
   "SOI": {
     "ticker": "SOI",
     "name": "SOI",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:41.611Z"
+    "updatedAt": "2026-08-26T19:41:45.210Z"
   },
   "VPG": {
     "ticker": "VPG",
     "name": "VPG",
     "quote": {
-      "c": 64.45,
-      "d": -3.3400000000000034,
-      "dp": -4.926980380587112,
-      "pc": 67.79,
+      "c": 64.12,
+      "d": 0.990000000000002,
+      "dp": 1.5681926184064658,
+      "pc": 63.13,
       "currency": "USD",
       "symbol": "VPG",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:02:17.000Z"
+      "marketTime": "2026-08-26T19:41:28.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:41.874Z"
+    "updatedAt": "2026-08-26T19:41:45.329Z"
   },
   "ASPI": {
     "ticker": "ASPI",
     "name": "ASPI",
     "quote": {
-      "c": 4,
-      "d": 0.14000000000000012,
-      "dp": 3.6269430051813503,
-      "pc": 3.86,
+      "c": 3.965,
+      "d": -0.125,
+      "dp": -3.0562347188264063,
+      "pc": 4.09,
       "currency": "USD",
       "symbol": "ASPI",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:32.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:42.000Z"
+    "updatedAt": "2026-08-26T19:41:45.382Z"
   },
   "BTC": {
     "ticker": "BTC",
     "name": "BTC",
     "quote": {
-      "c": 34.92,
-      "d": 6.350000000000001,
-      "dp": 22.226111305565283,
-      "pc": 28.57,
+      "c": 34.68,
+      "d": 4.41,
+      "dp": 14.568880079286423,
+      "pc": 30.27,
       "currency": "USD",
       "symbol": "BTC",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:17.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:42.386Z"
+    "updatedAt": "2026-08-26T19:41:45.544Z"
   },
   "LITE-": {
     "ticker": "LITE-",
     "name": "LITE-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:42.515Z"
+    "updatedAt": "2026-08-26T19:41:45.604Z"
   },
   "APH": {
     "ticker": "APH",
     "name": "APH",
     "quote": {
-      "c": 158.78,
-      "d": -0.789999999999992,
-      "dp": -0.4950805289214715,
-      "pc": 159.57,
+      "c": 161.71,
+      "d": 5.670000000000016,
+      "dp": 3.633683670853638,
+      "pc": 156.04,
       "currency": "USD",
       "symbol": "APH",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:03.000Z"
+      "marketTime": "2026-08-26T19:41:37.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:42.794Z"
+    "updatedAt": "2026-08-26T19:41:45.734Z"
   },
   "VRT": {
     "ticker": "VRT",
     "name": "VRT",
     "quote": {
-      "c": 255.75,
-      "d": -16.79000000000002,
-      "dp": -6.160563586996411,
-      "pc": 272.54,
+      "c": 264.985,
+      "d": 3.9850000000000136,
+      "dp": 1.5268199233716526,
+      "pc": 261,
       "currency": "USD",
       "symbol": "VRT",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:02.000Z"
+      "marketTime": "2026-08-26T19:41:44.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:42.928Z"
+    "updatedAt": "2026-08-26T19:41:45.802Z"
   },
   "STM": {
     "ticker": "STM",
     "name": "STM",
     "quote": {
-      "c": 49.46,
-      "d": -2.8100000000000023,
-      "dp": -5.3759326573560395,
-      "pc": 52.27,
+      "c": 49.615,
+      "d": -0.7949999999999946,
+      "dp": -1.577068042055137,
+      "pc": 50.41,
       "currency": "USD",
       "symbol": "STM",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:02.000Z"
+      "marketTime": "2026-08-26T19:41:43.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:43.071Z"
+    "updatedAt": "2026-08-26T19:41:45.880Z"
   },
   "RDDT-": {
     "ticker": "RDDT-",
     "name": "RDDT-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:43.203Z"
+    "updatedAt": "2026-08-26T19:41:45.935Z"
   },
   "SPCE": {
     "ticker": "SPCE",
     "name": "SPCE",
     "quote": {
-      "c": 2.97,
-      "d": -0.21999999999999975,
-      "dp": -6.896551724137924,
-      "pc": 3.19,
+      "c": 2.9,
+      "d": -0.31000000000000005,
+      "dp": -9.657320872274147,
+      "pc": 3.21,
       "currency": "USD",
       "symbol": "SPCE",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:02.000Z"
+      "marketTime": "2026-08-26T19:41:42.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:43.330Z"
+    "updatedAt": "2026-08-26T19:41:46.024Z"
   },
   "SPCX": {
     "ticker": "SPCX",
     "name": "SPCX",
     "quote": {
-      "c": 137.95,
-      "d": -5.390000000000015,
-      "dp": -3.7602902190595886,
-      "pc": 143.34,
+      "c": 138.84,
+      "d": -0.8100000000000023,
+      "dp": -0.580021482277123,
+      "pc": 139.65,
       "currency": "USD",
       "symbol": "SPCX",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:45.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:43.459Z"
+    "updatedAt": "2026-08-26T19:41:46.076Z"
   },
   "MSFT": {
     "ticker": "MSFT",
     "name": "MSFT",
     "quote": {
-      "c": 491.71,
-      "d": 10.079999999999984,
-      "dp": 2.0928928845794457,
-      "pc": 481.63,
+      "c": 496.15,
+      "d": 11.839999999999975,
+      "dp": 2.444715161776543,
+      "pc": 484.31,
       "currency": "USD",
       "symbol": "MSFT",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:45.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:43.616Z"
+    "updatedAt": "2026-08-26T19:41:46.184Z"
   },
   "AAPL-": {
     "ticker": "AAPL-",
     "name": "AAPL-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:43.739Z"
+    "updatedAt": "2026-08-26T19:41:46.230Z"
   },
   "JBL": {
     "ticker": "JBL",
     "name": "JBL",
     "quote": {
-      "c": 308.68,
-      "d": -29.939999999999998,
-      "dp": -8.841769535172169,
-      "pc": 338.62,
+      "c": 311.11,
+      "d": -11.659999999999968,
+      "dp": -3.6124794745484303,
+      "pc": 322.77,
       "currency": "USD",
       "symbol": "JBL",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:02.000Z"
+      "marketTime": "2026-08-26T19:41:33.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:43.884Z"
+    "updatedAt": "2026-08-26T19:41:46.302Z"
   },
   "AAPL": {
     "ticker": "AAPL",
     "name": "AAPL",
     "quote": {
-      "c": 309.9,
-      "d": -0.12999999999999545,
-      "dp": -0.04193142599103166,
-      "pc": 310.03,
+      "c": 315.33,
+      "d": -1.5,
+      "dp": -0.4734400151500805,
+      "pc": 316.83,
       "currency": "USD",
       "symbol": "AAPL",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:45.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:44.049Z"
+    "updatedAt": "2026-08-26T19:41:46.396Z"
   },
   "NBIS": {
     "ticker": "NBIS",
     "name": "NBIS",
     "quote": {
-      "c": 221.97,
-      "d": -26.460000000000008,
-      "dp": -10.6508875739645,
-      "pc": 248.43,
+      "c": 214.795,
+      "d": -9.105000000000018,
+      "dp": -4.066547565877632,
+      "pc": 223.9,
       "currency": "USD",
       "symbol": "NBIS",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:43.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:44.320Z"
+    "updatedAt": "2026-08-26T19:41:46.509Z"
   },
   "CRM": {
     "ticker": "CRM",
     "name": "CRM",
     "quote": {
-      "c": 205.69,
-      "d": 9.550000000000011,
-      "dp": 4.868971143061085,
-      "pc": 196.14,
+      "c": 204.635,
+      "d": -1.4550000000000125,
+      "dp": -0.706002232034554,
+      "pc": 206.09,
       "currency": "USD",
       "symbol": "CRM",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:03.000Z"
+      "marketTime": "2026-08-26T19:41:40.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:44.569Z"
+    "updatedAt": "2026-08-26T19:41:46.631Z"
   },
   "FIG-": {
     "ticker": "FIG-",
     "name": "FIG-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:44.692Z"
+    "updatedAt": "2026-08-26T19:41:46.688Z"
   },
   "SNDK": {
     "ticker": "SNDK",
     "name": "SNDK",
     "quote": {
-      "c": 1480.77,
-      "d": -145.01,
-      "dp": -8.919410990416907,
-      "pc": 1625.78,
+      "c": 1498.735,
+      "d": -70.13499999999999,
+      "dp": -4.470415012078758,
+      "pc": 1568.87,
       "currency": "USD",
       "symbol": "SNDK",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:45.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:44.820Z"
+    "updatedAt": "2026-08-26T19:41:46.758Z"
   },
   "GOOGL": {
     "ticker": "GOOGL",
     "name": "GOOGL",
     "quote": {
-      "c": 346.96,
-      "d": 2.759999999999991,
-      "dp": 0.8018593840790212,
-      "pc": 344.2,
+      "c": 342.02,
+      "d": -2.7000000000000455,
+      "dp": -0.7832443722441533,
+      "pc": 344.72,
       "currency": "USD",
       "symbol": "GOOGL",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:45.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:45.093Z"
+    "updatedAt": "2026-08-26T19:41:46.909Z"
   },
   "BRK-A": {
     "ticker": "BRK-A",
     "name": "BRK-A",
     "quote": {
-      "c": 755365,
-      "d": 1765,
-      "dp": 0.23420912951167727,
-      "pc": 753600,
+      "c": 756882.44,
+      "d": 6712.439999999944,
+      "dp": 0.8947891811189389,
+      "pc": 750170,
       "currency": "USD",
       "symbol": "BRK-A",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:01:06.000Z"
+      "marketTime": "2026-08-26T19:11:12.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:45.221Z"
+    "updatedAt": "2026-08-26T19:41:46.974Z"
   },
   "MU": {
     "ticker": "MU",
     "name": "MU",
     "quote": {
-      "c": 932.97,
-      "d": -7.789999999999964,
-      "dp": -0.8280539138568778,
-      "pc": 940.76,
+      "c": 938.1,
+      "d": 0.9900000000000091,
+      "dp": 0.10564394788232002,
+      "pc": 937.11,
       "currency": "USD",
       "symbol": "MU",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:43.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:45.378Z"
+    "updatedAt": "2026-08-26T19:41:47.071Z"
   },
   "GFS": {
     "ticker": "GFS",
     "name": "GFS",
     "quote": {
-      "c": 45.92,
-      "d": -3.979999999999997,
-      "dp": -7.97595190380761,
-      "pc": 49.9,
+      "c": 45.57,
+      "d": -3.009999999999998,
+      "dp": -6.1959654178674315,
+      "pc": 48.58,
       "currency": "USD",
       "symbol": "GFS",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:39.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:45.506Z"
+    "updatedAt": "2026-08-26T19:41:47.137Z"
   },
   "IQE-": {
     "ticker": "IQE-",
     "name": "IQE-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:45.820Z"
+    "updatedAt": "2026-08-26T19:41:47.305Z"
   },
   "LPK": {
     "ticker": "LPK",
@@ -1154,148 +1154,148 @@
       "source": "Yahoo Finance",
       "marketTime": null
     },
-    "updatedAt": "2026-08-26T12:41:45.960Z"
+    "updatedAt": "2026-08-26T19:41:47.357Z"
   },
   "ALRIB-": {
     "ticker": "ALRIB-",
     "name": "ALRIB-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:46.082Z"
+    "updatedAt": "2026-08-26T19:41:47.448Z"
   },
   "POET-": {
     "ticker": "POET-",
     "name": "POET-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:46.269Z"
+    "updatedAt": "2026-08-26T19:41:47.527Z"
   },
   "FLNC": {
     "ticker": "FLNC",
     "name": "FLNC",
     "quote": {
-      "c": 11.24,
-      "d": -0.5099999999999998,
-      "dp": -4.340425531914891,
-      "pc": 11.75,
+      "c": 11.025,
+      "d": -1.045,
+      "dp": -8.657829328914664,
+      "pc": 12.07,
       "currency": "USD",
       "symbol": "FLNC",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:39.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:46.522Z"
+    "updatedAt": "2026-08-26T19:41:47.622Z"
   },
   "CIFR": {
     "ticker": "CIFR",
     "name": "CIFR",
     "quote": {
-      "c": 16.31,
-      "d": 0.21499999999999986,
-      "dp": 1.3358185771978868,
-      "pc": 16.095,
+      "c": 16.005,
+      "d": 0.11499999999999844,
+      "dp": 0.7237256135934451,
+      "pc": 15.89,
       "currency": "USD",
       "symbol": "CIFR",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:47.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:47.059Z"
+    "updatedAt": "2026-08-26T19:41:47.764Z"
   },
   "SIVE-": {
     "ticker": "SIVE-",
     "name": "SIVE-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:47.184Z"
+    "updatedAt": "2026-08-26T19:41:47.839Z"
   },
   "NVTS": {
     "ticker": "NVTS",
     "name": "NVTS",
     "quote": {
-      "c": 12.44,
-      "d": -0.7300000000000004,
-      "dp": -5.5429005315110125,
-      "pc": 13.17,
+      "c": 12.645,
+      "d": -0.1850000000000005,
+      "dp": -1.441932969602498,
+      "pc": 12.83,
       "currency": "USD",
       "symbol": "NVTS",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:36.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:47.385Z"
+    "updatedAt": "2026-08-26T19:41:47.908Z"
   },
   "ON": {
     "ticker": "ON",
     "name": "ON",
     "quote": {
-      "c": 72.51,
-      "d": -6.909999999999997,
-      "dp": -8.700579199194152,
-      "pc": 79.42,
+      "c": 73.01,
+      "d": -3.569999999999993,
+      "dp": -4.661791590493593,
+      "pc": 76.58,
       "currency": "USD",
       "symbol": "ON",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:45.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:47.516Z"
+    "updatedAt": "2026-08-26T19:41:47.967Z"
   },
   "XFAB-": {
     "ticker": "XFAB-",
     "name": "XFAB-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:47.653Z"
+    "updatedAt": "2026-08-26T19:41:48.024Z"
   },
   "POWI": {
     "ticker": "POWI",
     "name": "POWI",
     "quote": {
-      "c": 54.63,
-      "d": -3.960000000000001,
-      "dp": -6.75883256528418,
-      "pc": 58.59,
+      "c": 54.54,
+      "d": -1.25,
+      "dp": -2.2405449005198066,
+      "pc": 55.79,
       "currency": "USD",
       "symbol": "POWI",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:30.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:47.857Z"
+    "updatedAt": "2026-08-26T19:41:48.112Z"
   },
   "NOK": {
     "ticker": "NOK",
     "name": "NOK",
     "quote": {
-      "c": 10.35,
-      "d": -0.040000000000000924,
-      "dp": -0.3849855630413948,
-      "pc": 10.39,
+      "c": 10.38,
+      "d": 0.25,
+      "dp": 2.467917077986179,
+      "pc": 10.13,
       "currency": "USD",
       "symbol": "NOK",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:04:22.000Z"
+      "marketTime": "2026-08-26T19:41:43.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:48.033Z"
+    "updatedAt": "2026-08-26T19:41:48.195Z"
   },
   "INTC-": {
     "ticker": "INTC-",
     "name": "INTC-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:48.156Z"
+    "updatedAt": "2026-08-26T19:41:48.252Z"
   },
   "MSFT-": {
     "ticker": "MSFT-",
     "name": "MSFT-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:48.483Z"
+    "updatedAt": "2026-08-26T19:41:48.389Z"
   },
   "DELL": {
     "ticker": "DELL",
     "name": "DELL",
     "quote": {
-      "c": 451.5,
-      "d": -17.149999999999977,
-      "dp": -3.6594473487677326,
-      "pc": 468.65,
+      "c": 466.3,
+      "d": 28.75,
+      "dp": 6.570677636841504,
+      "pc": 437.55,
       "currency": "USD",
       "symbol": "DELL",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:04:17.000Z"
+      "marketTime": "2026-08-26T19:41:37.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:48.650Z"
+    "updatedAt": "2026-08-26T19:41:48.449Z"
   },
   "RPI": {
     "ticker": "RPI",
@@ -1310,406 +1310,406 @@
       "source": "Yahoo Finance",
       "marketTime": "2019-06-28T22:07:38.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:48.774Z"
+    "updatedAt": "2026-08-26T19:41:48.506Z"
   },
   "TRON": {
     "ticker": "TRON",
     "name": "TRON",
     "quote": {
-      "c": 2.11,
-      "d": 0.6099999999999999,
-      "dp": 40.66666666666666,
-      "pc": 1.5,
+      "c": 2.185,
+      "d": 0.565,
+      "dp": 34.87654320987654,
+      "pc": 1.62,
       "currency": "USD",
       "symbol": "TRON",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:43.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:48.905Z"
+    "updatedAt": "2026-08-26T19:41:48.569Z"
   },
   "CCXI": {
     "ticker": "CCXI",
     "name": "CCXI",
     "quote": {
-      "c": 14.45,
-      "d": -1.200000000000001,
-      "dp": -7.667731629392978,
-      "pc": 15.65,
+      "c": 14.79,
+      "d": 0.1899999999999995,
+      "dp": 1.3013698630136952,
+      "pc": 14.6,
       "currency": "USD",
       "symbol": "CCXI",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:22.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:50.802Z"
+    "updatedAt": "2026-08-26T19:41:49.444Z"
   },
   "TSLA": {
     "ticker": "TSLA",
     "name": "TSLA",
     "quote": {
-      "c": 350.25,
-      "d": 13.379999999999995,
-      "dp": 3.9718585804613045,
-      "pc": 336.87,
+      "c": 345.38,
+      "d": -5.740000000000009,
+      "dp": -1.6347687400319004,
+      "pc": 351.12,
       "currency": "USD",
       "symbol": "TSLA",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:48.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:51.453Z"
+    "updatedAt": "2026-08-26T19:41:49.808Z"
   },
   "META": {
     "ticker": "META",
     "name": "META",
     "quote": {
-      "c": 570.05,
-      "d": 26.379999999999995,
-      "dp": 4.852208140967866,
-      "pc": 543.67,
+      "c": 576.065,
+      "d": 30.035000000000082,
+      "dp": 5.500613519403711,
+      "pc": 546.03,
       "currency": "USD",
       "symbol": "META",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:45.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:49.284Z"
+    "updatedAt": "2026-08-26T19:41:48.718Z"
   },
   "CRWV": {
     "ticker": "CRWV",
     "name": "CRWV",
     "quote": {
-      "c": 88.04,
-      "d": -5.1299999999999955,
-      "dp": -5.506064183750129,
-      "pc": 93.17,
+      "c": 88.28,
+      "d": -2.5900000000000034,
+      "dp": -2.8502255970067165,
+      "pc": 90.87,
       "currency": "USD",
       "symbol": "CRWV",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:47.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:52.807Z"
+    "updatedAt": "2026-08-26T19:41:50.414Z"
   },
   "NBIS-": {
     "ticker": "NBIS-",
     "name": "NBIS-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:53.977Z"
+    "updatedAt": "2026-08-26T19:41:51.033Z"
   },
   "BE": {
     "ticker": "BE",
     "name": "BE",
     "quote": {
-      "c": 217.45,
-      "d": 8.439999999999998,
-      "dp": 4.038084302186498,
-      "pc": 209.01,
+      "c": 219.84,
+      "d": 13.210000000000008,
+      "dp": 6.393069738179358,
+      "pc": 206.63,
       "currency": "USD",
       "symbol": "BE",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:02.000Z"
+      "marketTime": "2026-08-26T19:41:47.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:49.155Z"
+    "updatedAt": "2026-08-26T19:41:48.669Z"
   },
   "ASX": {
     "ticker": "ASX",
     "name": "ASX",
     "quote": {
-      "c": 37.08,
-      "d": 0.6700000000000017,
-      "dp": 1.8401538039000322,
-      "pc": 36.41,
+      "c": 37.135,
+      "d": 1.4750000000000014,
+      "dp": 4.1362871564778505,
+      "pc": 35.66,
       "currency": "USD",
       "symbol": "ASX",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:02.000Z"
+      "marketTime": "2026-08-26T19:41:38.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:54.129Z"
+    "updatedAt": "2026-08-26T19:41:51.112Z"
   },
   "RDDT": {
     "ticker": "RDDT",
     "name": "RDDT",
     "quote": {
-      "c": 162.45,
-      "d": 4.199999999999989,
-      "dp": 2.65402843601895,
-      "pc": 158.25,
+      "c": 155.47,
+      "d": 3.759999999999991,
+      "dp": 2.4784127611891047,
+      "pc": 151.71,
       "currency": "USD",
       "symbol": "RDDT",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:04:15.000Z"
+      "marketTime": "2026-08-26T19:41:48.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:49.409Z"
+    "updatedAt": "2026-08-26T19:41:48.773Z"
   },
   "CBRS": {
     "ticker": "CBRS",
     "name": "CBRS",
     "quote": {
-      "c": 183.915,
-      "d": -36.095,
-      "dp": -16.406072451252214,
-      "pc": 220.01,
+      "c": 182.9,
+      "d": -32.78999999999999,
+      "dp": -15.202373777180208,
+      "pc": 215.69,
       "currency": "USD",
       "symbol": "CBRS",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:45.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:54.319Z"
+    "updatedAt": "2026-08-26T19:41:51.176Z"
   },
   "META-": {
     "ticker": "META-",
     "name": "META-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:54.449Z"
+    "updatedAt": "2026-08-26T19:41:51.236Z"
   },
   "ASML": {
     "ticker": "ASML",
     "name": "ASML",
     "quote": {
-      "c": 1744.16,
-      "d": -58.819999999999936,
-      "dp": -3.2623767318550363,
-      "pc": 1802.98,
+      "c": 1743.85,
+      "d": -7.880000000000109,
+      "dp": -0.44984101431157253,
+      "pc": 1751.73,
       "currency": "USD",
       "symbol": "ASML",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:49.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:54.584Z"
+    "updatedAt": "2026-08-26T19:41:51.296Z"
   },
   "ALAB": {
     "ticker": "ALAB",
     "name": "ALAB",
     "quote": {
-      "c": 282.65,
-      "d": -20.79000000000002,
-      "dp": -6.851436857368844,
-      "pc": 303.44,
+      "c": 289.56,
+      "d": 0.5400000000000205,
+      "dp": 0.18683828108782108,
+      "pc": 289.02,
       "currency": "USD",
       "symbol": "ALAB",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:47.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:52.216Z"
+    "updatedAt": "2026-08-26T19:41:50.166Z"
   },
   "ASTS": {
     "ticker": "ASTS",
     "name": "ASTS",
     "quote": {
-      "c": 62.01,
-      "d": -5.059999999999995,
-      "dp": -7.5443566423139945,
-      "pc": 67.07,
+      "c": 59.88,
+      "d": -6.550000000000004,
+      "dp": -9.860003010687949,
+      "pc": 66.43,
       "currency": "USD",
       "symbol": "ASTS",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:49.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:54.708Z"
+    "updatedAt": "2026-08-26T19:41:51.376Z"
   },
   "GM": {
     "ticker": "GM",
     "name": "GM",
     "quote": {
-      "c": 85.81,
-      "d": 2.1000000000000085,
-      "dp": 2.5086608529447005,
-      "pc": 83.71,
+      "c": 86.25,
+      "d": 1.2900000000000063,
+      "dp": 1.5183615819209115,
+      "pc": 84.96,
       "currency": "USD",
       "symbol": "GM",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:03.000Z"
+      "marketTime": "2026-08-26T19:41:49.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:54.844Z"
+    "updatedAt": "2026-08-26T19:41:51.449Z"
   },
   "SPCX-": {
     "ticker": "SPCX-",
     "name": "SPCX-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:54.971Z"
+    "updatedAt": "2026-08-26T19:41:51.506Z"
   },
   "EOS-ASX": {
     "ticker": "EOS-ASX",
     "name": "EOS-ASX",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:55.095Z"
+    "updatedAt": "2026-08-26T19:41:51.568Z"
   },
   "SHA0": {
     "ticker": "SHA0",
     "name": "SHA0",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:55.219Z"
+    "updatedAt": "2026-08-26T19:41:51.630Z"
   },
   "TSLA-": {
     "ticker": "TSLA-",
     "name": "TSLA-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:55.342Z"
+    "updatedAt": "2026-08-26T19:41:51.677Z"
   },
   "CBRS-": {
     "ticker": "CBRS-",
     "name": "CBRS-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:55.465Z"
+    "updatedAt": "2026-08-26T19:41:51.722Z"
   },
   "MTSI": {
     "ticker": "MTSI",
     "name": "MTSI",
     "quote": {
-      "c": 266.27,
-      "d": -26.610000000000014,
-      "dp": -9.085632340890472,
-      "pc": 292.88,
+      "c": 269.87,
+      "d": -0.11000000000001364,
+      "dp": -0.040743758796952974,
+      "pc": 269.98,
       "currency": "USD",
       "symbol": "MTSI",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:44.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:55.603Z"
+    "updatedAt": "2026-08-26T19:41:51.836Z"
   },
   "IREN-": {
     "ticker": "IREN-",
     "name": "IREN-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:55.724Z"
+    "updatedAt": "2026-08-26T19:41:51.896Z"
   },
   "QQQ-": {
     "ticker": "QQQ-",
     "name": "QQQ-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:55.849Z"
+    "updatedAt": "2026-08-26T19:41:51.974Z"
   },
   "AOSL": {
     "ticker": "AOSL",
     "name": "AOSL",
     "quote": {
-      "c": 26.62,
-      "d": -1.759999999999998,
-      "dp": -6.2015503875968925,
-      "pc": 28.38,
+      "c": 26.165,
+      "d": -0.9750000000000014,
+      "dp": -3.5924834193073005,
+      "pc": 27.14,
       "currency": "USD",
       "symbol": "AOSL",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:40:22.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:55.976Z"
+    "updatedAt": "2026-08-26T19:41:52.047Z"
   },
   "WEN": {
     "ticker": "WEN",
     "name": "WEN",
     "quote": {
-      "c": 9.12,
-      "d": 0.6799999999999997,
-      "dp": 8.056872037914689,
-      "pc": 8.44,
+      "c": 9.065,
+      "d": 0.1349999999999998,
+      "dp": 1.5117581187010054,
+      "pc": 8.93,
       "currency": "USD",
       "symbol": "WEN",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:49.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:56.120Z"
+    "updatedAt": "2026-08-26T19:41:52.118Z"
   },
   "PLTR": {
     "ticker": "PLTR",
     "name": "PLTR",
     "quote": {
-      "c": 172.73,
-      "d": 1.1899999999999977,
-      "dp": 0.693715751428237,
-      "pc": 171.54,
+      "c": 177.674,
+      "d": 2.484000000000009,
+      "dp": 1.4178891489240304,
+      "pc": 175.19,
       "currency": "USD",
       "symbol": "PLTR",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:50.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:56.392Z"
+    "updatedAt": "2026-08-26T19:41:52.181Z"
   },
   "BABA": {
     "ticker": "BABA",
     "name": "BABA",
     "quote": {
-      "c": 119.44,
-      "d": -8.710000000000008,
-      "dp": -6.796722590714014,
-      "pc": 128.15,
+      "c": 120.305,
+      "d": -8.594999999999999,
+      "dp": -6.667959658650115,
+      "pc": 128.9,
       "currency": "USD",
       "symbol": "BABA",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:02:06.000Z"
+      "marketTime": "2026-08-26T19:41:39.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:56.529Z"
+    "updatedAt": "2026-08-26T19:41:52.260Z"
   },
   "UBER": {
     "ticker": "UBER",
     "name": "UBER",
     "quote": {
-      "c": 80.35,
-      "d": 5.689999999999998,
-      "dp": 7.62121618001607,
-      "pc": 74.66,
+      "c": 78.68,
+      "d": 0.6400000000000006,
+      "dp": 0.8200922603792934,
+      "pc": 78.04,
       "currency": "USD",
       "symbol": "UBER",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:03.000Z"
+      "marketTime": "2026-08-26T19:41:48.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:51.329Z"
+    "updatedAt": "2026-08-26T19:41:49.760Z"
   },
   "MXL": {
     "ticker": "MXL",
     "name": "MXL",
     "quote": {
-      "c": 66.36,
-      "d": -6.269999999999996,
-      "dp": -8.632796365138368,
-      "pc": 72.63,
+      "c": 62.875,
+      "d": -3.555000000000007,
+      "dp": -5.351497817251252,
+      "pc": 66.43,
       "currency": "USD",
       "symbol": "MXL",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:51.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:56.655Z"
+    "updatedAt": "2026-08-26T19:41:52.320Z"
   },
   "TSEM": {
     "ticker": "TSEM",
     "name": "TSEM",
     "quote": {
-      "c": 212.71,
-      "d": -27.840000000000003,
-      "dp": -11.57347744751611,
-      "pc": 240.55,
+      "c": 220.68,
+      "d": -5.780000000000001,
+      "dp": -2.5523271217875125,
+      "pc": 226.46,
       "currency": "USD",
       "symbol": "TSEM",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:34.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:52.085Z"
+    "updatedAt": "2026-08-26T19:41:50.089Z"
   },
   "KORU": {
     "ticker": "KORU",
     "name": "KORU",
     "quote": {
-      "c": 20.83,
-      "d": 2.9899999999999984,
-      "dp": 16.760089686098645,
-      "pc": 17.84,
+      "c": 20.695,
+      "d": 1.5850000000000009,
+      "dp": 8.294086865515442,
+      "pc": 19.11,
       "currency": "USD",
       "symbol": "KORU",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:49.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:56.792Z"
+    "updatedAt": "2026-08-26T19:41:52.379Z"
   },
   "SOXL": {
     "ticker": "SOXL",
     "name": "SOXL",
     "quote": {
-      "c": 115.67,
-      "d": -13.429999999999993,
-      "dp": -10.402788536018585,
-      "pc": 129.1,
+      "c": 116.075,
+      "d": -4.664999999999992,
+      "dp": -3.8636740102699956,
+      "pc": 120.74,
       "currency": "USD",
       "symbol": "SOXL",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:51.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:56.936Z"
+    "updatedAt": "2026-08-26T19:41:52.508Z"
   },
   "IQE": {
     "ticker": "IQE",
@@ -1724,303 +1724,303 @@
       "source": "Yahoo Finance",
       "marketTime": null
     },
-    "updatedAt": "2026-08-26T12:41:57.074Z"
+    "updatedAt": "2026-08-26T19:41:52.581Z"
   },
   "DRAM": {
     "ticker": "DRAM",
     "name": "DRAM",
     "quote": {
-      "c": 56.24,
-      "d": 1.1400000000000006,
-      "dp": 2.0689655172413803,
-      "pc": 55.1,
+      "c": 56.395,
+      "d": 1.2550000000000026,
+      "dp": 2.2760246644903925,
+      "pc": 55.14,
       "currency": "USD",
       "symbol": "DRAM",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:50.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:57.200Z"
+    "updatedAt": "2026-08-26T19:41:52.657Z"
   },
   "U": {
     "ticker": "U",
     "name": "U",
     "quote": {
-      "c": 44.99,
-      "d": -1.75,
-      "dp": -3.7441163885323063,
-      "pc": 46.74,
+      "c": 44.2,
+      "d": -2.9099999999999966,
+      "dp": -6.177032477181058,
+      "pc": 47.11,
       "currency": "USD",
       "symbol": "U",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:02.000Z"
+      "marketTime": "2026-08-26T19:41:38.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:57.325Z"
+    "updatedAt": "2026-08-26T19:41:52.781Z"
   },
   "PENDLE": {
     "ticker": "PENDLE",
     "name": "PENDLE",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:53.848Z"
+    "updatedAt": "2026-08-26T19:41:50.973Z"
   },
   "SIVEF": {
     "ticker": "SIVEF",
     "name": "SIVEF",
     "quote": {
-      "c": 3.73,
-      "d": -0.06499999999999995,
-      "dp": -1.7127799736495375,
-      "pc": 3.795,
+      "c": 3.85,
+      "d": 0.058000000000000274,
+      "dp": 1.5295358649789104,
+      "pc": 3.792,
       "currency": "USD",
       "symbol": "SIVEF",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T19:58:14.000Z"
+      "marketTime": "2026-08-26T19:20:07.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:51.701Z"
+    "updatedAt": "2026-08-26T19:41:49.912Z"
   },
   "TER": {
     "ticker": "TER",
     "name": "TER",
     "quote": {
-      "c": 366.43,
-      "d": -37.860000000000014,
-      "dp": -9.364565039946577,
-      "pc": 404.29,
+      "c": 362.39,
+      "d": -17.25999999999999,
+      "dp": -4.54629263795601,
+      "pc": 379.65,
       "currency": "USD",
       "symbol": "TER",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:39.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:50.222Z"
+    "updatedAt": "2026-08-26T19:41:49.216Z"
   },
   "MELI": {
     "ticker": "MELI",
     "name": "MELI",
     "quote": {
-      "c": 1997,
-      "d": 217.8599999999999,
-      "dp": 12.2452420832537,
-      "pc": 1779.14,
+      "c": 1956.84,
+      "d": 48.18999999999983,
+      "dp": 2.524821208707716,
+      "pc": 1908.65,
       "currency": "USD",
       "symbol": "MELI",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:34.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:53.602Z"
+    "updatedAt": "2026-08-26T19:41:50.854Z"
   },
   "CCXI-": {
     "ticker": "CCXI-",
     "name": "CCXI-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:53.724Z"
+    "updatedAt": "2026-08-26T19:41:50.915Z"
   },
   "NVDA-": {
     "ticker": "NVDA-",
     "name": "NVDA-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:53.315Z"
+    "updatedAt": "2026-08-26T19:41:50.685Z"
   },
   "COHR-": {
     "ticker": "COHR-",
     "name": "COHR-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:49.027Z"
+    "updatedAt": "2026-08-26T19:41:48.624Z"
   },
   "SHAZ": {
     "ticker": "SHAZ",
     "name": "SHAZ",
     "quote": {
-      "c": 60.97,
-      "d": -7.810000000000002,
-      "dp": -11.355045071241642,
-      "pc": 68.78,
+      "c": 59.15,
+      "d": -6.300000000000004,
+      "dp": -9.625668449197867,
+      "pc": 65.45,
       "currency": "USD",
       "symbol": "SHAZ",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:45.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:49.532Z"
+    "updatedAt": "2026-08-26T19:41:48.839Z"
   },
   "SKHY": {
     "ticker": "SKHY",
     "name": "SKHY",
     "quote": {
-      "c": 159.53,
-      "d": 3.9099999999999966,
-      "dp": 2.512530523069012,
-      "pc": 155.62,
+      "c": 157.99,
+      "d": 1.8300000000000125,
+      "dp": 1.171875000000008,
+      "pc": 156.16,
       "currency": "USD",
       "symbol": "SKHY",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:48.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:49.658Z"
+    "updatedAt": "2026-08-26T19:41:48.886Z"
   },
   "FORM": {
     "ticker": "FORM",
     "name": "FORM",
     "quote": {
-      "c": 107.72,
-      "d": -16.620000000000005,
-      "dp": -13.366575518738946,
-      "pc": 124.34,
+      "c": 107.48,
+      "d": -7.469999999999999,
+      "dp": -6.498477598956066,
+      "pc": 114.95,
       "currency": "USD",
       "symbol": "FORM",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:36.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:49.938Z"
+    "updatedAt": "2026-08-26T19:41:49.035Z"
   },
   "GOOGL-": {
     "ticker": "GOOGL-",
     "name": "GOOGL-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:50.061Z"
+    "updatedAt": "2026-08-26T19:41:49.123Z"
   },
   "AMKR-": {
     "ticker": "AMKR-",
     "name": "AMKR-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:50.411Z"
+    "updatedAt": "2026-08-26T19:41:49.267Z"
   },
   "CXMT": {
     "ticker": "CXMT",
     "name": "CXMT",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:50.555Z"
+    "updatedAt": "2026-08-26T19:41:49.334Z"
   },
   "AAOI-": {
     "ticker": "AAOI-",
     "name": "AAOI-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:50.676Z"
+    "updatedAt": "2026-08-26T19:41:49.386Z"
   },
   "CMXT": {
     "ticker": "CMXT",
     "name": "CMXT",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:50.927Z"
+    "updatedAt": "2026-08-26T19:41:49.537Z"
   },
   "QCOM": {
     "ticker": "QCOM",
     "name": "QCOM",
     "quote": {
-      "c": 160.56,
-      "d": 0.37000000000000455,
-      "dp": 0.23097571633685282,
-      "pc": 160.19,
+      "c": 163.16,
+      "d": 1.25,
+      "dp": 0.7720338459638071,
+      "pc": 161.91,
       "currency": "USD",
       "symbol": "QCOM",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:47.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:51.069Z"
+    "updatedAt": "2026-08-26T19:41:49.637Z"
   },
   "ORCL": {
     "ticker": "ORCL",
     "name": "ORCL",
     "quote": {
-      "c": 144.76,
-      "d": 1.9699999999999989,
-      "dp": 1.3796484347643385,
-      "pc": 142.79,
+      "c": 148.54,
+      "d": 4.72999999999999,
+      "dp": 3.2890619567484807,
+      "pc": 143.81,
       "currency": "USD",
       "symbol": "ORCL",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:04:25.000Z"
+      "marketTime": "2026-08-26T19:41:45.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:51.203Z"
+    "updatedAt": "2026-08-26T19:41:49.709Z"
   },
   "TSM-": {
     "ticker": "TSM-",
     "name": "TSM-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:51.575Z"
+    "updatedAt": "2026-08-26T19:41:49.865Z"
   },
   "IQEF": {
     "ticker": "IQEF",
     "name": "IQEF",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:51.824Z"
+    "updatedAt": "2026-08-26T19:41:49.966Z"
   },
   "HUT": {
     "ticker": "HUT",
     "name": "HUT",
     "quote": {
-      "c": 85.5,
-      "d": 4.709999999999994,
-      "dp": 5.829929446713694,
-      "pc": 80.79,
+      "c": 85.68,
+      "d": 3.6000000000000085,
+      "dp": 4.385964912280712,
+      "pc": 82.08,
       "currency": "USD",
       "symbol": "HUT",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:28.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:52.412Z"
+    "updatedAt": "2026-08-26T19:41:50.231Z"
   },
   "CLSK": {
     "ticker": "CLSK",
     "name": "CLSK",
     "quote": {
-      "c": 12.75,
-      "d": 1.0199999999999996,
-      "dp": 8.69565217391304,
-      "pc": 11.73,
+      "c": 12.305,
+      "d": 0.6349999999999998,
+      "dp": 5.441302485004282,
+      "pc": 11.67,
       "currency": "USD",
       "symbol": "CLSK",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:01.000Z"
+      "marketTime": "2026-08-26T19:41:44.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:52.552Z"
+    "updatedAt": "2026-08-26T19:41:50.286Z"
   },
   "WYFI": {
     "ticker": "WYFI",
     "name": "WYFI",
     "quote": {
-      "c": 20.4,
-      "d": -6.670000000000002,
-      "dp": -24.639822681935726,
-      "pc": 27.07,
+      "c": 20.03,
+      "d": -1.3499999999999979,
+      "dp": -6.314312441534134,
+      "pc": 21.38,
       "currency": "USD",
       "symbol": "WYFI",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:27.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:52.678Z"
+    "updatedAt": "2026-08-26T19:41:50.350Z"
   },
   "TTMI": {
     "ticker": "TTMI",
     "name": "TTMI",
     "quote": {
-      "c": 112.3,
-      "d": -13.409999999999997,
-      "dp": -10.667409116219869,
-      "pc": 125.71,
+      "c": 121.154,
+      "d": 4.774000000000001,
+      "dp": 4.102079395085067,
+      "pc": 116.38,
       "currency": "USD",
       "symbol": "TTMI",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:00:00.000Z"
+      "marketTime": "2026-08-26T19:41:46.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:52.937Z"
+    "updatedAt": "2026-08-26T19:41:50.464Z"
   },
   "VSH": {
     "ticker": "VSH",
     "name": "VSH",
     "quote": {
-      "c": 31.31,
-      "d": -2.2100000000000044,
-      "dp": -6.5930787589498925,
-      "pc": 33.52,
+      "c": 30.43,
+      "d": -1.5300000000000011,
+      "dp": -4.7872340425531945,
+      "pc": 31.96,
       "currency": "USD",
       "symbol": "VSH",
       "source": "Yahoo Finance",
-      "marketTime": "2026-08-25T20:02:09.000Z"
+      "marketTime": "2026-08-26T19:41:41.000Z"
     },
-    "updatedAt": "2026-08-26T12:41:53.071Z"
+    "updatedAt": "2026-08-26T19:41:50.567Z"
   },
   "SOI-": {
     "ticker": "SOI-",
     "name": "SOI-",
     "quote": null,
-    "updatedAt": "2026-08-26T12:41:53.192Z"
+    "updatedAt": "2026-08-26T19:41:50.628Z"
   }
 }
