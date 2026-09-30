@@ -23,7 +23,7 @@
     "quote": null,
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:11.626Z"
+    "updatedAt": "2026-09-30T11:49:42.563Z"
   },
   "6451": {
     "ticker": "6451",
@@ -47,18 +47,18 @@
       "客户验证和小盘波动。"
     ],
     "quote": {
-      "c": 415,
-      "d": -10,
-      "dp": -2.3529411764705883,
+      "c": 420.5,
+      "d": -4.5,
+      "dp": -1.0588235294117647,
       "pc": 425,
       "currency": "TWD",
       "symbol": "6451.TW",
       "source": "Yahoo Finance",
-      "marketTime": "2026-09-30T03:22:51.000Z"
+      "marketTime": "2026-09-30T05:30:13.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:11.685Z"
+    "updatedAt": "2026-09-30T11:49:42.634Z"
   },
   "XFAB": {
     "ticker": "XFAB",
@@ -86,18 +86,18 @@
       "硅光子或 InP 逻辑兑现周期可能长于市场预期。"
     ],
     "quote": {
-      "c": 6.875,
-      "d": 0.17499999999999982,
-      "dp": 2.61194029850746,
-      "pc": 6.7,
+      "c": 6.885,
+      "d": 0.40499999999999936,
+      "dp": 6.249999999999989,
+      "pc": 6.48,
       "currency": "EUR",
       "symbol": "XFAB.PA",
       "source": "Yahoo Finance",
-      "marketTime": "2026-09-29T15:35:04.000Z"
+      "marketTime": "2026-09-30T11:29:46.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:02.233Z",
+    "updatedAt": "2026-09-30T11:49:26.681Z",
     "stooqSymbol": "XFAB.FR"
   },
   "SIVE": {
@@ -126,18 +126,18 @@
       "融资或股权稀释风险。"
     ],
     "quote": {
-      "c": 31.86,
-      "d": -0.9399999999999977,
-      "dp": -2.8658536585365786,
-      "pc": 32.8,
+      "c": 32.12,
+      "d": -0.6600000000000037,
+      "dp": -2.0134228187919576,
+      "pc": 32.78,
       "currency": "SEK",
       "symbol": "SIVE.ST",
       "source": "Yahoo Finance",
-      "marketTime": "2026-09-29T15:29:47.000Z"
+      "marketTime": "2026-09-30T11:49:18.000Z"
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:01.736Z"
+    "updatedAt": "2026-09-30T11:49:25.855Z"
   },
   "IREN": {
     "ticker": "IREN",
@@ -175,7 +175,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:03.626Z",
+    "updatedAt": "2026-09-30T11:49:28.820Z",
     "stooqSymbol": "IREN.US"
   },
   "AXTI": {
@@ -214,7 +214,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:02.124Z",
+    "updatedAt": "2026-09-30T11:49:26.430Z",
     "stooqSymbol": "AXTI.US"
   },
   "AAOI": {
@@ -253,7 +253,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:01.815Z",
+    "updatedAt": "2026-09-30T11:49:25.977Z",
     "stooqSymbol": "AAOI.US"
   },
   "SIMO": {
@@ -292,7 +292,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:07.137Z",
+    "updatedAt": "2026-09-30T11:49:35.366Z",
     "stooqSymbol": "SIMO.US"
   },
   "INTC": {
@@ -328,7 +328,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:04.478Z",
+    "updatedAt": "2026-09-30T11:49:31.099Z",
     "stooqSymbol": "INTC.US"
   },
   "MRVL": {
@@ -364,7 +364,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:01.699Z",
+    "updatedAt": "2026-09-30T11:49:25.791Z",
     "stooqSymbol": "MRVL.US"
   },
   "TSM": {
@@ -400,7 +400,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:03.045Z",
+    "updatedAt": "2026-09-30T11:49:27.860Z",
     "stooqSymbol": "TSM.US"
   },
   "COHR": {
@@ -436,7 +436,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:03.527Z",
+    "updatedAt": "2026-09-30T11:49:28.639Z",
     "stooqSymbol": "COHR.US"
   },
   "RKLB": {
@@ -472,7 +472,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:02.866Z",
+    "updatedAt": "2026-09-30T11:49:27.601Z",
     "stooqSymbol": "RKLB.US"
   },
   "AVGO": {
@@ -508,7 +508,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:01.612Z",
+    "updatedAt": "2026-09-30T11:49:25.657Z",
     "stooqSymbol": "AVGO.US"
   },
   "AMZN": {
@@ -544,7 +544,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:04.034Z",
+    "updatedAt": "2026-09-30T11:49:29.521Z",
     "stooqSymbol": "AMZN.US"
   },
   "ARM": {
@@ -580,7 +580,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:02.000Z",
+    "updatedAt": "2026-09-30T11:49:26.237Z",
     "stooqSymbol": "ARM.US"
   },
   "LASR": {
@@ -616,7 +616,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:11.591Z",
+    "updatedAt": "2026-09-30T11:49:42.504Z",
     "stooqSymbol": "LASR.US"
   },
   "AEHR": {
@@ -652,7 +652,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:07.062Z",
+    "updatedAt": "2026-09-30T11:49:35.295Z",
     "stooqSymbol": "AEHR.US"
   },
   "POET": {
@@ -688,7 +688,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:03.275Z",
+    "updatedAt": "2026-09-30T11:49:28.197Z",
     "stooqSymbol": "POET.US"
   },
   "LITE": {
@@ -724,7 +724,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:02.789Z",
+    "updatedAt": "2026-09-30T11:49:27.469Z",
     "stooqSymbol": "LITE.US"
   },
   "GLW": {
@@ -760,7 +760,7 @@
     },
     "priceTarget": null,
     "recommendation": null,
-    "updatedAt": "2026-09-30T03:43:06.651Z",
+    "updatedAt": "2026-09-30T11:49:34.620Z",
     "stooqSymbol": "GLW.US"
   },
   "TRX": {
@@ -776,7 +776,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:01.489Z"
+    "updatedAt": "2026-09-30T11:49:25.471Z"
   },
   "NVDA": {
     "ticker": "NVDA",
@@ -791,7 +791,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:01.559Z"
+    "updatedAt": "2026-09-30T11:49:25.583Z"
   },
   "AMD": {
     "ticker": "AMD",
@@ -806,19 +806,19 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:01.649Z"
+    "updatedAt": "2026-09-30T11:49:25.718Z"
   },
   "HPS-A": {
     "ticker": "HPS-A",
     "name": "HPS-A",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:01.777Z"
+    "updatedAt": "2026-09-30T11:49:25.914Z"
   },
   "AMD-": {
     "ticker": "AMD-",
     "name": "AMD-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:01.851Z"
+    "updatedAt": "2026-09-30T11:49:26.036Z"
   },
   "EWY": {
     "ticker": "EWY",
@@ -833,13 +833,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:01.910Z"
+    "updatedAt": "2026-09-30T11:49:26.115Z"
   },
   "SOI": {
     "ticker": "SOI",
     "name": "SOI",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:01.953Z"
+    "updatedAt": "2026-09-30T11:49:26.174Z"
   },
   "VPG": {
     "ticker": "VPG",
@@ -854,7 +854,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:03.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:02.036Z"
+    "updatedAt": "2026-09-30T11:49:26.301Z"
   },
   "ASPI": {
     "ticker": "ASPI",
@@ -869,7 +869,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:02.078Z"
+    "updatedAt": "2026-09-30T11:49:26.365Z"
   },
   "BTC": {
     "ticker": "BTC",
@@ -884,13 +884,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:02.158Z"
+    "updatedAt": "2026-09-30T11:49:26.556Z"
   },
   "LITE-": {
     "ticker": "LITE-",
     "name": "LITE-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:02.194Z"
+    "updatedAt": "2026-09-30T11:49:26.617Z"
   },
   "APH": {
     "ticker": "APH",
@@ -905,7 +905,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:03.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:02.285Z"
+    "updatedAt": "2026-09-30T11:49:26.763Z"
   },
   "VRT": {
     "ticker": "VRT",
@@ -920,7 +920,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:03.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:02.344Z"
+    "updatedAt": "2026-09-30T11:49:26.828Z"
   },
   "STM": {
     "ticker": "STM",
@@ -935,13 +935,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:02.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:02.408Z"
+    "updatedAt": "2026-09-30T11:49:26.907Z"
   },
   "RDDT-": {
     "ticker": "RDDT-",
     "name": "RDDT-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:02.442Z"
+    "updatedAt": "2026-09-30T11:49:26.967Z"
   },
   "SPCE": {
     "ticker": "SPCE",
@@ -956,7 +956,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:03.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:02.486Z"
+    "updatedAt": "2026-09-30T11:49:27.029Z"
   },
   "SPCX": {
     "ticker": "SPCX",
@@ -971,7 +971,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:02.521Z"
+    "updatedAt": "2026-09-30T11:49:27.093Z"
   },
   "MSFT": {
     "ticker": "MSFT",
@@ -986,13 +986,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:02.584Z"
+    "updatedAt": "2026-09-30T11:49:27.176Z"
   },
   "AAPL-": {
     "ticker": "AAPL-",
     "name": "AAPL-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:02.618Z"
+    "updatedAt": "2026-09-30T11:49:27.237Z"
   },
   "JBL": {
     "ticker": "JBL",
@@ -1007,7 +1007,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:04:58.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:02.671Z"
+    "updatedAt": "2026-09-30T11:49:27.311Z"
   },
   "AAPL": {
     "ticker": "AAPL",
@@ -1022,7 +1022,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:02.753Z"
+    "updatedAt": "2026-09-30T11:49:27.407Z"
   },
   "NBIS": {
     "ticker": "NBIS",
@@ -1037,7 +1037,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:02.832Z"
+    "updatedAt": "2026-09-30T11:49:27.531Z"
   },
   "CRM": {
     "ticker": "CRM",
@@ -1052,13 +1052,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:03.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:02.907Z"
+    "updatedAt": "2026-09-30T11:49:27.665Z"
   },
   "FIG-": {
     "ticker": "FIG-",
     "name": "FIG-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:02.942Z"
+    "updatedAt": "2026-09-30T11:49:27.725Z"
   },
   "SNDK": {
     "ticker": "SNDK",
@@ -1073,7 +1073,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:02.981Z"
+    "updatedAt": "2026-09-30T11:49:27.786Z"
   },
   "GOOGL": {
     "ticker": "GOOGL",
@@ -1088,7 +1088,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:03.085Z"
+    "updatedAt": "2026-09-30T11:49:27.926Z"
   },
   "BRK-A": {
     "ticker": "BRK-A",
@@ -1103,7 +1103,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:23.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:03.128Z"
+    "updatedAt": "2026-09-30T11:49:27.989Z"
   },
   "MU": {
     "ticker": "MU",
@@ -1118,7 +1118,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:03.199Z"
+    "updatedAt": "2026-09-30T11:49:28.075Z"
   },
   "GFS": {
     "ticker": "GFS",
@@ -1133,13 +1133,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:03.237Z"
+    "updatedAt": "2026-09-30T11:49:28.135Z"
   },
   "IQE-": {
     "ticker": "IQE-",
     "name": "IQE-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:03.353Z"
+    "updatedAt": "2026-09-30T11:49:28.258Z"
   },
   "LPK": {
     "ticker": "LPK",
@@ -1154,19 +1154,19 @@
       "source": "Yahoo Finance",
       "marketTime": null
     },
-    "updatedAt": "2026-09-30T03:43:03.388Z"
+    "updatedAt": "2026-09-30T11:49:28.320Z"
   },
   "ALRIB-": {
     "ticker": "ALRIB-",
     "name": "ALRIB-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:03.456Z"
+    "updatedAt": "2026-09-30T11:49:28.515Z"
   },
   "POET-": {
     "ticker": "POET-",
     "name": "POET-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:03.491Z"
+    "updatedAt": "2026-09-30T11:49:28.575Z"
   },
   "FLNC": {
     "ticker": "FLNC",
@@ -1181,7 +1181,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:03.563Z"
+    "updatedAt": "2026-09-30T11:49:28.701Z"
   },
   "CIFR": {
     "ticker": "CIFR",
@@ -1196,13 +1196,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:03.663Z"
+    "updatedAt": "2026-09-30T11:49:28.881Z"
   },
   "SIVE-": {
     "ticker": "SIVE-",
     "name": "SIVE-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:03.707Z"
+    "updatedAt": "2026-09-30T11:49:28.952Z"
   },
   "NVTS": {
     "ticker": "NVTS",
@@ -1217,7 +1217,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:03.762Z"
+    "updatedAt": "2026-09-30T11:49:29.013Z"
   },
   "ON": {
     "ticker": "ON",
@@ -1232,13 +1232,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:03.807Z"
+    "updatedAt": "2026-09-30T11:49:29.076Z"
   },
   "XFAB-": {
     "ticker": "XFAB-",
     "name": "XFAB-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:03.840Z"
+    "updatedAt": "2026-09-30T11:49:29.136Z"
   },
   "POWI": {
     "ticker": "POWI",
@@ -1253,7 +1253,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:03.898Z"
+    "updatedAt": "2026-09-30T11:49:29.230Z"
   },
   "NOK": {
     "ticker": "NOK",
@@ -1268,19 +1268,19 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:02:19.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:03.958Z"
+    "updatedAt": "2026-09-30T11:49:29.321Z"
   },
   "INTC-": {
     "ticker": "INTC-",
     "name": "INTC-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:03.994Z"
+    "updatedAt": "2026-09-30T11:49:29.457Z"
   },
   "MSFT-": {
     "ticker": "MSFT-",
     "name": "MSFT-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:04.072Z"
+    "updatedAt": "2026-09-30T11:49:29.664Z"
   },
   "DELL": {
     "ticker": "DELL",
@@ -1295,7 +1295,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:04:30.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:04.130Z"
+    "updatedAt": "2026-09-30T11:49:29.729Z"
   },
   "RPI": {
     "ticker": "RPI",
@@ -1310,7 +1310,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2019-06-28T22:07:38.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:04.167Z"
+    "updatedAt": "2026-09-30T11:49:29.790Z"
   },
   "TRON": {
     "ticker": "TRON",
@@ -1325,7 +1325,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:04.204Z"
+    "updatedAt": "2026-09-30T11:49:29.906Z"
   },
   "CCXI": {
     "ticker": "CCXI",
@@ -1340,7 +1340,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:04.671Z"
+    "updatedAt": "2026-09-30T11:49:31.467Z"
   },
   "TSLA": {
     "ticker": "TSLA",
@@ -1355,7 +1355,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:06.006Z"
+    "updatedAt": "2026-09-30T11:49:33.619Z"
   },
   "META": {
     "ticker": "META",
@@ -1370,7 +1370,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:05.299Z"
+    "updatedAt": "2026-09-30T11:49:32.687Z"
   },
   "CRWV": {
     "ticker": "CRWV",
@@ -1385,13 +1385,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:04.627Z"
+    "updatedAt": "2026-09-30T11:49:31.404Z"
   },
   "NBIS-": {
     "ticker": "NBIS-",
     "name": "NBIS-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:10.880Z"
+    "updatedAt": "2026-09-30T11:49:41.317Z"
   },
   "BE": {
     "ticker": "BE",
@@ -1406,7 +1406,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:03.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:05.926Z"
+    "updatedAt": "2026-09-30T11:49:33.536Z"
   },
   "ASX": {
     "ticker": "ASX",
@@ -1421,7 +1421,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:03.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:08.388Z"
+    "updatedAt": "2026-09-30T11:49:37.430Z"
   },
   "RDDT": {
     "ticker": "RDDT",
@@ -1436,7 +1436,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:04:35.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:05.414Z"
+    "updatedAt": "2026-09-30T11:49:32.869Z"
   },
   "CBRS": {
     "ticker": "CBRS",
@@ -1451,13 +1451,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:10.915Z"
+    "updatedAt": "2026-09-30T11:49:30.347Z"
   },
   "META-": {
     "ticker": "META-",
     "name": "META-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:10.953Z"
+    "updatedAt": "2026-09-30T11:49:41.377Z"
   },
   "ASML": {
     "ticker": "ASML",
@@ -1472,7 +1472,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:04.895Z"
+    "updatedAt": "2026-09-30T11:49:31.952Z"
   },
   "ALAB": {
     "ticker": "ALAB",
@@ -1487,7 +1487,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:06.828Z"
+    "updatedAt": "2026-09-30T11:49:30.034Z"
   },
   "ASTS": {
     "ticker": "ASTS",
@@ -1502,7 +1502,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:10.993Z"
+    "updatedAt": "2026-09-30T11:49:41.437Z"
   },
   "GM": {
     "ticker": "GM",
@@ -1517,37 +1517,37 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:03.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:11.040Z"
+    "updatedAt": "2026-09-30T11:49:41.578Z"
   },
   "SPCX-": {
     "ticker": "SPCX-",
     "name": "SPCX-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:06.041Z"
+    "updatedAt": "2026-09-30T11:49:33.680Z"
   },
   "EOS-ASX": {
     "ticker": "EOS-ASX",
     "name": "EOS-ASX",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:11.077Z"
+    "updatedAt": "2026-09-30T11:49:41.695Z"
   },
   "SHA0": {
     "ticker": "SHA0",
     "name": "SHA0",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:11.114Z"
+    "updatedAt": "2026-09-30T11:49:41.756Z"
   },
   "TSLA-": {
     "ticker": "TSLA-",
     "name": "TSLA-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:11.148Z"
+    "updatedAt": "2026-09-30T11:49:41.817Z"
   },
   "CBRS-": {
     "ticker": "CBRS-",
     "name": "CBRS-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:11.186Z"
+    "updatedAt": "2026-09-30T11:49:41.879Z"
   },
   "MTSI": {
     "ticker": "MTSI",
@@ -1562,19 +1562,19 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:06.558Z"
+    "updatedAt": "2026-09-30T11:49:34.513Z"
   },
   "IREN-": {
     "ticker": "IREN-",
     "name": "IREN-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:11.222Z"
+    "updatedAt": "2026-09-30T11:49:41.938Z"
   },
   "QQQ-": {
     "ticker": "QQQ-",
     "name": "QQQ-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:11.258Z"
+    "updatedAt": "2026-09-30T11:49:41.999Z"
   },
   "AOSL": {
     "ticker": "AOSL",
@@ -1589,7 +1589,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:11.296Z"
+    "updatedAt": "2026-09-30T11:49:42.059Z"
   },
   "WEN": {
     "ticker": "WEN",
@@ -1604,7 +1604,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:11.350Z"
+    "updatedAt": "2026-09-30T11:49:42.145Z"
   },
   "PLTR": {
     "ticker": "PLTR",
@@ -1619,7 +1619,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:06.082Z"
+    "updatedAt": "2026-09-30T11:49:33.698Z"
   },
   "BABA": {
     "ticker": "BABA",
@@ -1634,7 +1634,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:03:34.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:11.391Z"
+    "updatedAt": "2026-09-30T11:49:42.209Z"
   },
   "UBER": {
     "ticker": "UBER",
@@ -1649,7 +1649,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:03.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:10.530Z"
+    "updatedAt": "2026-09-30T11:49:40.760Z"
   },
   "MXL": {
     "ticker": "MXL",
@@ -1664,7 +1664,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:10.306Z"
+    "updatedAt": "2026-09-30T11:49:40.356Z"
   },
   "TSEM": {
     "ticker": "TSEM",
@@ -1679,7 +1679,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:05.627Z"
+    "updatedAt": "2026-09-30T11:49:33.056Z"
   },
   "KORU": {
     "ticker": "KORU",
@@ -1694,7 +1694,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:11.440Z"
+    "updatedAt": "2026-09-30T11:49:42.284Z"
   },
   "SOXL": {
     "ticker": "SOXL",
@@ -1709,7 +1709,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:11.492Z"
+    "updatedAt": "2026-09-30T11:49:42.370Z"
   },
   "IQE": {
     "ticker": "IQE",
@@ -1724,7 +1724,7 @@
       "source": "Yahoo Finance",
       "marketTime": null
     },
-    "updatedAt": "2026-09-30T03:43:05.665Z"
+    "updatedAt": "2026-09-30T11:49:33.122Z"
   },
   "DRAM": {
     "ticker": "DRAM",
@@ -1739,7 +1739,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:05.341Z"
+    "updatedAt": "2026-09-30T11:49:32.748Z"
   },
   "U": {
     "ticker": "U",
@@ -1754,13 +1754,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:03.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:11.527Z"
+    "updatedAt": "2026-09-30T11:49:42.434Z"
   },
   "PENDLE": {
     "ticker": "PENDLE",
     "name": "PENDLE",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:10.840Z"
+    "updatedAt": "2026-09-30T11:49:41.257Z"
   },
   "SIVEF": {
     "ticker": "SIVEF",
@@ -1775,7 +1775,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:10.604Z"
+    "updatedAt": "2026-09-30T11:49:40.884Z"
   },
   "TER": {
     "ticker": "TER",
@@ -1790,7 +1790,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:10.399Z"
+    "updatedAt": "2026-09-30T11:49:40.484Z"
   },
   "MELI": {
     "ticker": "MELI",
@@ -1805,25 +1805,25 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:10.768Z"
+    "updatedAt": "2026-09-30T11:49:41.135Z"
   },
   "CCXI-": {
     "ticker": "CCXI-",
     "name": "CCXI-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:10.802Z"
+    "updatedAt": "2026-09-30T11:49:41.195Z"
   },
   "NVDA-": {
     "ticker": "NVDA-",
     "name": "NVDA-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:07.213Z"
+    "updatedAt": "2026-09-30T11:49:35.485Z"
   },
   "COHR-": {
     "ticker": "COHR-",
     "name": "COHR-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:09.038Z"
+    "updatedAt": "2026-09-30T11:49:38.728Z"
   },
   "SHAZ": {
     "ticker": "SHAZ",
@@ -1838,7 +1838,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:08.580Z"
+    "updatedAt": "2026-09-30T11:49:37.760Z"
   },
   "SKHY": {
     "ticker": "SKHY",
@@ -1853,7 +1853,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:04.813Z"
+    "updatedAt": "2026-09-30T11:49:31.812Z"
   },
   "FORM": {
     "ticker": "FORM",
@@ -1868,37 +1868,37 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:09.354Z"
+    "updatedAt": "2026-09-30T11:49:39.367Z"
   },
   "GOOGL-": {
     "ticker": "GOOGL-",
     "name": "GOOGL-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:10.352Z"
+    "updatedAt": "2026-09-30T11:49:40.415Z"
   },
   "AMKR-": {
     "ticker": "AMKR-",
     "name": "AMKR-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:10.461Z"
+    "updatedAt": "2026-09-30T11:49:40.641Z"
   },
   "CXMT": {
     "ticker": "CXMT",
     "name": "CXMT",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:09.148Z"
+    "updatedAt": "2026-09-30T11:49:38.970Z"
   },
   "AAOI-": {
     "ticker": "AAOI-",
     "name": "AAOI-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:06.986Z"
+    "updatedAt": "2026-09-30T11:49:35.171Z"
   },
   "CMXT": {
     "ticker": "CMXT",
     "name": "CMXT",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:10.493Z"
+    "updatedAt": "2026-09-30T11:49:40.700Z"
   },
   "QCOM": {
     "ticker": "QCOM",
@@ -1913,7 +1913,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:05.581Z"
+    "updatedAt": "2026-09-30T11:49:30.646Z"
   },
   "ORCL": {
     "ticker": "ORCL",
@@ -1928,19 +1928,19 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:04:32.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:06.285Z"
+    "updatedAt": "2026-09-30T11:49:33.905Z"
   },
   "TSM-": {
     "ticker": "TSM-",
     "name": "TSM-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:10.565Z"
+    "updatedAt": "2026-09-30T11:49:40.820Z"
   },
   "IQEF": {
     "ticker": "IQEF",
     "name": "IQEF",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:10.637Z"
+    "updatedAt": "2026-09-30T11:49:40.944Z"
   },
   "HUT": {
     "ticker": "HUT",
@@ -1955,7 +1955,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:09.242Z"
+    "updatedAt": "2026-09-30T11:49:39.178Z"
   },
   "CLSK": {
     "ticker": "CLSK",
@@ -1970,7 +1970,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:04.931Z"
+    "updatedAt": "2026-09-30T11:49:32.013Z"
   },
   "WYFI": {
     "ticker": "WYFI",
@@ -1985,7 +1985,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:08.660Z"
+    "updatedAt": "2026-09-30T11:49:37.968Z"
   },
   "TTMI": {
     "ticker": "TTMI",
@@ -2000,7 +2000,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:10.690Z"
+    "updatedAt": "2026-09-30T11:49:41.007Z"
   },
   "VSH": {
     "ticker": "VSH",
@@ -2015,13 +2015,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:02.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:08.840Z"
+    "updatedAt": "2026-09-30T11:49:38.347Z"
   },
   "SOI-": {
     "ticker": "SOI-",
     "name": "SOI-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:10.723Z"
+    "updatedAt": "2026-09-30T11:49:41.067Z"
   },
   "AA": {
     "ticker": "AA",
@@ -2036,7 +2036,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:03:20.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:08.926Z"
+    "updatedAt": "2026-09-30T11:49:38.468Z"
   },
   "BIRD": {
     "ticker": "BIRD",
@@ -2051,7 +2051,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:08.964Z"
+    "updatedAt": "2026-09-30T11:49:38.590Z"
   },
   "GPRO": {
     "ticker": "GPRO",
@@ -2066,7 +2066,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:09.003Z"
+    "updatedAt": "2026-09-30T11:49:38.610Z"
   },
   "CAPA": {
     "ticker": "CAPA",
@@ -2081,13 +2081,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T19:52:47.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:09.074Z"
+    "updatedAt": "2026-09-30T11:49:38.792Z"
   },
   "SHA0-DE": {
     "ticker": "SHA0-DE",
     "name": "SHA0-DE",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:09.114Z"
+    "updatedAt": "2026-09-30T11:49:38.910Z"
   },
   "AAP": {
     "ticker": "AAP",
@@ -2102,7 +2102,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:03.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:09.205Z"
+    "updatedAt": "2026-09-30T11:49:39.117Z"
   },
   "QQQ": {
     "ticker": "QQQ",
@@ -2117,7 +2117,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:04.592Z"
+    "updatedAt": "2026-09-30T11:49:31.340Z"
   },
   "SMCI": {
     "ticker": "SMCI",
@@ -2132,13 +2132,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:09.279Z"
+    "updatedAt": "2026-09-30T11:49:39.244Z"
   },
   "RPI-": {
     "ticker": "RPI-",
     "name": "RPI-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:09.313Z"
+    "updatedAt": "2026-09-30T11:49:39.305Z"
   },
   "KEYS": {
     "ticker": "KEYS",
@@ -2153,7 +2153,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:01:04.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:09.419Z"
+    "updatedAt": "2026-09-30T11:49:39.432Z"
   },
   "IBKR": {
     "ticker": "IBKR",
@@ -2168,7 +2168,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:09.476Z"
+    "updatedAt": "2026-09-30T11:49:39.508Z"
   },
   "AAON": {
     "ticker": "AAON",
@@ -2183,7 +2183,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:09.910Z"
+    "updatedAt": "2026-09-30T11:49:39.586Z"
   },
   "NVT": {
     "ticker": "NVT",
@@ -2198,7 +2198,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:01:23.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:09.960Z"
+    "updatedAt": "2026-09-30T11:49:39.657Z"
   },
   "MOD": {
     "ticker": "MOD",
@@ -2213,7 +2213,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:02.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:10.011Z"
+    "updatedAt": "2026-09-30T11:49:39.737Z"
   },
   "IESC": {
     "ticker": "IESC",
@@ -2228,7 +2228,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:10.047Z"
+    "updatedAt": "2026-09-30T11:49:39.797Z"
   },
   "MTRS": {
     "ticker": "MTRS",
@@ -2243,7 +2243,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2019-06-28T22:07:38.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:10.082Z"
+    "updatedAt": "2026-09-30T11:49:40.015Z"
   },
   "JCI": {
     "ticker": "JCI",
@@ -2258,13 +2258,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:02.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:10.151Z"
+    "updatedAt": "2026-09-30T11:49:40.105Z"
   },
   "PRY-MI": {
     "ticker": "PRY-MI",
     "name": "PRY-MI",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:10.186Z"
+    "updatedAt": "2026-09-30T11:49:40.173Z"
   },
   "CRDO": {
     "ticker": "CRDO",
@@ -2279,7 +2279,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:05.753Z"
+    "updatedAt": "2026-09-30T11:49:30.097Z"
   },
   "AEVA": {
     "ticker": "AEVA",
@@ -2294,13 +2294,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:10.236Z"
+    "updatedAt": "2026-09-30T11:49:40.234Z"
   },
   "LPKF": {
     "ticker": "LPKF",
     "name": "LPKF",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:10.269Z"
+    "updatedAt": "2026-09-30T11:49:40.293Z"
   },
   "CORZ": {
     "ticker": "CORZ",
@@ -2315,7 +2315,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:08.437Z"
+    "updatedAt": "2026-09-30T11:49:37.492Z"
   },
   "APLD": {
     "ticker": "APLD",
@@ -2330,7 +2330,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:08.477Z"
+    "updatedAt": "2026-09-30T11:49:37.554Z"
   },
   "RIOT": {
     "ticker": "RIOT",
@@ -2345,7 +2345,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:08.546Z"
+    "updatedAt": "2026-09-30T11:49:37.614Z"
   },
   "KEEL": {
     "ticker": "KEEL",
@@ -2360,7 +2360,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:08.619Z"
+    "updatedAt": "2026-09-30T11:49:37.824Z"
   },
   "BTDR": {
     "ticker": "BTDR",
@@ -2375,7 +2375,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:08.698Z"
+    "updatedAt": "2026-09-30T11:49:38.033Z"
   },
   "TE": {
     "ticker": "TE",
@@ -2390,7 +2390,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:02.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:08.739Z"
+    "updatedAt": "2026-09-30T11:49:38.095Z"
   },
   "HIVE": {
     "ticker": "HIVE",
@@ -2405,7 +2405,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:08.777Z"
+    "updatedAt": "2026-09-30T11:49:38.161Z"
   },
   "ALMU": {
     "ticker": "ALMU",
@@ -2420,13 +2420,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:08.329Z"
+    "updatedAt": "2026-09-30T11:49:37.352Z"
   },
   "ALRIB": {
     "ticker": "ALRIB",
     "name": "ALRIB",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:07.179Z"
+    "updatedAt": "2026-09-30T11:49:35.426Z"
   },
   "HOOD": {
     "ticker": "HOOD",
@@ -2441,13 +2441,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:05.221Z"
+    "updatedAt": "2026-09-30T11:49:32.503Z"
   },
   "LYC-AX": {
     "ticker": "LYC-AX",
     "name": "LYC-AX",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:08.294Z"
+    "updatedAt": "2026-09-30T11:49:37.288Z"
   },
   "AMC": {
     "ticker": "AMC",
@@ -2462,13 +2462,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:03.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:08.172Z"
+    "updatedAt": "2026-09-30T11:49:37.107Z"
   },
   "LCRX": {
     "ticker": "LCRX",
     "name": "LCRX",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:08.210Z"
+    "updatedAt": "2026-09-30T11:49:37.168Z"
   },
   "KLA": {
     "ticker": "KLA",
@@ -2483,7 +2483,7 @@
       "source": "Yahoo Finance",
       "marketTime": null
     },
-    "updatedAt": "2026-09-30T03:43:08.260Z"
+    "updatedAt": "2026-09-30T11:49:37.230Z"
   },
   "OUST": {
     "ticker": "OUST",
@@ -2498,7 +2498,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:08.129Z"
+    "updatedAt": "2026-09-30T11:49:37.041Z"
   },
   "KYTX": {
     "ticker": "KYTX",
@@ -2513,7 +2513,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:07.251Z"
+    "updatedAt": "2026-09-30T11:49:35.567Z"
   },
   "PRQR": {
     "ticker": "PRQR",
@@ -2528,7 +2528,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:07.286Z"
+    "updatedAt": "2026-09-30T11:49:35.628Z"
   },
   "VSTM": {
     "ticker": "VSTM",
@@ -2543,7 +2543,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:07.334Z"
+    "updatedAt": "2026-09-30T11:49:35.698Z"
   },
   "CNTB": {
     "ticker": "CNTB",
@@ -2558,7 +2558,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:07.378Z"
+    "updatedAt": "2026-09-30T11:49:35.759Z"
   },
   "RANI": {
     "ticker": "RANI",
@@ -2573,7 +2573,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:07.421Z"
+    "updatedAt": "2026-09-30T11:49:35.881Z"
   },
   "IVA": {
     "ticker": "IVA",
@@ -2588,7 +2588,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:07.457Z"
+    "updatedAt": "2026-09-30T11:49:35.943Z"
   },
   "SILC": {
     "ticker": "SILC",
@@ -2603,7 +2603,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:07.496Z"
+    "updatedAt": "2026-09-30T11:49:36.082Z"
   },
   "AMPX": {
     "ticker": "AMPX",
@@ -2618,7 +2618,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:02.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:07.534Z"
+    "updatedAt": "2026-09-30T11:49:36.143Z"
   },
   "EOSE": {
     "ticker": "EOSE",
@@ -2633,7 +2633,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:07.570Z"
+    "updatedAt": "2026-09-30T11:49:36.206Z"
   },
   "ZVRA": {
     "ticker": "ZVRA",
@@ -2648,7 +2648,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:07.610Z"
+    "updatedAt": "2026-09-30T11:49:36.268Z"
   },
   "INO": {
     "ticker": "INO",
@@ -2663,7 +2663,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:07.648Z"
+    "updatedAt": "2026-09-30T11:49:36.333Z"
   },
   "CAPR": {
     "ticker": "CAPR",
@@ -2678,7 +2678,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:07.692Z"
+    "updatedAt": "2026-09-30T11:49:36.395Z"
   },
   "GOSS": {
     "ticker": "GOSS",
@@ -2693,7 +2693,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:07.734Z"
+    "updatedAt": "2026-09-30T11:49:36.457Z"
   },
   "SLS": {
     "ticker": "SLS",
@@ -2708,7 +2708,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:07.783Z"
+    "updatedAt": "2026-09-30T11:49:36.641Z"
   },
   "WULF": {
     "ticker": "WULF",
@@ -2723,7 +2723,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:07.831Z"
+    "updatedAt": "2026-09-30T11:49:36.710Z"
   },
   "OKLO": {
     "ticker": "OKLO",
@@ -2738,7 +2738,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:02.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:07.898Z"
+    "updatedAt": "2026-09-30T11:49:36.772Z"
   },
   "SMR": {
     "ticker": "SMR",
@@ -2753,7 +2753,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:02.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:07.952Z"
+    "updatedAt": "2026-09-30T11:49:36.834Z"
   },
   "RGTI": {
     "ticker": "RGTI",
@@ -2768,7 +2768,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:07.998Z"
+    "updatedAt": "2026-09-30T11:49:36.852Z"
   },
   "QBTS": {
     "ticker": "QBTS",
@@ -2783,13 +2783,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:08.036Z"
+    "updatedAt": "2026-09-30T11:49:36.915Z"
   },
   "AMPX-": {
     "ticker": "AMPX-",
     "name": "AMPX-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:08.082Z"
+    "updatedAt": "2026-09-30T11:49:36.976Z"
   },
   "GDRZF": {
     "ticker": "GDRZF",
@@ -2804,19 +2804,19 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:07.023Z"
+    "updatedAt": "2026-09-30T11:49:35.233Z"
   },
   "AXTI-": {
     "ticker": "AXTI-",
     "name": "AXTI-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:05.717Z"
+    "updatedAt": "2026-09-30T11:49:33.292Z"
   },
   "LAPTOP": {
     "ticker": "LAPTOP",
     "name": "LAPTOP",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:06.917Z"
+    "updatedAt": "2026-09-30T11:49:35.093Z"
   },
   "BRK-B": {
     "ticker": "BRK-B",
@@ -2831,7 +2831,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:39.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:06.952Z"
+    "updatedAt": "2026-09-30T11:49:35.112Z"
   },
   "TRXS": {
     "ticker": "TRXS",
@@ -2846,7 +2846,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T16:30:37.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:04.242Z"
+    "updatedAt": "2026-09-30T11:49:30.708Z"
   },
   "CSCO": {
     "ticker": "CSCO",
@@ -2861,19 +2861,19 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:06.877Z"
+    "updatedAt": "2026-09-30T11:49:35.032Z"
   },
   "ESMT": {
     "ticker": "ESMT",
     "name": "ESMT",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:04.779Z"
+    "updatedAt": "2026-09-30T11:49:31.751Z"
   },
   "SNDK-": {
     "ticker": "SNDK-",
     "name": "SNDK-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:06.394Z"
+    "updatedAt": "2026-09-30T11:49:34.146Z"
   },
   "COST": {
     "ticker": "COST",
@@ -2888,31 +2888,31 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:06.742Z"
+    "updatedAt": "2026-09-30T11:49:34.843Z"
   },
   "PLTR-": {
     "ticker": "PLTR-",
     "name": "PLTR-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:06.781Z"
+    "updatedAt": "2026-09-30T11:49:34.959Z"
   },
   "NIKE": {
     "ticker": "NIKE",
     "name": "NIKE",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:06.685Z"
+    "updatedAt": "2026-09-30T11:49:34.765Z"
   },
   "DRAM-": {
     "ticker": "DRAM-",
     "name": "DRAM-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:06.358Z"
+    "updatedAt": "2026-09-30T11:49:34.084Z"
   },
   "GFS-": {
     "ticker": "GFS-",
     "name": "GFS-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:06.435Z"
+    "updatedAt": "2026-09-30T11:49:34.206Z"
   },
   "BWET": {
     "ticker": "BWET",
@@ -2927,7 +2927,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:06.325Z"
+    "updatedAt": "2026-09-30T11:49:34.024Z"
   },
   "LULU": {
     "ticker": "LULU",
@@ -2942,7 +2942,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:06.128Z"
+    "updatedAt": "2026-09-30T11:49:33.762Z"
   },
   "EQR": {
     "ticker": "EQR",
@@ -2957,13 +2957,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-08-17T20:00:03.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:06.232Z"
+    "updatedAt": "2026-09-30T11:49:33.827Z"
   },
   "USDT": {
     "ticker": "USDT",
     "name": "USDT",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:05.448Z"
+    "updatedAt": "2026-09-30T11:49:32.930Z"
   },
   "BTT": {
     "ticker": "BTT",
@@ -2978,7 +2978,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:03.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:06.488Z"
+    "updatedAt": "2026-09-30T11:49:34.343Z"
   },
   "CRWD": {
     "ticker": "CRWD",
@@ -2993,19 +2993,19 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:05.856Z"
+    "updatedAt": "2026-09-30T11:49:33.413Z"
   },
   "DRAM-..": {
     "ticker": "DRAM-..",
     "name": "DRAM-..",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:05.889Z"
+    "updatedAt": "2026-09-30T11:49:33.475Z"
   },
   "MELI-": {
     "ticker": "MELI-",
     "name": "MELI-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:05.817Z"
+    "updatedAt": "2026-09-30T11:49:33.352Z"
   },
   "PSMC": {
     "ticker": "PSMC",
@@ -3020,7 +3020,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2023-06-23T19:55:07.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:05.375Z"
+    "updatedAt": "2026-09-30T11:49:32.808Z"
   },
   "CIEN": {
     "ticker": "CIEN",
@@ -3035,7 +3035,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:02.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:05.483Z"
+    "updatedAt": "2026-09-30T11:49:32.993Z"
   },
   "GNRC": {
     "ticker": "GNRC",
@@ -3050,7 +3050,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:03.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:05.523Z"
+    "updatedAt": "2026-09-30T11:49:30.413Z"
   },
   "SMTC": {
     "ticker": "SMTC",
@@ -3065,7 +3065,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:04.849Z"
+    "updatedAt": "2026-09-30T11:49:31.875Z"
   },
   "MP": {
     "ticker": "MP",
@@ -3080,7 +3080,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:03.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:11.722Z"
+    "updatedAt": "2026-09-30T11:49:42.757Z"
   },
   "IONQ": {
     "ticker": "IONQ",
@@ -3095,7 +3095,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:03.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:11.759Z"
+    "updatedAt": "2026-09-30T11:49:42.819Z"
   },
   "GRRR": {
     "ticker": "GRRR",
@@ -3110,13 +3110,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:11.794Z"
+    "updatedAt": "2026-09-30T11:49:42.882Z"
   },
   "WLAC": {
     "ticker": "WLAC",
     "name": "WLAC",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:11.830Z"
+    "updatedAt": "2026-09-30T11:49:43.000Z"
   },
   "VIRT": {
     "ticker": "VIRT",
@@ -3131,13 +3131,13 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:03.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:11.885Z"
+    "updatedAt": "2026-09-30T11:49:43.074Z"
   },
   "QLCM": {
     "ticker": "QLCM",
     "name": "QLCM",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:11.927Z"
+    "updatedAt": "2026-09-30T11:49:43.198Z"
   },
   "ETHB": {
     "ticker": "ETHB",
@@ -3152,7 +3152,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:05.970Z"
+    "updatedAt": "2026-09-30T11:49:33.601Z"
   },
   "COIN": {
     "ticker": "COIN",
@@ -3167,7 +3167,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:05.258Z"
+    "updatedAt": "2026-09-30T11:49:32.623Z"
   },
   "UPWK": {
     "ticker": "UPWK",
@@ -3182,7 +3182,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:05.113Z"
+    "updatedAt": "2026-09-30T11:49:32.337Z"
   },
   "PYPL": {
     "ticker": "PYPL",
@@ -3197,19 +3197,19 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:05.185Z"
+    "updatedAt": "2026-09-30T11:49:32.401Z"
   },
   "MU-": {
     "ticker": "MU-",
     "name": "MU-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:04.746Z"
+    "updatedAt": "2026-09-30T11:49:31.588Z"
   },
   "CRWV-": {
     "ticker": "CRWV-",
     "name": "CRWV-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:04.713Z"
+    "updatedAt": "2026-09-30T11:49:31.527Z"
   },
   "SPY": {
     "ticker": "SPY",
@@ -3224,7 +3224,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:00.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:04.539Z"
+    "updatedAt": "2026-09-30T11:49:31.188Z"
   },
   "AKAM": {
     "ticker": "AKAM",
@@ -3239,25 +3239,25 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:04.380Z"
+    "updatedAt": "2026-09-30T11:49:30.947Z"
   },
   "AKAM-": {
     "ticker": "AKAM-",
     "name": "AKAM-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:04.414Z"
+    "updatedAt": "2026-09-30T11:49:31.007Z"
   },
   "SUBWAY": {
     "ticker": "SUBWAY",
     "name": "SUBWAY",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:04.310Z"
+    "updatedAt": "2026-09-30T11:49:30.768Z"
   },
   "SPY-": {
     "ticker": "SPY-",
     "name": "SPY-",
     "quote": null,
-    "updatedAt": "2026-09-30T03:43:04.345Z"
+    "updatedAt": "2026-09-30T11:49:30.828Z"
   },
   "BAC": {
     "ticker": "BAC",
@@ -3272,7 +3272,7 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:02.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:05.010Z"
+    "updatedAt": "2026-09-30T11:49:32.103Z"
   },
   "LIN": {
     "ticker": "LIN",
@@ -3287,6 +3287,36 @@
       "source": "Yahoo Finance",
       "marketTime": "2026-09-29T20:00:01.000Z"
     },
-    "updatedAt": "2026-09-30T03:43:05.076Z"
+    "updatedAt": "2026-09-30T11:49:32.257Z"
+  },
+  "FLEX": {
+    "ticker": "FLEX",
+    "name": "FLEX",
+    "quote": {
+      "c": 113.83,
+      "d": -0.6200000000000045,
+      "dp": -0.5417212756662337,
+      "pc": 114.45,
+      "currency": "USD",
+      "symbol": "FLEX",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-09-29T20:00:00.000Z"
+    },
+    "updatedAt": "2026-09-30T11:49:30.163Z"
+  },
+  "FN": {
+    "ticker": "FN",
+    "name": "FN",
+    "quote": {
+      "c": 424.12,
+      "d": 20.319999999999993,
+      "dp": 5.032194155522534,
+      "pc": 403.8,
+      "currency": "USD",
+      "symbol": "FN",
+      "source": "Yahoo Finance",
+      "marketTime": "2026-09-29T20:00:03.000Z"
+    },
+    "updatedAt": "2026-09-30T11:49:30.476Z"
   }
 }
