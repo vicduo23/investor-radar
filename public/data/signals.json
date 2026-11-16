@@ -2121,6 +2121,36 @@
     "notes": "由定时任务自动生成，需人工复核语境。"
   },
   {
+    "id": "AUTO-2122315031539044605-INTC",
+    "datetime": "2026-11-16T13:05:08.000Z",
+    "investor": "Serenity",
+    "handle": "aleabitoreddit",
+    "ticker": "INTC",
+    "assetName": "INTC",
+    "direction": "观察",
+    "signalType": "观察名单提及",
+    "theme": "自动抽取",
+    "summary": "提到 $INTC：英文原文提到：@invest_create Not even joking I heard a hedge fund manager the other day say “I don’t lik。",
+    "sourceUrl": "https://x.com/aleabitoreddit/status/2122315031539044605",
+    "confidence": "低",
+    "notes": "由定时任务自动生成，需人工复核语境。"
+  },
+  {
+    "id": "AUTO-2122306534772519308-AMD",
+    "datetime": "2026-11-16T12:31:23.000Z",
+    "investor": "Serenity",
+    "handle": "aleabitoreddit",
+    "ticker": "AMD",
+    "assetName": "AMD",
+    "direction": "看空",
+    "signalType": "卖出/看空",
+    "theme": "自动抽取",
+    "summary": "提到 $AMD：语气偏谨慎，可能涉及减仓、看空或风险提示；与 AI 数据中心、GPU 或算力基础设施需求相关；强调供应瓶颈或产业链卡点带来的定价权；讨论潜在市场空间或估值重估。",
+    "sourceUrl": "https://x.com/aleabitoreddit/status/2122306534772519308",
+    "confidence": "中",
+    "notes": "由定时任务自动生成，需人工复核语境。"
+  },
+  {
     "id": "AUTO-2122046823934407066-NVDA-",
     "datetime": "2026-11-15T19:19:23.000Z",
     "investor": "Serenity",
